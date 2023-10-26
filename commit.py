@@ -8,12 +8,12 @@ active = input("Active (e.g. c-): ")
 # commit
 if active[0] == "c":
     file = input("Commit file (e.g. a001): ")
-    message = input('Commit message (e.g. Add): ')
+    message = input('Commit message (e.g. add): ')
 
     os.chdir(f"{ROOT}/{file[0].upper()}")
     if os.system(f"git add {file}.py") != 0:
         sys.exit()
-    if os.system(f'git commit -m "{message} ZeroJudge {file}.py"') != 0:
+    if os.system(f'git commit -m "{message.capitalize()} ZeroJudge {file}.py"') != 0:
         sys.exit()
     if os.system("git push") != 0:
         sys.exit()
