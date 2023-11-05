@@ -1,0 +1,151 @@
+#include <iostream>
+using namespace std;
+
+class LinkedList;
+class ListNode {
+  private:
+    int num;
+    ListNode *next;
+
+  public:
+    ListNode(int num) {
+        this->num = num;
+        this->next = nullptr;
+    }
+
+    friend class LinkedList;
+};
+class LinkedList {
+  private:
+    int size;
+    ListNode *first;
+    ListNode *last;
+
+  public:
+    LinkedList() {
+        this->size = 0;
+        this->first = nullptr;
+        this->last = nullptr;
+    }
+
+    void PrintList() {
+        if (size == 0) {
+            printf("List is empty.\n");
+        } else {
+            for (ListNode *current = first; current != nullptr;
+                 current = current->next) {
+                printf("%d ", current->num);
+            }
+            printf("\n");
+        }
+    }
+
+    void PushFront(int num) {
+        ListNode *new_node = new ListNode(num);
+
+        new_node->next = first;
+        first = new_node;
+        if (size == 0) {
+            last = new_node;
+        }
+        size += 1;
+    }
+
+    void PushBack(int num) {
+        ListNode *new_node = new ListNode(num);
+
+        if (size == 0) {
+            first = new_node;
+        } else {
+            last->next = new_node;
+        }
+        last = new_node;
+        size += 1;
+    }
+
+    void Delete(int num) {
+        ListNode *previous = nullptr, *current = first;
+
+        while (current != nullptr && current->num != num) {
+            previous = current;
+            current = current->next;
+        }
+        if (current == nullptr) {
+            printf("There is no %d in the list.\n", num);
+        } else if (current == first) {
+            first = first->next;
+        } else {
+            previous->next = current->next;
+        }
+        delete current;
+        size -= 1;
+    }
+
+    void Clear() {
+        ListNode *current;
+
+        while (first != nullptr) {
+            current = first;
+            first = first->next;
+            delete current;
+        }
+        last = nullptr;
+        size = 0;
+    }
+
+    void Reverse() {
+        if (size == 0) {
+            printf("List is empty.\n");
+        } else if (size == 1) {
+            printf("List only has one element.\n");
+        } else {
+            ListNode *previous = nullptr, *current = first,
+                     *preceding = first->next;
+
+            while (preceding != nullptr) {
+                current->next = previous;
+                previous = current;
+                current = preceding;
+                preceding = preceding->next;
+            }
+            current->next = previous;
+            swap(first, last);
+        }
+    }
+};
+
+int main() {
+    LinkedList list;
+    string action;
+
+    while (printf("Enter action: ") && getline(cin, action)) {
+        if (action == "print list") {
+            list.PrintList();
+        } else if (action == "push front") {
+            int num;
+
+            printf("Enter number: "), scanf("%d", &num), cin.get();
+            list.PushFront(num);
+        } else if (action == "push back") {
+            int num;
+
+            printf("Enter number: "), scanf("%d", &num), cin.get();
+            list.PushBack(num);
+        } else if (action == "delete") {
+            int num;
+
+            printf("Enter number: "), scanf("%d", &num), cin.get();
+            list.Delete(num);
+        } else if (action == "clear") {
+            list.Clear();
+        } else if (action == "reverse") {
+            list.Reverse();
+        } else if (action == "exit") {
+            break;
+        } else {
+            printf("Invalid action.\n");
+        }
+    }
+
+    return 0;
+}
