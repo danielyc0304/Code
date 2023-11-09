@@ -59,7 +59,7 @@ int main() {
 
     while (printf("Enter action: ") && getline(cin, action)) {
         if (action == "is empty") {
-            printf("%s\n", stack.IsEmpty() == true ? "true" : "false");
+            printf("%s\n", (stack.IsEmpty() == true) ? "true" : "false");
         } else if (action == "top") {
             stack.Top();
         } else if (action == "get size") {
