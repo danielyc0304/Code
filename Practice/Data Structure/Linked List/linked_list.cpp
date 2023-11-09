@@ -40,6 +40,10 @@ class LinkedList {
         }
     }
 
+    void IsEmpty() { printf("%s\n", (size == 0) ? "true" : "false"); }
+
+    void GetSize() { printf("%d\n", size); }
+
     void PushFront(int num) {
         ListNode *new_node = new ListNode(num);
 
@@ -121,6 +125,10 @@ int main() {
     while (printf("Enter action: ") && getline(cin, action)) {
         if (action == "print list") {
             list.PrintList();
+        } else if (action == "get size") {
+            list.GetSize();
+        } else if (action == "is empty") {
+            list.IsEmpty();
         } else if (action == "push front") {
             int num;
 
