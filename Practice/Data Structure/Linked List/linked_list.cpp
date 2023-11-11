@@ -28,8 +28,10 @@ class LinkedList {
         this->last = nullptr;
     }
 
+    bool IsEmpty() { return (size == 0); }
+
     void PrintList() {
-        if (size == 0) {
+        if (IsEmpty() == true) {
             printf("List is empty.\n");
         } else {
             for (ListNode *current = first; current != nullptr;
@@ -39,8 +41,6 @@ class LinkedList {
             printf("\n");
         }
     }
-
-    void IsEmpty() { printf("%s\n", (size == 0) ? "true" : "false"); }
 
     void GetSize() { printf("%d\n", size); }
 
@@ -76,6 +76,8 @@ class LinkedList {
         }
         if (current == nullptr) {
             printf("There is no %d in the list.\n", num);
+
+            return;
         } else if (current == first) {
             first = first->next;
         } else {
@@ -123,12 +125,12 @@ int main() {
     string action;
 
     while (printf("Enter action: ") && getline(cin, action)) {
-        if (action == "print list") {
+        if (action == "is empty") {
+            printf("%s\n", (list.IsEmpty() == true) ? "true" : "false");
+        } else if (action == "print list") {
             list.PrintList();
         } else if (action == "get size") {
             list.GetSize();
-        } else if (action == "is empty") {
-            list.IsEmpty();
         } else if (action == "push front") {
             int num;
 
