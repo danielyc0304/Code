@@ -4,8 +4,7 @@ using namespace std;
 
 class MinStack {
   private:
-    stack<int> num;
-    stack<int> min;
+    stack<int> num, min;
 
   public:
     bool IsEmpty() { return num.empty(); }
