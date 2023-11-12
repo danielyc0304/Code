@@ -17,15 +17,15 @@ class ListNode {
 };
 class LinkedList {
   private:
-    int size;
     ListNode *first;
     ListNode *last;
+    int size;
 
   public:
     LinkedList() {
-        this->size = 0;
         this->first = nullptr;
         this->last = nullptr;
+        this->size = 0;
     }
 
     bool IsEmpty() { return (size == 0); }
