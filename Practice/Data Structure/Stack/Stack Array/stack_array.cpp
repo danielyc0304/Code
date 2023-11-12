@@ -3,9 +3,9 @@ using namespace std;
 
 class StackArray {
   private:
+    int *stack;
     int top;
     int capacity;
-    int *stack;
 
     void DoubleCapacity() {
         capacity *= 2;
@@ -20,9 +20,9 @@ class StackArray {
 
   public:
     StackArray() {
+        this->stack = new int[capacity];
         this->top = -1;
         this->capacity = 1;
-        this->stack = new int[capacity];
     }
 
     bool IsEmpty() { return (top == -1); }
