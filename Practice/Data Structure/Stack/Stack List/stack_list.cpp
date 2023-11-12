@@ -17,13 +17,13 @@ class StackNode {
 };
 class StackList {
   private:
-    int size;
     StackNode *top;
+    int size;
 
   public:
     StackList() {
-        this->size = 0;
         this->top = nullptr;
+        this->size = 0;
     }
 
     bool IsEmpty() { return (size == 0); }
