@@ -17,8 +17,7 @@ class ListNode {
 };
 class LinkedList {
   private:
-    ListNode *front;
-    ListNode *back;
+    ListNode *front, *back;
     int size;
 
   public:
