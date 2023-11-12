@@ -17,14 +17,14 @@ class ListNode {
 };
 class LinkedList {
   private:
-    ListNode *first;
-    ListNode *last;
+    ListNode *front;
+    ListNode *back;
     int size;
 
   public:
     LinkedList() {
-        this->first = nullptr;
-        this->last = nullptr;
+        this->front = nullptr;
+        this->back = nullptr;
         this->size = 0;
     }
 
@@ -34,7 +34,7 @@ class LinkedList {
         if (IsEmpty() == true) {
             printf("List is empty.\n");
         } else {
-            for (ListNode *current = first; current != nullptr;
+            for (ListNode *current = front; current != nullptr;
                  current = current->next) {
                 printf("%d ", current->num);
             }
@@ -47,10 +47,10 @@ class LinkedList {
     void PushFront(int num) {
         ListNode *new_node = new ListNode(num);
 
-        new_node->next = first;
-        first = new_node;
+        new_node->next = front;
+        front = new_node;
         if (size == 0) {
-            last = new_node;
+            back = new_node;
         }
         size += 1;
     }
@@ -59,16 +59,16 @@ class LinkedList {
         ListNode *new_node = new ListNode(num);
 
         if (size == 0) {
-            first = new_node;
+            front = new_node;
         } else {
-            last->next = new_node;
+            back->next = new_node;
         }
-        last = new_node;
+        back = new_node;
         size += 1;
     }
 
     void Delete(int num) {
-        ListNode *previous = nullptr, *current = first;
+        ListNode *previous = nullptr, *current = front;
 
         while (current != nullptr && current->num != num) {
             previous = current;
@@ -78,8 +78,8 @@ class LinkedList {
             printf("There is no %d in the list.\n", num);
 
             return;
-        } else if (current == first) {
-            first = first->next;
+        } else if (current == front) {
+            front = front->next;
         } else {
             previous->next = current->next;
         }
@@ -90,12 +90,12 @@ class LinkedList {
     void Clear() {
         ListNode *current;
 
-        while (first != nullptr) {
-            current = first;
-            first = first->next;
+        while (front != nullptr) {
+            current = front;
+            front = front->next;
             delete current;
         }
-        last = nullptr;
+        back = nullptr;
         size = 0;
     }
 
@@ -105,8 +105,8 @@ class LinkedList {
         } else if (size == 1) {
             printf("List only has one element.\n");
         } else {
-            ListNode *previous = nullptr, *current = first,
-                     *preceding = first->next;
+            ListNode *previous = nullptr, *current = front,
+                     *preceding = front->next;
 
             while (preceding != nullptr) {
                 current->next = previous;
@@ -115,7 +115,7 @@ class LinkedList {
                 preceding = preceding->next;
             }
             current->next = previous;
-            swap(first, last);
+            swap(front, back);
         }
     }
 };
