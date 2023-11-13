@@ -15,8 +15,7 @@ class QueueArraySequential {
         for (int i = front + 1; i <= back; i++) {
             new_queue[++j] = queue[i];
         }
-        front = -1;
-        back = j;
+        front = -1, back = j;
         delete[] queue;
         queue = new_queue;
     }
@@ -24,8 +23,7 @@ class QueueArraySequential {
   public:
     QueueArraySequential() {
         this->queue = new int[capacity];
-        this->front = -1;
-        this->back = -1;
+        this->front = -1, this->back = -1;
         this->capacity = 1;
     }
 
