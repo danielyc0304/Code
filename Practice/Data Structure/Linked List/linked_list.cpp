@@ -22,8 +22,7 @@ class LinkedList {
 
   public:
     LinkedList() {
-        this->front = nullptr;
-        this->back = nullptr;
+        this->front = nullptr, this->back = nullptr;
         this->size = 0;
     }
 
