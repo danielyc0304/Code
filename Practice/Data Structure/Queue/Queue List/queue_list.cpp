@@ -23,8 +23,7 @@ class QueueList {
 
   public:
     QueueList() {
-        this->front = nullptr;
-        this->back = nullptr;
+        this->front = nullptr, this->back = nullptr;
         this->size = 0;
     }
 
