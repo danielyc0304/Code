@@ -17,8 +17,7 @@ class QueueNode {
 };
 class QueueList {
   private:
-    QueueNode *front;
-    QueueNode *back;
+    QueueNode *front, *back;
     int size;
 
   public:
