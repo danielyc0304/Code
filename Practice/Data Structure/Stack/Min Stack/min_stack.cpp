@@ -40,8 +40,7 @@ class MinStack {
         if (IsEmpty() == true) {
             printf("Stack is empty.\n");
         } else {
-            num.pop();
-            min.pop();
+            num.pop(), min.pop();
         }
     }
 };
