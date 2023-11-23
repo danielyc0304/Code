@@ -7,6 +7,7 @@ void Print(int *num, int size) {
     }
     printf("\n");
 }
+
 void InsertionSort(int *num, int size) {
     for (int i = 1; i < size; i++) {
         int tmp = num[i];
