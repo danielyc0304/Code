@@ -31,11 +31,11 @@ int main() {
         scanf("%d", &num[i]);
     }
 
-    printf("Before Sorting: "), Print(num, size);
+    printf("Before sorting: "), Print(num, size);
 
     InsertionSort(num, size);
 
-    printf("After Sorting: "), Print(num, size);
+    printf("After sorting: "), Print(num, size);
 
     return 0;
 }
