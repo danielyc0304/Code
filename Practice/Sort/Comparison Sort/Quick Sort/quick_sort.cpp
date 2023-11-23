@@ -41,11 +41,11 @@ int main() {
         scanf("%d", &num[i]);
     }
 
-    printf("Before Sorting: "), Print(num, size);
+    printf("Before sorting: "), Print(num, size);
 
     QuickSort(num, 0, size - 1);
 
-    printf("After Sorting: "), Print(num, size);
+    printf("After sorting: "), Print(num, size);
 
     return 0;
 }
