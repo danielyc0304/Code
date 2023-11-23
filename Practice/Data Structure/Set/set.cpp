@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+void Print(int *parent, int size) {
+    for (int i = 0; i < size; i++) {
+        printf("%3d", i);
+    }
+    printf("\n");
+    for (int i = 0; i < size; i++) {
+        printf("%3d", parent[i]);
+    }
+    printf("\n");
+}
 int FindSetCollapsing(int *parent, int num) {
     int root;
 
@@ -29,16 +39,6 @@ void UnionSet(int *parent, int num1, int num2) {
         parent[num1_root] = num2_root;
     }
 }
-void Print(int *parent, int size) {
-    for (int i = 0; i < size; i++) {
-        printf("%3d", i);
-    }
-    printf("\n");
-    for (int i = 0; i < size; i++) {
-        printf("%3d", parent[i]);
-    }
-    printf("\n");
-}
 
 int main() {
     int size;
@@ -52,7 +52,9 @@ int main() {
     string action;
 
     while (printf("Enter action: ") && getline(cin, action)) {
-        if (action == "find set") {
+        if (action == "print") {
+            Print(parent, size);
+        } else if (action == "find set") {
             int num;
 
             printf("Enter number: "), scanf("%d", &num), cin.get();
@@ -63,8 +65,6 @@ int main() {
             printf("Enter two numbers: "), scanf("%d %d", &num1, &num2),
                 cin.get();
             UnionSet(parent, num1, num2);
-        } else if (action == "print") {
-            Print(parent, size);
         } else if (action == "exit") {
             break;
         } else {
