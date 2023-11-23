@@ -7,6 +7,7 @@ void Print(int *num, int size) {
     }
     printf("\n");
 }
+
 int Partition(int *num, int front, int end) {
     int pivot = num[end];
 
