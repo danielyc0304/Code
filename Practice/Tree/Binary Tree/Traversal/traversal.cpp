@@ -129,7 +129,7 @@ class BinaryTree {
         }
         return predecessor;
     }
-    void InOrderReverse(TreeNode *root) {
+    void InOrderReverseByParent(TreeNode *root) {
         TreeNode *current = new TreeNode;
 
         current = RightMost(root);
@@ -170,7 +170,7 @@ int main() {
     printf("In-Order Traversal by Parent: "), tree.InOrderByParent(tree.root),
         printf("\n");
     printf("In-Order Reverse Traversal by Parent: "),
-        tree.InOrderReverse(tree.root), printf("\n");
+        tree.InOrderReverseByParent(tree.root), printf("\n");
 
     return 0;
 }
