@@ -5,18 +5,18 @@ using namespace std;
 class BinaryTree;
 class TreeNode {
   private:
-    string data;
+    char data;
 
   public:
     TreeNode *parent;
     TreeNode *left_child, *right_child;
 
     TreeNode() {
-        this->data = "";
+        this->data = 'x';
         this->parent = nullptr;
         this->left_child = nullptr, this->right_child = nullptr;
     }
-    TreeNode(string data) {
+    TreeNode(char data) {
         this->data = data;
         this->parent = nullptr;
         this->left_child = nullptr, this->right_child = nullptr;
@@ -32,7 +32,7 @@ class BinaryTree {
 
     void PreOrder(TreeNode *current) {
         if (current != nullptr) {
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
 
             PreOrder(current->left_child);
             PreOrder(current->right_child);
@@ -42,7 +42,7 @@ class BinaryTree {
         if (current != nullptr) {
             InOrder(current->left_child);
 
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
 
             InOrder(current->right_child);
         }
@@ -52,7 +52,7 @@ class BinaryTree {
             PostOrder(current->left_child);
             PostOrder(current->right_child);
 
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
         }
     }
     void LevelOrder() {
@@ -63,7 +63,7 @@ class BinaryTree {
             TreeNode *current = node.front();
             node.pop();
 
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
 
             if (current->left_child != nullptr) {
                 node.push(current->left_child);
@@ -104,7 +104,7 @@ class BinaryTree {
 
         current = LeftMost(root);
         while (current != nullptr) {
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
 
             current = InOrderSuccessor(current);
         }
@@ -134,7 +134,7 @@ class BinaryTree {
 
         current = RightMost(root);
         while (current != nullptr) {
-            printf("%s ", current->data.c_str());
+            printf("%c ", current->data);
 
             current = InOrderPredecessor(current);
         }
@@ -142,11 +142,11 @@ class BinaryTree {
 };
 
 int main() {
-    TreeNode *node_a = new TreeNode("A"), *node_b = new TreeNode("B"),
-             *node_c = new TreeNode("C"), *node_d = new TreeNode("D"),
-             *node_e = new TreeNode("E"), *node_f = new TreeNode("F"),
-             *node_g = new TreeNode("G"), *node_h = new TreeNode("H"),
-             *node_i = new TreeNode("I");
+    TreeNode *node_a = new TreeNode('A'), *node_b = new TreeNode('B'),
+             *node_c = new TreeNode('C'), *node_d = new TreeNode('D'),
+             *node_e = new TreeNode('E'), *node_f = new TreeNode('F'),
+             *node_g = new TreeNode('G'), *node_h = new TreeNode('H'),
+             *node_i = new TreeNode('I');
 
     node_a->left_child = node_b, node_b->parent = node_a;
     node_a->right_child = node_c, node_c->parent = node_a;
