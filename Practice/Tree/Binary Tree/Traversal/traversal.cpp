@@ -25,6 +25,53 @@ class TreeNode {
     friend class BinaryTree;
 };
 class BinaryTree {
+  private:
+    TreeNode *LeftMost(TreeNode *current) {  // 從current往下找到最左邊的節點
+        while (current->left_child != nullptr) {
+            current = current->left_child;
+        }
+
+        return current;
+    }
+    TreeNode *InOrderSuccessor(TreeNode *current) {  // 找到中序遍歷的下一個節點
+        if (current->right_child != nullptr) {
+            return LeftMost(
+                current
+                    ->right_child);  // 把右子樹當作根節點往下找出最左邊的節點
+        }
+
+        TreeNode *successor = current->parent;
+        while (
+            successor != nullptr &&
+            current ==
+                successor
+                    ->right_child) {  // 如果current是successor的右子樹，就代表這條分支已經走完了
+            current = successor;
+            successor = successor->parent;
+        }
+        return successor;
+    }
+
+    TreeNode *RightMost(TreeNode *current) {
+        while (current->right_child != nullptr) {
+            current = current->right_child;
+        }
+
+        return current;
+    }
+    TreeNode *InOrderPredecessor(TreeNode *current) {
+        if (current->left_child != nullptr) {
+            return RightMost(current->left_child);
+        }
+
+        TreeNode *predecessor = current->parent;
+        while (predecessor != nullptr && current == predecessor->left_child) {
+            current = predecessor;
+            predecessor = predecessor->parent;
+        }
+        return predecessor;
+    }
+
   public:
     TreeNode *root;
 
@@ -74,31 +121,6 @@ class BinaryTree {
         }
     }
 
-    TreeNode *LeftMost(TreeNode *current) {  // 從current往下找到最左邊的節點
-        while (current->left_child != nullptr) {
-            current = current->left_child;
-        }
-
-        return current;
-    }
-    TreeNode *InOrderSuccessor(TreeNode *current) {  // 找到中序遍歷的下一個節點
-        if (current->right_child != nullptr) {
-            return LeftMost(
-                current
-                    ->right_child);  // 把右子樹當作根節點往下找出最左邊的節點
-        }
-
-        TreeNode *successor = current->parent;
-        while (
-            successor != nullptr &&
-            current ==
-                successor
-                    ->right_child) {  // 如果current是successor的右子樹，就代表這條分支已經走完了
-            current = successor;
-            successor = successor->parent;
-        }
-        return successor;
-    }
     void InOrderByParent(TreeNode *root) {
         TreeNode *current = new TreeNode;
 
@@ -108,26 +130,6 @@ class BinaryTree {
 
             current = InOrderSuccessor(current);
         }
-    }
-
-    TreeNode *RightMost(TreeNode *current) {
-        while (current->right_child != nullptr) {
-            current = current->right_child;
-        }
-
-        return current;
-    }
-    TreeNode *InOrderPredecessor(TreeNode *current) {
-        if (current->left_child != nullptr) {
-            return RightMost(current->left_child);
-        }
-
-        TreeNode *predecessor = current->parent;
-        while (predecessor != nullptr && current == predecessor->left_child) {
-            current = predecessor;
-            predecessor = predecessor->parent;
-        }
-        return predecessor;
     }
     void InOrderReverseByParent(TreeNode *root) {
         TreeNode *current = new TreeNode;
