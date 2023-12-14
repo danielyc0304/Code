@@ -104,8 +104,8 @@ class BinaryTree {
     }
     void LevelOrder() {
         queue<TreeNode *> node;
-        node.push(this->root);
 
+        node.push(root);
         while (node.empty() == false) {
             TreeNode *current = node.front();
             node.pop();
