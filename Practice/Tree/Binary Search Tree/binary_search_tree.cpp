@@ -184,8 +184,8 @@ int main() {
     tree.Insert(2, "克林");
     tree.Insert(513, "比克");
 
-    printf("In-Order Traversal:\n"), tree.InOrder(tree.root), printf("\n");
-    printf("Level-Order Traversal:\n"), tree.LevelOrder(), printf("\n");
+    printf("In-Order Traversal:    "), tree.InOrder(tree.root), printf("\n");
+    printf("Level-Order Traversal: "), tree.LevelOrder(), printf("\n");
     printf("\n");
 
     TreeNode *node = tree.Search(1000);
@@ -203,8 +203,12 @@ int main() {
     printf("\n");
 
     tree.Delete(8);
-    printf("In-Order Traversal:\n"), tree.InOrder(tree.root), printf("\n");
-    printf("Level-Order Traversal:\n"), tree.LevelOrder(), printf("\n");
+
+    printf("--- After delete 8 ---\n");
+    printf("\n");
+    
+    printf("In-Order Traversal:    "), tree.InOrder(tree.root), printf("\n");
+    printf("Level-Order Traversal: "), tree.LevelOrder(), printf("\n");
     printf("\n");
 
     node = tree.Search(8);
