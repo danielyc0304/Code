@@ -1,16 +1,16 @@
 #include <iostream>
 #include <queue>
+#include <sstream>
 using namespace std;
 
 class BinaryTree;
 class TreeNode {
   private:
     char data;
-
-  public:
     TreeNode *parent;
     TreeNode *left_child, *right_child;
 
+  public:
     TreeNode() {
         this->data = 'x';
         this->parent = nullptr;
@@ -75,7 +75,43 @@ class BinaryTree {
   public:
     TreeNode *root;
 
-    BinaryTree(TreeNode *root) { this->root = root; }
+    BinaryTree(string data) {
+        stringstream ss(data);
+
+        root = new TreeNode;
+        ss >> root->data;
+
+        LevelOrderConstruct(ss);
+    }
+    void LevelOrderConstruct(stringstream &ss) {
+        char data = 'x';
+        TreeNode *current = root;
+        queue<TreeNode *> node;
+
+        while (ss >> data) {
+            if (data != 'x') {
+                TreeNode *new_node = new TreeNode(data);
+
+                new_node->parent = current, current->left_child = new_node;
+
+                node.push(new_node);
+            }
+
+            if (!(ss >> data)) {
+                break;
+            }
+
+            if (data != 'x') {
+                TreeNode *new_node = new TreeNode(data);
+
+                new_node->parent = current, current->right_child = new_node;
+
+                node.push(new_node);
+            }
+
+            current = node.front(), node.pop();
+        }
+    }
 
     void PreOrder(TreeNode *current) {
         if (current != nullptr) {
@@ -141,36 +177,69 @@ class BinaryTree {
             current = InOrderPredecessor(current);
         }
     }
+
+    void InsertLevelOrder(char data) {
+        TreeNode *current = root;
+        queue<TreeNode *> node;
+
+        while (current != nullptr) {
+            if (current->left_child != nullptr) {
+                node.push(current->left_child);
+            } else {
+                TreeNode *new_node = new TreeNode(data);
+
+                new_node->parent = current, current->left_child = new_node;
+
+                break;
+            }
+
+            if (current->right_child != nullptr) {
+                node.push(current->right_child);
+            } else {
+                TreeNode *new_node = new TreeNode(data);
+
+                new_node->parent = current, current->right_child = new_node;
+
+                break;
+            }
+
+            current = node.front(), node.pop();
+        }
+    }
 };
 
 int main() {
-    TreeNode *node_a = new TreeNode('A'), *node_b = new TreeNode('B'),
-             *node_c = new TreeNode('C'), *node_d = new TreeNode('D'),
-             *node_e = new TreeNode('E'), *node_f = new TreeNode('F'),
-             *node_g = new TreeNode('G'), *node_h = new TreeNode('H'),
-             *node_i = new TreeNode('I');
+    string data = "A B C D E F x x x G H x I";
+    BinaryTree tree(data);
 
-    node_a->left_child = node_b, node_b->parent = node_a;
-    node_a->right_child = node_c, node_c->parent = node_a;
-
-    node_b->left_child = node_d, node_d->parent = node_b;
-    node_b->right_child = node_e, node_e->parent = node_b;
-
-    node_c->left_child = node_f, node_f->parent = node_c;
-    node_c->right_child = node_g, node_g->parent = node_c;
-
-    node_d->left_child = node_h, node_h->parent = node_d;
-    node_d->right_child = node_i, node_i->parent = node_d;
-
-    BinaryTree tree(node_a);
-
-    printf("Pre-Order Traversal: "), tree.PreOrder(tree.root), printf("\n");
-    printf("In-Order Traversal: "), tree.InOrder(tree.root), printf("\n");
-    printf("Post-Order Traversal: "), tree.PostOrder(tree.root), printf("\n");
+    printf("Pre-Order Traversal:   "), tree.PreOrder(tree.root), printf("\n");
+    printf("In-Order Traversal:    "), tree.InOrder(tree.root), printf("\n");
+    printf("Post-Order Traversal:  "), tree.PostOrder(tree.root), printf("\n");
     printf("Level-Order Traversal: "), tree.LevelOrder(), printf("\n");
+    printf("\n");
 
-    printf("In-Order Traversal by Parent: "), tree.InOrderByParent(tree.root),
-        printf("\n");
+    printf("In-Order Traversal by Parent:         "),
+        tree.InOrderByParent(tree.root), printf("\n");
+    printf("In-Order Reverse Traversal by Parent: "),
+        tree.InOrderReverseByParent(tree.root), printf("\n");
+    printf("\n");
+
+    tree.InsertLevelOrder('K');
+    tree.InsertLevelOrder('L');
+    tree.InsertLevelOrder('M');
+    tree.InsertLevelOrder('N');
+
+    printf("--- After Insert Level Order ---\n");
+    printf("\n");
+
+    printf("Pre-Order Traversal:   "), tree.PreOrder(tree.root), printf("\n");
+    printf("In-Order Traversal:    "), tree.InOrder(tree.root), printf("\n");
+    printf("Post-Order Traversal:  "), tree.PostOrder(tree.root), printf("\n");
+    printf("Level-Order Traversal: "), tree.LevelOrder(), printf("\n");
+    printf("\n");
+
+    printf("In-Order Traversal by Parent:         "),
+        tree.InOrderByParent(tree.root), printf("\n");
     printf("In-Order Reverse Traversal by Parent: "),
         tree.InOrderReverseByParent(tree.root), printf("\n");
 
