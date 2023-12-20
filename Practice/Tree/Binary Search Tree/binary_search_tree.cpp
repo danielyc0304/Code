@@ -167,8 +167,7 @@ class BinarySearchTree {
 
         if (y !=
             delete_node) {  // 針對要刪除的節點有兩個子節點的情況，實際上是把y的資料複製到要刪除的節點上，且刪除y節點
-            delete_node->key = y->key;
-            delete_node->value = y->value;
+            delete_node->key = y->key, delete_node->value = y->value;
         }
         // 最後變成是y的記憶體位置被刪除，x帶著原資料取代y的位置，y把原資料複製到delete_node的位置，所以delete_node的資料就消失了
 
@@ -206,7 +205,7 @@ int main() {
 
     printf("--- After delete 8 ---\n");
     printf("\n");
-    
+
     printf("In-Order Traversal:    "), tree.InOrder(tree.root), printf("\n");
     printf("Level-Order Traversal: "), tree.LevelOrder(), printf("\n");
     printf("\n");
