@@ -12,7 +12,7 @@ class HashChainStd {
     vector<list<Dict>> table;
     int size, count;
 
-    int PreHashing(string key_str) {
+    int Prehashing(string key_str) {
         int key_int = 0;
         int exp = 9, s = 1;
 
@@ -23,7 +23,7 @@ class HashChainStd {
 
         return key_int;
     }
-    int HashFunction(string key_str) { return PreHashing(key_str) % size; }
+    int HashFunction(string key_str) { return Prehashing(key_str) % size; }
 
   public:
     HashChainStd(int size) {
@@ -32,7 +32,7 @@ class HashChainStd {
     }
 
     void DisplayTable() {
-        for (int i = 0; i < table.size(); i++) {
+        for (int i = 0; i < size; i++) {
             printf("slot#%d: ", i);
             for (list<Dict>::iterator it = table[i].begin();
                  it != table[i].end(); it++) {
@@ -59,6 +59,7 @@ class HashChainStd {
         int i = HashFunction(data.key);
 
         table[i].push_front(data);
+        count++;
     }
 
     void Delete(string key_str) {
@@ -72,6 +73,7 @@ class HashChainStd {
                 return;
             }
         }
+        count++;
     }
 };
 
