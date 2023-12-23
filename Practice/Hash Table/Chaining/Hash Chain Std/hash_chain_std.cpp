@@ -14,11 +14,11 @@ class HashChainStd {
 
     int Prehashing(string key_str) {
         int key_int = 0;
-        int exp = 9, s = 1;
+        int exp = 9, p = 1;
 
         for (int i = key_str.size() - 1; i >= 0; i--) {
-            key_int += key_str[i] * s;
-            s *= exp;
+            key_int += key_str[i] * p;
+            p *= exp;
         }
 
         return key_int;
