@@ -188,14 +188,14 @@ int main() {
     printf("--- After insert key(323359) ---\n");
     hash.DisplayTable(), printf("\n");
 
-    printf("Searching key(8491): %s\n", hash.Search(8491).c_str());
-    printf("Searching key(7): %s\n", hash.Search(7).c_str()), printf("\n");
+    printf("Search key(8491): %s\n", hash.Search(8491).c_str());
+    printf("Search key(7): %s\n", hash.Search(7).c_str()), printf("\n");
 
     hash.Delete(7);
     printf("--- After delete key(7) ---\n");
     hash.DisplayTable(), printf("\n");
 
-    printf("Searching key(7): %s\n", hash.Search(7).c_str()), printf("\n");
+    printf("Search key(7): %s\n", hash.Search(7).c_str()), printf("\n");
 
     hash.Delete(592);
     printf("--- After delete key(592) ---\n");
