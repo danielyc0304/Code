@@ -11,7 +11,7 @@ class Graph {
   public:
     int *color,  // 0->白，還沒被找到過, 1->灰，已經被找到過,
                  // 2->黑，已經從queue被移除
-        *distance,  // 與起始點的距離，0表示起始點，無限大表示不可到達
+        *distance,  // 與起始點的距離，0表示起始點，等於num_vertex表示不可到達
         *predecessor;  // 前一個節點，-1表示沒有前一個節點
 
     Graph(int num_vertex) {
@@ -28,12 +28,12 @@ class Graph {
 
         for (int i = 0; i < num_vertex; i++) {
             color[i] = 0;
-            distance[i] = num_vertex + 1;
+            distance[i] = num_vertex;
             predecessor[i] = -1;
         }
 
         int i = start;
-        queue<int> node;
+        queue<int> vertex;
         for (int j = 0; j < num_vertex;
              j++) {  // 需要寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
@@ -41,9 +41,9 @@ class Graph {
                 distance[i] = 0;
                 predecessor[i] = -1;
 
-                node.push(i);
-                while (node.empty() == false) {
-                    int new_node = node.front();
+                vertex.push(i);
+                while (vertex.empty() == false) {
+                    int new_node = vertex.front();
 
                     for (list<int>::iterator it =
                              adjacency_list[new_node].begin();
@@ -53,12 +53,12 @@ class Graph {
                             distance[*it] = distance[new_node] + 1;
                             predecessor[*it] = new_node;
 
-                            node.push(*it);
+                            vertex.push(*it);
                         }
                     }
 
                     color[new_node] = 2;
-                    node.pop();
+                    vertex.pop();
                 }
             }
 
