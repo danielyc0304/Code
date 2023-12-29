@@ -7,12 +7,13 @@ class Graph {
   private:
     int num_vertex;
     vector<list<int>> adjacency_list;
+
+  public:
     int *color,  // 0->白，還沒被找到過, 1->灰，已經被找到過,
                  // 2->黑，已經從queue被移除
         *distance,  // 與起始點的距離，0表示起始點，無限大表示不可到達
         *predecessor;  // 前一個節點，-1表示沒有前一個節點
 
-  public:
     Graph(int num_vertex) {
         this->num_vertex = num_vertex;
         adjacency_list.resize(num_vertex);
@@ -81,6 +82,19 @@ int main() {
     graph.AddEdgeList(8, 5), graph.AddEdgeList(8, 6);
 
     graph.BreadthFirstSearch(0);
+
+    for (int i = 0; i < 9; i++) {
+        printf("%d ", graph.color[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 9; i++) {
+        printf("%d ", graph.distance[i]);
+    }
+    printf("\n");
+    for (int i = 0; i < 9; i++) {
+        printf("%d ", graph.predecessor[i]);
+    }
+    printf("\n");
 
     return 0;
 }
