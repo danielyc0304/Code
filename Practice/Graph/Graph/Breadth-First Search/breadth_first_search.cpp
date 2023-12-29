@@ -83,14 +83,19 @@ int main() {
 
     graph.BreadthFirstSearch(0);
 
+    printf("Color:        ");
     for (int i = 0; i < 9; i++) {
         printf("%d ", graph.color[i]);
     }
     printf("\n");
+
+    printf("Distance:     ");
     for (int i = 0; i < 9; i++) {
         printf("%d ", graph.distance[i]);
     }
     printf("\n");
+
+    printf("Predecessor: ");
     for (int i = 0; i < 9; i++) {
         printf("%d ", graph.predecessor[i]);
     }
