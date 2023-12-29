@@ -5,10 +5,10 @@ using namespace std;
 
 class Graph {
   private:
-    int num_vertex;
     vector<list<int>> adjacency_list;
 
   public:
+    int num_vertex;
     int *color,  // 0->白，還沒被找到過, 1->灰，已經被找到過,
                  // 2->黑，已經從queue被移除
         *distance,  // 與起始點的距離，0表示起始點，等於num_vertex表示不可到達
@@ -84,19 +84,19 @@ int main() {
     graph.BreadthFirstSearch(0);
 
     printf("Color:        ");
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < graph.num_vertex; i++) {
         printf("%d ", graph.color[i]);
     }
     printf("\n");
 
     printf("Distance:     ");
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < graph.num_vertex; i++) {
         printf("%d ", graph.distance[i]);
     }
     printf("\n");
 
     printf("Predecessor: ");
-    for (int i = 0; i < 9; i++) {
+    for (int i = 0; i < graph.num_vertex; i++) {
         printf("%d ", graph.predecessor[i]);
     }
     printf("\n");
