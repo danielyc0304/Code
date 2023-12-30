@@ -43,21 +43,21 @@ class Graph {
 
                 vertex.push(i);
                 while (vertex.empty() == false) {
-                    int new_node = vertex.front();
+                    int new_vertex = vertex.front();
 
                     for (list<int>::iterator it =
-                             adjacency_list[new_node].begin();
-                         it != adjacency_list[new_node].end(); it++) {
+                             adjacency_list[new_vertex].begin();
+                         it != adjacency_list[new_vertex].end(); it++) {
                         if (color[*it] == 0) {
                             color[*it] = 1;
-                            distance[*it] = distance[new_node] + 1;
-                            predecessor[*it] = new_node;
+                            distance[*it] = distance[new_vertex] + 1;
+                            predecessor[*it] = new_vertex;
 
                             vertex.push(*it);
                         }
                     }
 
-                    color[new_node] = 2;
+                    color[new_vertex] = 2;
                     vertex.pop();
                 }
             }
