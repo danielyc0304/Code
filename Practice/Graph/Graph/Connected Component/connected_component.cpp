@@ -114,7 +114,6 @@ class Graph {
         finish = new int[num_vertex];
         predecessor = new int[num_vertex];
 
-        int time = 1;
         for (int i = 0; i < num_vertex; i++) {
             color[i] = 0;
             discover[i] = 0;
@@ -123,6 +122,7 @@ class Graph {
         }
 
         int i = start;
+        int time = 1;
         for (int j = 0; j < num_vertex;
              j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
