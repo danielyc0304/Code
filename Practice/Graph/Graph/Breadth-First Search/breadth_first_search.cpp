@@ -35,7 +35,7 @@ class Graph {
         int i = start;
         queue<int> vertex;
         for (int j = 0; j < num_vertex;
-             j++) {  // 需要寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
+             j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
                 color[i] = 1;
                 distance[i] = 0;
