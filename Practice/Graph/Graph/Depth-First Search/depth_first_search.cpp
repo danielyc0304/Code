@@ -36,7 +36,8 @@ class Graph {
         }
 
         int i = start;
-        for (int j = 0; j < num_vertex; j++) {
+        for (int j = 0; j < num_vertex;
+             j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
                 DepthFirstSearchVisit(i, time);
             }
