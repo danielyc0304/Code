@@ -35,7 +35,7 @@ class Graph {
         }
 
         int i = start;
-        int time = 1;
+        int time = 0;
         for (int j = 0; j < num_vertex;
              j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
@@ -47,7 +47,7 @@ class Graph {
     }
     void DFSVisit(int vertex, int &time) {
         color[vertex] = 1;
-        discover[vertex] = time++;
+        discover[vertex] = ++time;
 
         for (list<int>::iterator it = adjacency_list[vertex].begin();
              it != adjacency_list[vertex].end(); it++) {
@@ -59,7 +59,7 @@ class Graph {
         }
 
         color[vertex] = 2;
-        finish[vertex] = time++;
+        finish[vertex] = ++time;
     }
 };
 
