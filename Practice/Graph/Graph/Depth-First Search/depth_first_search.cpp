@@ -39,13 +39,13 @@ class Graph {
         for (int j = 0; j < num_vertex;
              j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
             if (color[i] == 0) {
-                DepthFirstSearchVisit(i, time);
+                DFSVisit(i, time);
             }
 
             i = j;
         }
     }
-    void DepthFirstSearchVisit(int vertex, int &time) {
+    void DFSVisit(int vertex, int &time) {
         color[vertex] = 1;
         discover[vertex] = time++;
 
@@ -54,7 +54,7 @@ class Graph {
             if (color[*it] == 0) {
                 predecessor[*it] = vertex;
 
-                DepthFirstSearchVisit(*it, time);
+                DFSVisit(*it, time);
             }
         }
 
