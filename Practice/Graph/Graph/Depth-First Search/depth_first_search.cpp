@@ -6,6 +6,23 @@ class Graph {
   private:
     vector<list<int>> adjacency_list;
 
+    void DFSVisit(int vertex, int &time) {
+        color[vertex] = 1;
+        discover[vertex] = ++time;
+
+        for (list<int>::iterator it = adjacency_list[vertex].begin();
+             it != adjacency_list[vertex].end(); it++) {
+            if (color[*it] == 0) {
+                predecessor[*it] = vertex;
+
+                DFSVisit(*it, time);
+            }
+        }
+
+        color[vertex] = 2;
+        finish[vertex] = ++time;
+    }
+
   public:
     int num_vertex;
     int *color,     // 0->白，還沒被找到過, 1->灰，已經被找到過,
@@ -44,22 +61,6 @@ class Graph {
 
             i = j;
         }
-    }
-    void DFSVisit(int vertex, int &time) {
-        color[vertex] = 1;
-        discover[vertex] = ++time;
-
-        for (list<int>::iterator it = adjacency_list[vertex].begin();
-             it != adjacency_list[vertex].end(); it++) {
-            if (color[*it] == 0) {
-                predecessor[*it] = vertex;
-
-                DFSVisit(*it, time);
-            }
-        }
-
-        color[vertex] = 2;
-        finish[vertex] = ++time;
     }
 };
 
