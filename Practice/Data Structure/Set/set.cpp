@@ -11,9 +11,9 @@ void Print(int *parent, int size) {
     }
     printf("\n");
 }
+
 int FindSetCollapsing(int *parent, int num) {
     int root;
-
     for (root = num; parent[root] >= 0; root = parent[root])
         ;  // 找到root
 
