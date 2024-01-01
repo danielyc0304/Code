@@ -14,33 +14,6 @@ class Graph {
         *finish,       // 從i點出發的探索結束的時間點
         *predecessor;  // 前一個節點，-1表示沒有前一個節點
 
-  public:
-    Graph(int num_vertex) {
-        this->num_vertex = num_vertex;
-        adjacency_list.resize(num_vertex);
-    }
-
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
-
-    void PrintPredecessor() {
-        printf("Predecessor: ");
-        for (int i = 0; i < num_vertex; i++) {
-            printf("%4d", predecessor[i]);
-        }
-        printf("\n");
-    }
-    void SetCollapsing(int current) {
-        int root;
-        for (root = current; predecessor[root] >= 0; root = predecessor[root])
-            ;
-
-        while (current != root) {
-            int parent = predecessor[current];
-            predecessor[current] = root;
-            current = parent;
-        }
-    }
-
     void BreadthFirstSearch(int start) {
         color = new int[num_vertex];
         distance = new int[num_vertex];
@@ -54,8 +27,7 @@ class Graph {
 
         int i = start;
         queue<int> vertex;
-        for (int j = 0; j < num_vertex;
-             j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
+        for (int j = 0; j < num_vertex; j++) {
             if (color[i] == 0) {
                 color[i] = 1;
                 distance[i] = 0;
@@ -85,28 +57,6 @@ class Graph {
             i = j;
         }
     }
-    void ConnectedComponentBFS(int vertex) {
-        BreadthFirstSearch(vertex);
-        PrintPredecessor();
-
-        for (int i = 0; i < num_vertex; i++) {
-            SetCollapsing(i);
-        }
-        PrintPredecessor();
-
-        int num_connected_component = 1;
-        for (int i = 0; i < num_vertex; i++) {
-            if (predecessor[i] < 0) {
-                printf("component#%d: %d ", num_connected_component++, i);
-                for (int j = 0; j < num_vertex; j++) {
-                    if (predecessor[j] == i) {
-                        printf("%d ", j);
-                    }
-                }
-                printf("\n");
-            }
-        }
-    }
 
     void DepthFirstSearch(int start) {
         color = new int[num_vertex];
@@ -123,8 +73,7 @@ class Graph {
 
         int i = start;
         int time = 0;
-        for (int j = 0; j < num_vertex;
-             j++) {  // 寫迴圈是為了考慮圖形內不是所有節點都在同一個集合裡
+        for (int j = 0; j < num_vertex; j++) {
             if (color[i] == 0) {
                 DFSVisit(i, time);
             }
@@ -148,6 +97,58 @@ class Graph {
         color[vertex] = 2;
         finish[vertex] = ++time;
     }
+
+    void PrintPredecessor() {
+        printf("Predecessor: ");
+        for (int i = 0; i < num_vertex; i++) {
+            printf("%4d", predecessor[i]);
+        }
+        printf("\n");
+    }
+
+    void SetCollapsing(int current) {
+        int root;
+        for (root = current; predecessor[root] >= 0; root = predecessor[root])
+            ;
+
+        while (current != root) {
+            int parent = predecessor[current];
+            predecessor[current] = root;
+            current = parent;
+        }
+    }
+
+  public:
+    Graph(int num_vertex) {
+        this->num_vertex = num_vertex;
+        adjacency_list.resize(num_vertex);
+    }
+
+    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+
+    void ConnectedComponentBFS(int vertex) {
+        BreadthFirstSearch(vertex);
+        PrintPredecessor();
+
+        for (int i = 0; i < num_vertex; i++) {
+            SetCollapsing(i);
+        }
+        PrintPredecessor();
+
+        int num_connected_component = 1;
+        for (int i = 0; i < num_vertex; i++) {
+            if (predecessor[i] < 0) {
+                printf("component#%d: %d ", num_connected_component++, i);
+                for (int j = 0; j < num_vertex; j++) {
+                    if (predecessor[j] == i) {
+                        printf("%d ", j);
+                    }
+                }
+                printf("\n");
+            }
+        }
+    }
+
     void ConnectedComponentDFS(int vertex) {
         DepthFirstSearch(vertex);
         PrintPredecessor();
