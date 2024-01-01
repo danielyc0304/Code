@@ -14,6 +14,14 @@ class Graph {
         *finish,       // 從i點出發的探索結束的時間點
         *predecessor;  // 前一個節點，-1表示沒有前一個節點
 
+    void PrintPredecessor() {
+        printf("Predecessor: ");
+        for (int i = 0; i < num_vertex; i++) {
+            printf("%4d", predecessor[i]);
+        }
+        printf("\n");
+    }
+
     void BreadthFirstSearch(int start) {
         color = new int[num_vertex];
         distance = new int[num_vertex];
@@ -96,14 +104,6 @@ class Graph {
 
         color[vertex] = 2;
         finish[vertex] = ++time;
-    }
-
-    void PrintPredecessor() {
-        printf("Predecessor: ");
-        for (int i = 0; i < num_vertex; i++) {
-            printf("%4d", predecessor[i]);
-        }
-        printf("\n");
     }
 
     void SetCollapsing(int current) {
