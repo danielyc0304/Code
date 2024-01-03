@@ -34,7 +34,7 @@ class MinimumSpanningTree {
         adjacency_matrix[from][to] = weight;
     }
 
-    void PrimMST(int start) {
+    void Prim(int start) {
         int weight[num_vertex], predecessor[num_vertex];
         bool visited[num_vertex];
 
@@ -83,7 +83,7 @@ int main() {
         graph.AddEdge(6, 4, 2);
 
     printf("MST found by Prim:\n");
-    graph.PrimMST(2);
+    graph.Prim(2);
 
     return 0;
 }
