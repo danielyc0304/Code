@@ -69,7 +69,7 @@ class MinimumSpanningTree {
         adjacency_matrix[from][to] = weight;
     }
 
-    void KruskalMST() {
+    void Kruskal() {
         vector<Edge> increase_weight;
         int parent[num_vertex];
         Edge *edge_set_MST = new Edge[num_vertex - 1];
@@ -113,7 +113,7 @@ int main() {
         graph.AddEdge(6, 4, 2);
 
     printf("MST found by Kruskal:\n");
-    graph.KruskalMST();
+    graph.Kruskal();
 
     return 0;
 }
