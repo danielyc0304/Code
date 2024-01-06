@@ -84,7 +84,7 @@ class Graph {
         adjacency_list.resize(num_vertex);
     }
 
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+    void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
 
     void TopologicalSort(int start) {
         DepthFirstSearch(start);
@@ -105,17 +105,17 @@ class Graph {
 
 int main() {
     Graph graph(15);
-    graph.AddEdgeList(0, 2);
-    graph.AddEdgeList(1, 2);
-    graph.AddEdgeList(2, 6), graph.AddEdgeList(2, 7);
-    graph.AddEdgeList(3, 4);
-    graph.AddEdgeList(4, 5);
-    graph.AddEdgeList(5, 6), graph.AddEdgeList(5, 14);
-    graph.AddEdgeList(6, 8), graph.AddEdgeList(6, 9), graph.AddEdgeList(6, 11),
-        graph.AddEdgeList(6, 12);
-    graph.AddEdgeList(7, 8);
-    graph.AddEdgeList(9, 10);
-    graph.AddEdgeList(12, 13);
+    graph.AddEdge(0, 2);
+    graph.AddEdge(1, 2);
+    graph.AddEdge(2, 6), graph.AddEdge(2, 7);
+    graph.AddEdge(3, 4);
+    graph.AddEdge(4, 5);
+    graph.AddEdge(5, 6), graph.AddEdge(5, 14);
+    graph.AddEdge(6, 8), graph.AddEdge(6, 9), graph.AddEdge(6, 11),
+        graph.AddEdge(6, 12);
+    graph.AddEdge(7, 8);
+    graph.AddEdge(9, 10);
+    graph.AddEdge(12, 13);
 
     graph.TopologicalSort(0);
     graph.TopologicalSort(4);
