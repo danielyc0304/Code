@@ -124,7 +124,7 @@ class Graph {
         adjacency_list.resize(num_vertex);
     }
 
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+    void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
 
     void ConnectedComponentBFS(int vertex) {
         BreadthFirstSearch(vertex);
@@ -176,14 +176,14 @@ class Graph {
 int main() {
     Graph graph(9);
 
-    graph.AddEdgeList(0, 1);
-    graph.AddEdgeList(1, 0), graph.AddEdgeList(1, 4), graph.AddEdgeList(1, 5);
-    graph.AddEdgeList(3, 6);
-    graph.AddEdgeList(4, 1), graph.AddEdgeList(4, 5);
-    graph.AddEdgeList(5, 1), graph.AddEdgeList(5, 4), graph.AddEdgeList(5, 7);
-    graph.AddEdgeList(6, 3), graph.AddEdgeList(6, 8);
-    graph.AddEdgeList(7, 5);
-    graph.AddEdgeList(8, 6);
+    graph.AddEdge(0, 1);
+    graph.AddEdge(1, 0), graph.AddEdge(1, 4), graph.AddEdge(1, 5);
+    graph.AddEdge(3, 6);
+    graph.AddEdge(4, 1), graph.AddEdge(4, 5);
+    graph.AddEdge(5, 1), graph.AddEdge(5, 4), graph.AddEdge(5, 7);
+    graph.AddEdge(6, 3), graph.AddEdge(6, 8);
+    graph.AddEdge(7, 5);
+    graph.AddEdge(8, 6);
 
     graph.ConnectedComponentBFS(0), printf("\n");
     graph.ConnectedComponentDFS(0);
