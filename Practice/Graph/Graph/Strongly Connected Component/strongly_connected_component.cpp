@@ -77,7 +77,7 @@ class Graph {
         for (int i = 0; i < num_vertex; i++) {
             for (list<int>::iterator it = adjacency_list[i].begin();
                  it != adjacency_list[i].end(); it++) {
-                graph_transpose.AddEdgeList(*it, i);
+                graph_transpose.AddEdge(*it, i);
             }
         }
 
@@ -142,7 +142,7 @@ class Graph {
         adjacency_list.resize(num_vertex);
     }
 
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+    void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
 
     void PrintStronlyConnectedComponents(int start) {
         DepthFirstSearch(start);
@@ -200,15 +200,15 @@ class Graph {
 int main() {
     Graph graph(9);
 
-    graph.AddEdgeList(0, 1);
-    graph.AddEdgeList(1, 2), graph.AddEdgeList(1, 4);
-    graph.AddEdgeList(2, 0), graph.AddEdgeList(2, 3), graph.AddEdgeList(2, 5);
-    graph.AddEdgeList(3, 2);
-    graph.AddEdgeList(4, 5), graph.AddEdgeList(4, 6);
-    graph.AddEdgeList(5, 4), graph.AddEdgeList(5, 6), graph.AddEdgeList(5, 7);
-    graph.AddEdgeList(6, 7);
-    graph.AddEdgeList(7, 8);
-    graph.AddEdgeList(8, 6);
+    graph.AddEdge(0, 1);
+    graph.AddEdge(1, 2), graph.AddEdge(1, 4);
+    graph.AddEdge(2, 0), graph.AddEdge(2, 3), graph.AddEdge(2, 5);
+    graph.AddEdge(3, 2);
+    graph.AddEdge(4, 5), graph.AddEdge(4, 6);
+    graph.AddEdge(5, 4), graph.AddEdge(5, 6), graph.AddEdge(5, 7);
+    graph.AddEdge(6, 7);
+    graph.AddEdge(7, 8);
+    graph.AddEdge(8, 6);
 
     printf("Vertex(0) as starting point for the first DFS\n");
     graph.PrintStronlyConnectedComponents(0), printf("\n");
