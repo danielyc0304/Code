@@ -36,7 +36,7 @@ class Graph {
         adjacency_list.resize(num_vertex);
     }
 
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+    void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
 
     void DepthFirstSearch(int start) {
         color = new int[num_vertex];
@@ -67,13 +67,13 @@ class Graph {
 int main() {
     Graph graph(8);
 
-    graph.AddEdgeList(0, 1), graph.AddEdgeList(0, 2);
-    graph.AddEdgeList(1, 3);
-    graph.AddEdgeList(2, 1), graph.AddEdgeList(2, 5);
-    graph.AddEdgeList(3, 4), graph.AddEdgeList(3, 5);
-    graph.AddEdgeList(5, 1);
-    graph.AddEdgeList(6, 4), graph.AddEdgeList(6, 7);
-    graph.AddEdgeList(7, 6);
+    graph.AddEdge(0, 1), graph.AddEdge(0, 2);
+    graph.AddEdge(1, 3);
+    graph.AddEdge(2, 1), graph.AddEdge(2, 5);
+    graph.AddEdge(3, 4), graph.AddEdge(3, 5);
+    graph.AddEdge(5, 1);
+    graph.AddEdge(6, 4), graph.AddEdge(6, 7);
+    graph.AddEdge(7, 6);
 
     graph.DepthFirstSearch(0);
 
