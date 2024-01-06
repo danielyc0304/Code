@@ -19,7 +19,7 @@ class Graph {
         adjacency_list.resize(num_vertex);
     }
 
-    void AddEdgeList(int from, int to) { adjacency_list[from].push_back(to); }
+    void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
 
     void BreadthFirstSearch(int start) {
         color = new int[num_vertex];
@@ -70,16 +70,16 @@ class Graph {
 int main() {
     Graph graph(9);
 
-    graph.AddEdgeList(0, 1), graph.AddEdgeList(0, 2), graph.AddEdgeList(0, 3);
-    graph.AddEdgeList(1, 0), graph.AddEdgeList(1, 4);
-    graph.AddEdgeList(2, 0), graph.AddEdgeList(2, 4), graph.AddEdgeList(2, 5),
-        graph.AddEdgeList(2, 6), graph.AddEdgeList(2, 7);
-    graph.AddEdgeList(3, 0), graph.AddEdgeList(3, 7);
-    graph.AddEdgeList(4, 1), graph.AddEdgeList(4, 2), graph.AddEdgeList(4, 5);
-    graph.AddEdgeList(5, 2), graph.AddEdgeList(5, 4), graph.AddEdgeList(5, 8);
-    graph.AddEdgeList(6, 2), graph.AddEdgeList(6, 7), graph.AddEdgeList(6, 8);
-    graph.AddEdgeList(7, 2), graph.AddEdgeList(7, 3), graph.AddEdgeList(7, 6);
-    graph.AddEdgeList(8, 5), graph.AddEdgeList(8, 6);
+    graph.AddEdge(0, 1), graph.AddEdge(0, 2), graph.AddEdge(0, 3);
+    graph.AddEdge(1, 0), graph.AddEdge(1, 4);
+    graph.AddEdge(2, 0), graph.AddEdge(2, 4), graph.AddEdge(2, 5),
+        graph.AddEdge(2, 6), graph.AddEdge(2, 7);
+    graph.AddEdge(3, 0), graph.AddEdge(3, 7);
+    graph.AddEdge(4, 1), graph.AddEdge(4, 2), graph.AddEdge(4, 5);
+    graph.AddEdge(5, 2), graph.AddEdge(5, 4), graph.AddEdge(5, 8);
+    graph.AddEdge(6, 2), graph.AddEdge(6, 7), graph.AddEdge(6, 8);
+    graph.AddEdge(7, 2), graph.AddEdge(7, 3), graph.AddEdge(7, 6);
+    graph.AddEdge(8, 5), graph.AddEdge(8, 6);
 
     graph.BreadthFirstSearch(0);
 
