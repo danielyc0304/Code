@@ -7,7 +7,18 @@ class QueueArrayCircular {
     int front, back;
     int capacity;
 
-    void DoubleCapacity();
+    void DoubleCapacity() {
+        int *new_queue = new int[capacity * 2];
+
+        int j = front, size = GetSize();
+        for (int i = 1; i <= size; i++) {
+            new_queue[i] = queue[++j % capacity];
+        }
+        front = 0, back = size;
+        capacity *= 2;
+        delete[] queue;
+        queue = new_queue;
+    }
 
   public:
     QueueArrayCircular() {
@@ -58,18 +69,6 @@ class QueueArrayCircular {
         }
     }
 };
-void QueueArrayCircular::DoubleCapacity() {
-    int *new_queue = new int[capacity * 2];
-
-    int j = front, size = GetSize();
-    for (int i = 1; i <= size; i++) {
-        new_queue[i] = queue[++j % capacity];
-    }
-    front = 0, back = size;
-    capacity *= 2;
-    delete[] queue;
-    queue = new_queue;
-}
 
 int main() {
     QueueArrayCircular queue;
