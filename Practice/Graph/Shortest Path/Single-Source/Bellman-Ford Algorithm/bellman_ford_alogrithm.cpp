@@ -4,7 +4,7 @@ using namespace std;
 
 const int kMaxDistance = 100;
 
-class ShortestPath {
+class SingleSource {
   private:
     int num_vertex;
     vector<list<pair<int, int>>> adjacency_list;
@@ -25,7 +25,7 @@ class ShortestPath {
     }
 
   public:
-    ShortestPath(int num_vertex) {
+    SingleSource(int num_vertex) {
         this->num_vertex = num_vertex;
         adjacency_list.resize(num_vertex);
     }
@@ -74,7 +74,7 @@ class ShortestPath {
 };
 
 int main() {
-    ShortestPath graph(6);
+    SingleSource graph(6);
 
     graph.AddEdge(0, 1, 5);
     graph.AddEdge(1, 2, 6), graph.AddEdge(1, 4, -4);
