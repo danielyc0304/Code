@@ -29,7 +29,7 @@ class SingleSource {
 
         int i = start;
         int time = 0;
-        int k = num_vertex - 1;
+        int k = num_vertex;
         for (int j = 0; j < num_vertex; j++) {
             if (color[i] == 0) {
                 DFSVisit(array, color, discover, finish, i, time, k);
@@ -59,7 +59,7 @@ class SingleSource {
 
         color[vertex] = 2;
         finish[vertex] = ++time;
-        array[k--] = vertex;  // Topological Sort讓finish最小的排在最後面
+        array[--k] = vertex;  // Topological Sort讓finish最小的排在最後面
     }
 
     void Relax(int from, int to, int weight) {
