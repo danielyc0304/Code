@@ -77,7 +77,6 @@ class BinarySearchTree {
         node.push(root);
         while (node.empty() == false) {
             TreeNode *current = node.front();
-            node.pop();
 
             printf("%s(%d) ", current->GetValue().c_str(), current->GetKey());
 
@@ -87,6 +86,8 @@ class BinarySearchTree {
             if (current->right_child != nullptr) {
                 node.push(current->right_child);
             }
+
+            node.pop();
         }
     }
 
