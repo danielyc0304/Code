@@ -55,9 +55,9 @@ class FlowNetworks {
   public:
     FlowNetworks(int num_vertex) {
         this->num_vertex = num_vertex;
-        adjacency_matrix.resize(num_vertex);
+        this->adjacency_matrix.resize(num_vertex);
         for (int i = 0; i < num_vertex; i++) {
-            adjacency_matrix[i].resize(num_vertex);
+            this->adjacency_matrix[i].resize(num_vertex);
         }
     }
 
