@@ -7,7 +7,7 @@ class FlowNetworks {
     int num_vertex;
     vector<vector<int>> adjacency_matrix;
 
-    bool BFSFindExistingPath(vector<vector<int>> residual_graph,
+    bool BFSFindExistingPath(vector<vector<int>> &residual_graph,
                              int *predecessor, int source, int termination) {
         bool visited[num_vertex];
 
@@ -37,7 +37,7 @@ class FlowNetworks {
         return (visited[termination] == true);
     }
 
-    int MinCapacity(vector<vector<int>> residual_graph, int *predecessor,
+    int MinCapacity(vector<vector<int>> &residual_graph, int *predecessor,
                     int termination) {
         int min = 100;
 
