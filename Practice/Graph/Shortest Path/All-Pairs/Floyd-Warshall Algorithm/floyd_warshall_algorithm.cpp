@@ -9,7 +9,7 @@ class AllPairs {
     vector<vector<int>> adjacency_matrix;
     vector<vector<int>> distance, predecessor;
 
-    void PrintArray(vector<vector<int>> array) {
+    void PrintArray(vector<vector<int>> &array) {
         for (int i = 0; i < num_vertex; i++) {
             for (int j = 0; j < num_vertex; j++) {
                 printf("%5d", array[i][j]);
