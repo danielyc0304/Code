@@ -22,6 +22,7 @@ void MaxHeapify(vector<int> &num, int root, int size) {
 
     if (largest != root) {
         swap(num[root], num[largest]);
+
         MaxHeapify(num, largest, size);
     }
 }
