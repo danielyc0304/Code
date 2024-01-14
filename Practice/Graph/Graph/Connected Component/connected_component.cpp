@@ -121,7 +121,7 @@ class Graph {
   public:
     Graph(int num_vertex) {
         this->num_vertex = num_vertex;
-        adjacency_list.resize(num_vertex);
+        this->adjacency_list.resize(num_vertex);
     }
 
     void AddEdge(int from, int to) { adjacency_list[from].push_back(to); }
