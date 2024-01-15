@@ -43,7 +43,7 @@ class BinaryHeap {
     }
 
   public:
-    BinaryHeap(int num) { heap.resize(num + 1); }
+    BinaryHeap(int size) { heap.resize(size + 1); }
 
     void BuildMinHeap(vector<int> &key) {
         for (int i = 0; i < key.size(); i++) {
