@@ -68,7 +68,7 @@ class BinaryHeap {
         int min = heap[1].value;
 
         heap[1] = heap[heap.size() - 1];
-        heap.erase(heap.end());
+        heap.erase(heap.end() - 1);
 
         MinHeapify(1, heap.size());
 
