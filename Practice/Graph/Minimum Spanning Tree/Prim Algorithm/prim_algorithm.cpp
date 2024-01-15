@@ -46,15 +46,15 @@ class MinimumSpanningTree {
 
         weight[start] = 0;
         for (int i = 0; i < num_vertex; i++) {
-            int k = MinKeyExtract(weight, visited, num_vertex);
+            int j = MinKeyExtract(weight, visited, num_vertex);
 
-            visited[k] = true;
+            visited[j] = true;
 
-            for (int j = 0; j < num_vertex; j++) {
-                if (visited[j] == false && adjacency_matrix[k][j] != 0 &&
-                    adjacency_matrix[k][j] < weight[j]) {
-                    weight[j] = adjacency_matrix[k][j];
-                    predecessor[j] = k;
+            for (int k = 0; k < num_vertex; k++) {
+                if (visited[k] == false && adjacency_matrix[j][k] != 0 &&
+                    adjacency_matrix[j][k] < weight[k]) {
+                    weight[j] = adjacency_matrix[j][k];
+                    predecessor[k] = j;
                 }
             }
         }
