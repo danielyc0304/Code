@@ -56,7 +56,7 @@ class BinaryHeap {
         }
     }
 
-    bool IsEmpty() { return heap.size() == 1; }
+    bool IsEmpty() { return (heap.size() == 1); }
 
     int ExtractMin() {
         if (IsEmpty() == true) {
