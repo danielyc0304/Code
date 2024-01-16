@@ -85,7 +85,7 @@ class BinaryHeap {
         }
 
         heap[i].key = new_key;
-        while (i > 1 && heap[i / 2].key > heap[i].key) {
+        while (i > 1 && heap[i].key < heap[i / 2].key) {
             swap(heap[i], heap[i / 2]);
 
             i /= 2;
