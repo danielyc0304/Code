@@ -21,13 +21,13 @@ class FlowNetworks {
         vertex.push(source);
         visited[source] = true;
         while (vertex.empty() == false) {
-            int exploring = vertex.front();
+            int i = vertex.front();
 
-            for (int i = 0; i < num_vertex; i++) {
-                if (residual_graph[exploring][i] != 0 && visited[i] == false) {
-                    vertex.push(i);
-                    visited[i] = true;
-                    predecessor[i] = exploring;
+            for (int j = 0; j < num_vertex; j++) {
+                if (residual_graph[i][j] != 0 && visited[j] == false) {
+                    vertex.push(j);
+                    visited[j] = true;
+                    predecessor[j] = i;
                 }
             }
 
