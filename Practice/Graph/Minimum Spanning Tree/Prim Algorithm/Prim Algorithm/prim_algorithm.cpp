@@ -8,7 +8,7 @@ class MinimumSpanningTree {
     int num_vertex;
     vector<vector<int>> adjacency_matrix;
 
-    int MinKeyExtract(int *weight, bool *visited, int size) {
+    int ExtractMin(int *weight, bool *visited, int size) {
         int min = kMaxWeight, i_min = 0;
 
         for (int i = 0; i < size; i++) {
@@ -46,7 +46,7 @@ class MinimumSpanningTree {
 
         weight[start] = 0;
         for (int i = 0; i < num_vertex; i++) {
-            int j = MinKeyExtract(weight, visited, num_vertex);
+            int j = ExtractMin(weight, visited, num_vertex);
 
             visited[j] = true;
 
