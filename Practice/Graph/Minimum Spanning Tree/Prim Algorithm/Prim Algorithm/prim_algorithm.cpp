@@ -53,7 +53,7 @@ class MinimumSpanningTree {
             for (int k = 0; k < num_vertex; k++) {
                 if (visited[k] == false && adjacency_matrix[j][k] != 0 &&
                     adjacency_matrix[j][k] < weight[k]) {
-                    weight[j] = adjacency_matrix[j][k];
+                    weight[k] = adjacency_matrix[j][k];
                     predecessor[k] = j;
                 }
             }
