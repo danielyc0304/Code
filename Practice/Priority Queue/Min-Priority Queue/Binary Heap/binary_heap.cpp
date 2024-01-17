@@ -10,6 +10,7 @@ struct HeapNode {
 class BinaryHeap {
   private:
     vector<HeapNode> heap;
+    int size;
 
     void MinHeapify(int root, int size) {
         int left = 2 * root, right = 2 * root + 1, smallest;
@@ -43,10 +44,13 @@ class BinaryHeap {
     }
 
   public:
-    BinaryHeap(int size) { heap.resize(size + 1); }
+    BinaryHeap(int size) {
+        this->size = size;
+        this->heap.resize(size + 1);
+    }
 
-    void BuildMinHeap(vector<int> &key) {
-        for (int i = 0; i < key.size(); i++) {
+    void BuildMinHeap(int *key) {
+        for (int i = 0; i < size; i++) {
             heap[i + 1].key = key[i];
             heap[i + 1].value = i;
         }
@@ -60,9 +64,7 @@ class BinaryHeap {
 
     int ExtractMin() {
         if (IsEmpty() == true) {
-            printf("Heap is empty.\n");
-
-            exit(-1);
+            return -1;
         }
 
         int min = heap[1].value;
@@ -100,4 +102,50 @@ class BinaryHeap {
     }
 };
 
-int main() { return 0; }
+int main() {
+    int size;
+    printf("Enter size: "), scanf("%d", &size);
+    BinaryHeap min_priority_queue(size);
+
+    int key[size];
+    printf("Enter keys: ");
+    for (int i = 0; i < size; i++) {
+        scanf("%d", &key[i]);
+    }
+    cin.get();
+    min_priority_queue.BuildMinHeap(key);
+
+    string action;
+    while (printf("Enter action: ") && getline(cin, action)) {
+        if (action == "is empty") {
+            printf("%s\n",
+                   (min_priority_queue.IsEmpty() == true) ? "true" : "false");
+        } else if (action == "extract min") {
+            int num = min_priority_queue.ExtractMin();
+
+            if (num == -1) {
+                printf("Heap is empty.\n");
+            } else {
+                printf("%d\n", num);
+            }
+        } else if (action == "decrease key") {
+            int value, new_key;
+
+            printf("Enter value: "), scanf("%d", &value);
+            printf("Enter new key: "), scanf("%d", &new_key);
+            min_priority_queue.DecreaseKey(value, new_key);
+        } else if (action == "min heap insert") {
+            int key, value;
+
+            printf("Enter key: "), scanf("%d", &key);
+            printf("Enter value: "), scanf("%d", &value);
+            min_priority_queue.MinHeapInsert(key, value);
+        } else if (action == "exit") {
+            break;
+        } else {
+            printf("Invalid action.\n");
+        }
+    }
+
+    return 0;
+}
