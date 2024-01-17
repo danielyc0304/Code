@@ -46,7 +46,8 @@ class SingleSource {
         distance[start] = 0;
         for (
             int i = 0; i < num_vertex - 1;
-            i++) {  // 跑num_vertex-1次是因為最多只有num_vertex-1條路徑，全部走過是最壞的情況，這樣是為了避免進入negative
+            i++) {  // 跑num_vertex - 1次是因為最多只有num_vertex -
+                    // 1條路徑，全部走過是最壞的情況，這樣是為了避免進入negative
                     // cycle
             for (int j = 0; j < num_vertex; j++) {
                 for (list<pair<int, int>>::iterator it =
