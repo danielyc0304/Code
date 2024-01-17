@@ -13,6 +13,7 @@ struct HeapNode {
 class BinaryHeap {
   private:
     vector<HeapNode> heap;
+    int size;
 
     void MinHeapify(int root, int size) {
         int left = 2 * root, right = 2 * root + 1, smallest;
@@ -46,10 +47,13 @@ class BinaryHeap {
     }
 
   public:
-    BinaryHeap(int size) { heap.resize(size + 1); }
+    BinaryHeap(int size) {
+        this->size = size;
+        this->heap.resize(size + 1);
+    }
 
-    void BuildMinHeap(vector<int> &key) {
-        for (int i = 0; i < key.size(); i++) {
+    void BuildMinHeap(int *key) {
+        for (int i = 0; i < size; i++) {
             heap[i + 1].key = key[i];
             heap[i + 1].value = i;
         }
@@ -106,8 +110,8 @@ class MinimumSpanningTree {
   private:
     int num_vertex;
     vector<list<pair<int, int>>> adjacency_list;
-    vector<int> weight, predecessor;
-    vector<bool> visited;
+    int *weight, *predecessor;
+    bool *visited;
 
   public:
     MinimumSpanningTree(int num_vertex) {
@@ -120,9 +124,15 @@ class MinimumSpanningTree {
     }
 
     void PrimMinPriorityQueue(int start) {
-        weight.resize(num_vertex, kMaxWeight);
-        predecessor.resize(num_vertex, -1);
-        visited.resize(num_vertex, false);
+        weight = new int[num_vertex];
+        predecessor = new int[num_vertex];
+        visited = new bool[num_vertex];
+
+        for (int i = 0; i < num_vertex; i++) {
+            weight[i] = kMaxWeight;
+            predecessor[i] = -1;
+            visited[i] = false;
+        }
 
         weight[start] = 0;
 
