@@ -62,12 +62,6 @@ class BinaryHeap {
     bool IsEmpty() { return (heap.size() == 1); }
 
     int ExtractMin() {
-        if (IsEmpty() == true) {
-            printf("Heap is empty.\n");
-
-            exit(-1);
-        }
-
         int min = heap[1].value;
 
         heap[1] = heap[heap.size() - 1];
