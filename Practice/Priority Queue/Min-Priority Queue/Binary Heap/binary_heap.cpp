@@ -10,7 +10,6 @@ struct HeapNode {
 class BinaryHeap {
   private:
     vector<HeapNode> heap;
-    int size;
 
     void MinHeapify(int root, int size) {
         int left = 2 * root, right = 2 * root + 1, smallest;
@@ -44,12 +43,9 @@ class BinaryHeap {
     }
 
   public:
-    BinaryHeap(int size) {
-        this->size = size;
-        this->heap.resize(size + 1);
-    }
+    BinaryHeap(int size) { this->heap.resize(size + 1); }
 
-    void BuildMinHeap(int *key) {
+    void BuildMinHeap(int *key, int size) {
         for (int i = 0; i < size; i++) {
             heap[i + 1].key = key[i];
             heap[i + 1].value = i;
@@ -113,7 +109,7 @@ int main() {
         scanf("%d", &key[i]);
     }
     cin.get();
-    min_priority_queue.BuildMinHeap(key);
+    min_priority_queue.BuildMinHeap(key, size);
 
     string action;
     while (printf("Enter action: ") && getline(cin, action)) {
