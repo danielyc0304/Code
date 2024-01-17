@@ -98,13 +98,6 @@ class BinaryHeap {
             i /= 2;
         }
     }
-
-    void MinHeapInsert(int key, int value) {
-        heap.push_back(HeapNode(key, value));
-
-        DecreaseKey(value, key);  // DecreaseKey並不會阻止key ==
-                                  // new_key的情況，所以直接拿來做插入
-    }
 };
 class MinimumSpanningTree {
   private:
