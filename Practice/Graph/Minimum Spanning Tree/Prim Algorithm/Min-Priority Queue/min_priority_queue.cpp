@@ -146,8 +146,6 @@ class MinimumSpanningTree {
             printf(" %d - %d  :   %d\n", predecessor[i], i, weight[i]);
         }
     }
-
-    friend class BinaryHeap;
 };
 
 int main() {
