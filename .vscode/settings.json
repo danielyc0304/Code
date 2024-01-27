@@ -9,8 +9,8 @@
       "server": "127.0.0.1",
       "port": 3306,
       "driver": "MySQL",
-      "name": "MySQL",
-      "database": "Practice",
+      "name": "practice",
+      "database": "practice",
       "username": "root",
       "password": ""
     }
