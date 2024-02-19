@@ -77,7 +77,6 @@ int main() {
 
             printf("%d ", Mod(sumA * weight_sumB + sumB * weight_sumA));
         }
-
         printf("\n");
     }
 
