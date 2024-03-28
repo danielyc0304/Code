@@ -12,14 +12,14 @@ int main() {
     int N;
     scanf("%d", &N);
 
-    int pre = 0, c = 0;
+    int previous = 0, c = 0;
     for (int i = 0; i < N; i++) {
         int num;
         scanf("%d", &num);
 
-        if (pre != num) {
+        if (previous != num) {
             c++;
-            pre = num;
+            previous = num;
         }
     }
 
