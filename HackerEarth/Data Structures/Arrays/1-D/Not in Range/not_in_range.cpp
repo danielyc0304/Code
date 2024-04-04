@@ -30,6 +30,7 @@ int main() {
             sum += i;
         }
     }
+
     printf("%ld\n", sum);
 
     return 0;
