@@ -37,20 +37,20 @@ int main() {
                 (sum + (long int)(S[j] - 48) * power(10, M - j - 1, K) % K) % K;
         }
 
-        int num_max = sum;
+        int max_num = sum;
         int previous = 0;
         for (int j = 0; j < M; j++) {
             sum = (sum - (long int)(S[j] - 48) * power(10, M - j - 1, K) % K +
                    K) %
                   K;  // 要加上K避免減法運算出現負數
 
-            num_max = max(num_max, (sum + previous) % K);
+            max_num = max(max_num, (sum + previous) % K);
 
             previous =
                 (previous + (long int)(S[j] - 48) * power(10, M - j - 2, K) % K) % K;
         }
 
-        printf("%d\n", num_max);
+        printf("%d\n", max_num);
     }
 
     return 0;
