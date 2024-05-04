@@ -6,7 +6,7 @@ Time: 2024-04-16 08:23:30 Add
 */
 
 /*
-TODO: TLE，現階段來說太難了
+TODO TLE，現階段來說太難了
 https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/large-sub-arrays-5bd8005b/editorial/
 */
 
