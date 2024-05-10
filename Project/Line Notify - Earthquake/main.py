@@ -1,4 +1,5 @@
 import requests
+import time as t
 
 # Earthquake
 earthquake_token = "CWA-54E742AA-901E-45B0-84E1-42EF6CE8FFA8"
@@ -100,4 +101,4 @@ while True:
 
         pre_number = number
 
-    time.sleep(60)
+    t.sleep(60)
