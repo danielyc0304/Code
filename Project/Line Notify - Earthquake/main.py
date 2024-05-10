@@ -84,12 +84,8 @@ while True:
                 message["message"] += "\n"
 
         ## 加入圖片 ##
-        message["imageThumbnail"] = (
-            "https://scweb.cwa.gov.tw/webdata/OLDEQ/202405/2024050410315840371_H.png"
-        )
-        message["imageFullsize"] = (
-            "https://scweb.cwa.gov.tw/webdata/OLDEQ/202405/2024050410315840371_H.png"
-        )
+        message["imageThumbnail"] = data["ReportImageURI"]
+        message["imageFullsize"] = data["ReportImageURI"]
 
         ### Line Notify ###
         # 發送訊息
