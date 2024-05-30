@@ -107,6 +107,11 @@ def main(request):
     requests.post(line_notify_url, headers=header, data=message)
 
     # Firestore儲存資料
-    doc_ref.set({"pre_number": number})
+    doc_ref.set(
+        {
+            "pre_number": number,
+            "pre_time": f"{int(date[0]) - 1911}/{date[1]}/{date[2]} {time[0]}:{time[1]}:{time[2]}",
+        }
+    )
 
     return "OK"
