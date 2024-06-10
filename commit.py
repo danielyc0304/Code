@@ -3,10 +3,10 @@ import sys
 
 ROOT = f"{os.getcwd()}/ZeroJudge/Basic Question Bank"
 
-active = input("Active (e.g. c-): ")
+action = input("Active (e.g. c-): ")
 
 # commit
-if active[0] == "c":
+if action[0] == "c":
     file = input("Commit file (e.g. a001): ")
     message = input('Commit message (e.g. add): ')
 
@@ -19,7 +19,7 @@ if active[0] == "c":
         sys.exit()
 
 # create
-if active[1] == "c":
+if action[1] == "c":
     file = input("Create file (e.g. a001): ")
 
     if os.path.isdir(f"{ROOT}/{file[0].upper()}") is False:
