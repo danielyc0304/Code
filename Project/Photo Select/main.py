@@ -37,12 +37,13 @@ with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as f
     os.chdir(f"{ROOT}/{months[month]}/{dates[date]}/{locations[location]}")
 
     # 讀取目標照片
-    photos = sorted(
-        [
-            f"DSC{'0' * (5 - len(line.strip()))}{line.strip()}.JPG"
-            for line in file.readlines()
-        ]
-    )
+    photos = []
+    for line in file.readlines():
+        if "-" in line:
+            for i in range(int(line.split("-")[0]), int(line.split("-")[1]) + 1):
+                photos.append(f"DSC{'0' * (5 - len(str(i)))}{i}.JPG")
+        else:
+            photos.append(f"DSC{'0' * (5 - len(line.strip()))}{line.strip()}.JPG")
     for photo in photos:
         while os.path.exists(photo) is False:
             location += 1
