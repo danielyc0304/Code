@@ -20,11 +20,11 @@ doc_ref = db.collection("line-notify-earthquake").document("earthquake")
 line_notify_token = "gA7LycwcrixzzpJKomSZNGS4jTL5W3PjTSrrUILT01O"
 line_notify_url = "https://notify-api.line.me/api/notify"
 
-header = {"Authorization": f"Bearer {line_notify_token}"}
+headers = {"Authorization": f"Bearer {line_notify_token}"}
 
 
 # 部署在Cloud Functions
-def main(request=None):
+def main(request):
     #### Earthquake ####
     data = requests.get(earthquake_url).json()["records"]["Earthquake"]
 
@@ -110,7 +110,7 @@ def main(request=None):
 
         #### Line Notify ####
         # 發送訊息
-        requests.post(line_notify_url, headers=header, data=message)
+        requests.post(line_notify_url, headers=headers, data=message)
 
     # Firestore儲存資料
     doc_ref.set(
