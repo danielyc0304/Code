@@ -11,13 +11,13 @@ cwa_token = "CWA-54E742AA-901E-45B0-84E1-42EF6CE8FFA8"
 # 地震 API
 earthquake_url = f"https://opendata.cwa.gov.tw/api/v1/rest/datastore/E-A0015-001?Authorization={cwa_token}&format=JSON"
 
-# Firestore API
+## Firestore API ##
 cred = credentials.Certificate("serviceAccount.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 doc_ref = db.collection("line-notify-earthquake").document("earthquake")
 
-# Line Notify API
+## Line Notify API ##
 line_notify_token = "gA7LycwcrixzzpJKomSZNGS4jTL5W3PjTSrrUILT01O"
 line_notify_url = "https://notify-api.line.me/api/notify"
 
