@@ -1,0 +1,23 @@
+{
+  "destination": "Ua72862f7c59c586be6a291969d905df5",
+  "events": [
+    {
+      "type": "message",
+      "message": {
+        "type": "text",
+        "id": "515946725744312471",
+        "quoteToken": "zbcQA2al8wcANdFr_KemPKKjPNaa3WnIfjWzsaPZu_5DP1c2yPDnj1_9KA-HwgqluUtYB0sCTjakWYKqRywN4Z3wSe97AqqJG4dk96Lhp9_NFhxwcIAPYUrO2ZD3qO5lgMliaX-tPcKdAab09MWOpA",
+        "text": "測試"
+      },
+      "webhookEventId": "01J26PNZ28D3SNQBTWF5Z433RC",
+      "deliveryContext": { "isRedelivery": "False" },
+      "timestamp": 1720359517163,
+      "source": {
+        "type": "user",
+        "userId": "Ue7657226bf06442d1d96437227bb1638"
+      },
+      "replyToken": "ba4d482b7d6d483f8039cb2665d8b284",
+      "mode": "active"
+    }
+  ]
+}

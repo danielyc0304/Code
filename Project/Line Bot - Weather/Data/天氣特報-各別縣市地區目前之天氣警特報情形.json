@@ -1,0 +1,59 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "W-C0033-001",
+    "fields": [
+      {
+        "id": "locationName",
+        "type": "String"
+      },
+      {
+        "id": "geocode",
+        "type": "Double"
+      },
+      {
+        "id": "language",
+        "type": "String"
+      },
+      {
+        "id": "phenomena",
+        "type": "String"
+      },
+      {
+        "id": "significance",
+        "type": "String"
+      },
+      {
+        "id": "startTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "endTime",
+        "type": "Timestamp"
+      }
+    ]
+  },
+  "records": {
+    "location": [
+      {
+        "locationName": "臺南市",
+        "geocode": 67,
+        "hazardConditions": {
+          "hazards": [
+            {
+              "info": {
+                "language": "zh-TW",
+                "phenomena": "大雨",
+                "significance": "特報"
+              },
+              "validTime": {
+                "startTime": "2024-07-13 14:16:00",
+                "endTime": "2024-07-13 23:00:00"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

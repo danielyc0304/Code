@@ -1,0 +1,3 @@
+firebase_admin==6.5.0
+line_bot_sdk==3.11.0
+Requests==2.31.0

@@ -1,0 +1,462 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "W-C0033-002",
+    "fields": [
+      {
+        "id": "datasetDescription",
+        "type": "String"
+      },
+      {
+        "id": "datasetLanguage",
+        "type": "String"
+      },
+      {
+        "id": "issueTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "startTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "endTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "update",
+        "type": "Timestamp"
+      },
+      {
+        "id": "contentLanguage",
+        "type": "String"
+      },
+      {
+        "id": "contentText",
+        "type": "String"
+      },
+      {
+        "id": "language",
+        "type": "String"
+      },
+      {
+        "id": "phenomena",
+        "type": "String"
+      },
+      {
+        "id": "significance",
+        "type": "String"
+      },
+      {
+        "id": "locationName",
+        "type": "String"
+      }
+    ]
+  },
+  "records": {
+    "record": [
+      {
+        "datasetInfo": {
+          "datasetDescription": "海上陸上颱風警報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-24 11:30:00",
+            "endTime": "2024-07-24 15:30:00"
+          },
+          "issueTime": "2024-07-24 11:30:00",
+          "update": "2024-07-24 11:35:58"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                [警戒區域及事項]\n陸上：臺灣各地區(含綠島、蘭嶼)及澎湖、金門、馬祖應嚴加戒備，並防強風豪雨。海上：臺灣附近各海面及巴士海峽航行及作業船隻應嚴加戒備。\n\n[颱風動態]\n根據最新資料顯示，第3號颱風已增強為強烈颱風，目前中心在宜蘭東南方海面，向北轉西北西移動，其暴風圈正壟罩臺灣，對臺灣各地及澎湖、馬祖、金門構成威脅，各地風雨持續增強。\n\n[注意事項]\n＊颱風登陸前受地形影響，路徑可能出現偏折或打轉，預計今(24日)晚至明(25日)凌晨宜蘭及北花蓮地區將受到颱風近中心強風豪雨影響，請嚴加戒備。＊今(24)日臺灣附近各沿海地區(含蘭嶼、綠島)及澎湖、金門、馬祖風浪明顯偏大，並易有長浪發生，尤其基隆北海岸、東半部、恆春半島及雲林以北沿海將有6米以上浪高，請避免前往海邊活動。＊適逢大潮，漲潮期間西南部、北海岸、宜蘭及臺東沿海低窪地區需留意海水倒灌及積淹水。＊陸上強風特報：今(24)日颱風影響，臺灣各地沿海、空曠地區及離島風力明顯偏強，宜蘭、花蓮沿海及空曠地區將有12至14級強陣風，西半部沿海及空曠地區、基隆北海岸、恆春半島、澎湖、蘭嶼、綠島有10至11級強陣風，臺東沿海及空曠地區、臺北市、馬祖有9至10級強陣風，嘉義市、南投、金門亦有8至9級強陣風，請特別注意。＊高溫資訊：颱風外圍環流沉降影響，今(24)日白天金門縣為黃色燈號，請注意。＊23日0時至24日11時出現較大雨量如下：宜蘭縣太平山372.0毫米，臺中市南湖圈谷286.5毫米，桃園市拉拉山238.0毫米，花蓮縣和平林道212.5毫米，新北市福山植物園210.0毫米；出現較大陣風區域如下：蘭嶼11級，彭佳嶼10級。＊本警報單之颱風平均半徑約為250公里，詳細特性請參考本署颱風輔助說明(https://www.cwa.gov.tw/Data/typhoon/TY_PDF.pdf)。\n\n                "
+          }
+        },
+        "hazardConditions": {
+          "hazards": {
+            "hazard": [
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "颱風",
+                  "significance": "警報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "巴士海峽東部"
+                      },
+                      {
+                        "locationName": "巴士海峽西部"
+                      },
+                      {
+                        "locationName": "臺灣北部海面"
+                      },
+                      {
+                        "locationName": "臺灣東北部海面"
+                      },
+                      {
+                        "locationName": "臺灣東南部海面"
+                      },
+                      {
+                        "locationName": "臺灣海峽北部"
+                      },
+                      {
+                        "locationName": "臺灣海峽南部"
+                      },
+                      {
+                        "locationName": "南投縣"
+                      },
+                      {
+                        "locationName": "嘉義縣"
+                      },
+                      {
+                        "locationName": "嘉義市"
+                      },
+                      {
+                        "locationName": "基隆市"
+                      },
+                      {
+                        "locationName": "宜蘭縣"
+                      },
+                      {
+                        "locationName": "屏東縣"
+                      },
+                      {
+                        "locationName": "彰化縣"
+                      },
+                      {
+                        "locationName": "屏東縣"
+                      },
+                      {
+                        "locationName": "新北市"
+                      },
+                      {
+                        "locationName": "新竹縣"
+                      },
+                      {
+                        "locationName": "新竹市"
+                      },
+                      {
+                        "locationName": "桃園市"
+                      },
+                      {
+                        "locationName": "澎湖縣"
+                      },
+                      {
+                        "locationName": "臺中市"
+                      },
+                      {
+                        "locationName": "臺北市"
+                      },
+                      {
+                        "locationName": "臺南市"
+                      },
+                      {
+                        "locationName": "臺東縣"
+                      },
+                      {
+                        "locationName": "花蓮縣"
+                      },
+                      {
+                        "locationName": "苗栗縣"
+                      },
+                      {
+                        "locationName": "金門縣"
+                      },
+                      {
+                        "locationName": "雲林縣"
+                      },
+                      {
+                        "locationName": "連江縣"
+                      },
+                      {
+                        "locationName": "高雄市"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "datasetInfo": {
+          "datasetDescription": "豪雨特報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-24 10:39:00",
+            "endTime": "2024-07-25 05:00:00"
+          },
+          "issueTime": "2024-07-24 10:35:00",
+          "update": "2024-07-24 11:35:58"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                颱風及其外圍環流影響，今（２４）日臺中市、南投縣、雲林縣、嘉義縣、臺南市、高雄市、屏東縣、宜蘭縣山區有局部大豪雨或超大豪雨，新北市、桃園市、新竹縣、苗栗縣、花蓮縣、臺東縣山區及嘉義縣、臺南市、高雄市、屏東縣平地有局部豪雨或大豪雨，臺北市山區及新北市、新竹縣、苗栗縣、臺中市、南投縣、雲林縣、宜蘭縣、花蓮縣、臺東縣平地及彰化縣、嘉義市有局部大雨或豪雨，其他地區及澎湖、蘭嶼、綠島亦有局部大雨，請注意坍方落石、土石流及山洪爆發，沿海低窪地區請慎防淹水，民眾應避免進入山區及河川活動。\n\n超大豪雨地區：臺中市、南投縣、雲林縣、嘉義縣、臺南市、高雄市、屏東縣、宜蘭縣。\n\n大豪雨地區：新北市、桃園市、新竹縣、苗栗縣、花蓮縣、臺東縣。\n                "
+          }
+        },
+        "hazardConditions": {
+          "hazards": {
+            "hazard": [
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "超大豪雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "臺中市山區"
+                      },
+                      {
+                        "locationName": "南投縣山區"
+                      },
+                      {
+                        "locationName": "雲林縣山區"
+                      },
+                      {
+                        "locationName": "嘉義縣山區"
+                      },
+                      {
+                        "locationName": "臺南市山區"
+                      },
+                      {
+                        "locationName": "高雄市山區"
+                      },
+                      {
+                        "locationName": "屏東縣山區"
+                      },
+                      {
+                        "locationName": "宜蘭縣山區"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "大豪雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "新北市山區"
+                      },
+                      {
+                        "locationName": "桃園市山區"
+                      },
+                      {
+                        "locationName": "新竹縣山區"
+                      },
+                      {
+                        "locationName": "苗栗縣山區"
+                      },
+                      {
+                        "locationName": "嘉義縣"
+                      },
+                      {
+                        "locationName": "臺南市"
+                      },
+                      {
+                        "locationName": "高雄市"
+                      },
+                      {
+                        "locationName": "屏東縣"
+                      },
+                      {
+                        "locationName": "恆春半島"
+                      },
+                      {
+                        "locationName": "花蓮縣山區"
+                      },
+                      {
+                        "locationName": "臺東縣山區"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "豪雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "臺北市山區"
+                      },
+                      {
+                        "locationName": "新北市"
+                      },
+                      {
+                        "locationName": "新竹縣"
+                      },
+                      {
+                        "locationName": "苗栗縣"
+                      },
+                      {
+                        "locationName": "臺中市"
+                      },
+                      {
+                        "locationName": "彰化縣"
+                      },
+                      {
+                        "locationName": "南投縣"
+                      },
+                      {
+                        "locationName": "雲林縣"
+                      },
+                      {
+                        "locationName": "嘉義市"
+                      },
+                      {
+                        "locationName": "宜蘭縣"
+                      },
+                      {
+                        "locationName": "花蓮縣"
+                      },
+                      {
+                        "locationName": "臺東縣"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "大雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "基隆北海岸"
+                      },
+                      {
+                        "locationName": "臺北市"
+                      },
+                      {
+                        "locationName": "桃園市"
+                      },
+                      {
+                        "locationName": "新竹市"
+                      },
+                      {
+                        "locationName": "蘭嶼綠島"
+                      },
+                      {
+                        "locationName": "澎湖縣"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "datasetInfo": {
+          "datasetDescription": "陸上強風特報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-24 11:30:00",
+            "endTime": "2024-07-25 22:00:00"
+          },
+          "issueTime": "2024-07-24 11:30:00",
+          "update": "2024-07-24 11:35:58"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                今（２４）日颱風影響，臺灣各地沿海、空曠地區及離島風力明顯偏強，宜蘭、花蓮沿海及空曠地區將有１２至１４級強陣風，西半部、花蓮沿海及空曠地區、基隆北海岸、恆春半島、澎湖、蘭嶼、綠島有１０至１１級強陣風，臺東沿海及空曠地區、臺北市、馬祖有９至１０級強陣風，嘉義市、南投、金門亦有８至９級強陣風，請特別注意。\n                "
+          }
+        },
+        "hazardConditions": {
+          "hazards": {
+            "hazard": [
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "陸上強風",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "基隆北海岸"
+                      },
+                      {
+                        "locationName": "臺北市"
+                      },
+                      {
+                        "locationName": "新北市"
+                      },
+                      {
+                        "locationName": "桃園市"
+                      },
+                      {
+                        "locationName": "新竹市"
+                      },
+                      {
+                        "locationName": "新竹縣"
+                      },
+                      {
+                        "locationName": "苗栗縣"
+                      },
+                      {
+                        "locationName": "臺中市"
+                      },
+                      {
+                        "locationName": "彰化縣"
+                      },
+                      {
+                        "locationName": "雲林縣"
+                      },
+                      {
+                        "locationName": "嘉義縣"
+                      },
+                      {
+                        "locationName": "臺南市"
+                      },
+                      {
+                        "locationName": "高雄市"
+                      },
+                      {
+                        "locationName": "屏東縣"
+                      },
+                      {
+                        "locationName": "恆春半島"
+                      },
+                      {
+                        "locationName": "宜蘭縣"
+                      },
+                      {
+                        "locationName": "花蓮縣"
+                      },
+                      {
+                        "locationName": "臺東縣"
+                      },
+                      {
+                        "locationName": "蘭嶼綠島"
+                      },
+                      {
+                        "locationName": "澎湖縣"
+                      },
+                      {
+                        "locationName": "連江縣"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

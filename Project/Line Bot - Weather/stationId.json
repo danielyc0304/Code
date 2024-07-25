@@ -1,0 +1,6860 @@
+[
+  {
+    "StationName": "九份二山",
+    "StationId": "C1I230",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "基隆",
+    "StationId": "466940",
+    "County": "基隆市",
+    "Town": "仁愛區"
+  },
+  {
+    "StationName": "淡水",
+    "StationId": "466900",
+    "County": "新北市",
+    "Town": "淡水區"
+  },
+  {
+    "StationName": "新北",
+    "StationId": "466881",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "陽明山",
+    "StationId": "466930",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "鞍部",
+    "StationId": "466910",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "新竹",
+    "StationId": "467571",
+    "County": "新竹縣",
+    "Town": "竹北市"
+  },
+  {
+    "StationName": "臺中",
+    "StationId": "467490",
+    "County": "臺中市",
+    "Town": "北區"
+  },
+  {
+    "StationName": "澎湖",
+    "StationId": "467350",
+    "County": "澎湖縣",
+    "Town": "馬公市"
+  },
+  {
+    "StationName": "日月潭",
+    "StationId": "467650",
+    "County": "南投縣",
+    "Town": "魚池鄉"
+  },
+  {
+    "StationName": "阿里山",
+    "StationId": "467530",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "玉山",
+    "StationId": "467550",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "嘉義",
+    "StationId": "467480",
+    "County": "嘉義市",
+    "Town": "西區"
+  },
+  {
+    "StationName": "臺南",
+    "StationId": "467410",
+    "County": "臺南市",
+    "Town": "中西區"
+  },
+  {
+    "StationName": "高雄",
+    "StationId": "467441",
+    "County": "高雄市",
+    "Town": "楠梓區"
+  },
+  {
+    "StationName": "恆春",
+    "StationId": "467590",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "宜蘭",
+    "StationId": "467080",
+    "County": "宜蘭縣",
+    "Town": "宜蘭市"
+  },
+  {
+    "StationName": "花蓮",
+    "StationId": "466990",
+    "County": "花蓮縣",
+    "Town": "花蓮市"
+  },
+  {
+    "StationName": "成功",
+    "StationId": "467610",
+    "County": "臺東縣",
+    "Town": "成功鎮"
+  },
+  {
+    "StationName": "臺東",
+    "StationId": "467660",
+    "County": "臺東縣",
+    "Town": "臺東市"
+  },
+  {
+    "StationName": "大武",
+    "StationId": "467540",
+    "County": "臺東縣",
+    "Town": "大武鄉"
+  },
+  {
+    "StationName": "蘭嶼",
+    "StationId": "467620",
+    "County": "臺東縣",
+    "Town": "蘭嶼鄉"
+  },
+  {
+    "StationName": "彭佳嶼",
+    "StationId": "466950",
+    "County": "基隆市",
+    "Town": "中正區"
+  },
+  {
+    "StationName": "東吉島",
+    "StationId": "467300",
+    "County": "澎湖縣",
+    "Town": "望安鄉"
+  },
+  {
+    "StationName": "東沙島",
+    "StationId": "468100",
+    "County": "高雄市",
+    "Town": "旗津區"
+  },
+  {
+    "StationName": "永康",
+    "StationId": "467420",
+    "County": "臺南市",
+    "Town": "永康區"
+  },
+  {
+    "StationName": "金門(東)",
+    "StationId": "A0W030",
+    "County": "金門縣",
+    "Town": "金湖鎮"
+  },
+  {
+    "StationName": "拉拉山",
+    "StationId": "CAC040",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "武陵",
+    "StationId": "A0F010",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "臺北",
+    "StationId": "466920",
+    "County": "臺北市",
+    "Town": "中正區"
+  },
+  {
+    "StationName": "彰師大",
+    "StationId": "A0G720",
+    "County": "彰化縣",
+    "Town": "彰化市"
+  },
+  {
+    "StationName": "合歡山",
+    "StationId": "A0Z080",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "吉貝",
+    "StationId": "A0W080",
+    "County": "澎湖縣",
+    "Town": "白沙鄉"
+  },
+  {
+    "StationName": "金門",
+    "StationId": "467110",
+    "County": "金門縣",
+    "Town": "金城鎮"
+  },
+  {
+    "StationName": "馬祖",
+    "StationId": "467990",
+    "County": "連江縣",
+    "Town": "南竿鄉"
+  },
+  {
+    "StationName": "麥寮",
+    "StationId": "A0K420",
+    "County": "雲林縣",
+    "Town": "麥寮鄉"
+  },
+  {
+    "StationName": "新屋",
+    "StationId": "467050",
+    "County": "桃園市",
+    "Town": "新屋區"
+  },
+  {
+    "StationName": "古坑",
+    "StationId": "A2K570",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "田中",
+    "StationId": "467270",
+    "County": "彰化縣",
+    "Town": "田中鎮"
+  },
+  {
+    "StationName": "關渡",
+    "StationId": "C1AC50",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "新莊",
+    "StationId": "C0ACA0",
+    "County": "新北市",
+    "Town": "新莊區"
+  },
+  {
+    "StationName": "中和",
+    "StationId": "C0AG80",
+    "County": "新北市",
+    "Town": "中和區"
+  },
+  {
+    "StationName": "文山",
+    "StationId": "C0AC80",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "山佳",
+    "StationId": "C0A520",
+    "County": "新北市",
+    "Town": "樹林區"
+  },
+  {
+    "StationName": "桶後",
+    "StationId": "C0A570",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "林口",
+    "StationId": "C0AH50",
+    "County": "新北市",
+    "Town": "林口區"
+  },
+  {
+    "StationName": "桃園",
+    "StationId": "C0C480",
+    "County": "桃園市",
+    "Town": "桃園區"
+  },
+  {
+    "StationName": "水尾",
+    "StationId": "C1C510",
+    "County": "桃園市",
+    "Town": "楊梅區"
+  },
+  {
+    "StationName": "八德",
+    "StationId": "C0C490",
+    "County": "桃園市",
+    "Town": "八德區"
+  },
+  {
+    "StationName": "新埔",
+    "StationId": "C1D380",
+    "County": "新竹縣",
+    "Town": "新埔鎮"
+  },
+  {
+    "StationName": "鳥嘴山",
+    "StationId": "C1D400",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "峨眉",
+    "StationId": "C0D430",
+    "County": "新竹縣",
+    "Town": "峨眉鄉"
+  },
+  {
+    "StationName": "大河",
+    "StationId": "C0E850",
+    "County": "苗栗縣",
+    "Town": "三灣鄉"
+  },
+  {
+    "StationName": "白蘭",
+    "StationId": "C1D410",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "太閣南",
+    "StationId": "C1D420",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "鳳美",
+    "StationId": "C1E480",
+    "County": "苗栗縣",
+    "Town": "南庄鄉"
+  },
+  {
+    "StationName": "大湖",
+    "StationId": "C2E520",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "龍溪",
+    "StationId": "C2E540",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "明德",
+    "StationId": "C0E550",
+    "County": "苗栗縣",
+    "Town": "頭屋鄉"
+  },
+  {
+    "StationName": "通霄",
+    "StationId": "C0E590",
+    "County": "苗栗縣",
+    "Town": "通霄鎮"
+  },
+  {
+    "StationName": "南勢",
+    "StationId": "C1E601",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "打鐵坑",
+    "StationId": "C0D480",
+    "County": "新竹縣",
+    "Town": "新埔鎮"
+  },
+  {
+    "StationName": "竹南",
+    "StationId": "C0E420",
+    "County": "苗栗縣",
+    "Town": "竹南鎮"
+  },
+  {
+    "StationName": "南庄",
+    "StationId": "C0E430",
+    "County": "苗栗縣",
+    "Town": "南庄鄉"
+  },
+  {
+    "StationName": "梅花",
+    "StationId": "C0D360",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "馬都安",
+    "StationId": "C0E610",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "雪嶺",
+    "StationId": "C1F941",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "新開",
+    "StationId": "C1E511",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "松安",
+    "StationId": "C1E461",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "大甲",
+    "StationId": "C2F930",
+    "County": "臺中市",
+    "Town": "大甲區"
+  },
+  {
+    "StationName": "東勢",
+    "StationId": "C0F850",
+    "County": "臺中市",
+    "Town": "東勢區"
+  },
+  {
+    "StationName": "石岡",
+    "StationId": "C0F0B0",
+    "County": "臺中市",
+    "Town": "石岡區"
+  },
+  {
+    "StationName": "新伯公",
+    "StationId": "C1F911",
+    "County": "臺中市",
+    "Town": "東勢區"
+  },
+  {
+    "StationName": "稍來",
+    "StationId": "C1F891",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "上谷關",
+    "StationId": "C1F871",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "阿眉",
+    "StationId": "C1H9B1",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "合歡山頂",
+    "StationId": "C0H9C0",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "環湖",
+    "StationId": "C1O850",
+    "County": "臺南市",
+    "Town": "大內區"
+  },
+  {
+    "StationName": "大棟山",
+    "StationId": "C1O870",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "菜瓜坪",
+    "StationId": "C1M400",
+    "County": "嘉義縣",
+    "Town": "大埔鄉"
+  },
+  {
+    "StationName": "關山",
+    "StationId": "C1O880",
+    "County": "臺南市",
+    "Town": "南化區"
+  },
+  {
+    "StationName": "楠西",
+    "StationId": "C1O921",
+    "County": "臺南市",
+    "Town": "楠西區"
+  },
+  {
+    "StationName": "龍美",
+    "StationId": "C1M390",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "馬頭山",
+    "StationId": "C2M410",
+    "County": "嘉義縣",
+    "Town": "大埔鄉"
+  },
+  {
+    "StationName": "表湖",
+    "StationId": "C0M850",
+    "County": "嘉義縣",
+    "Town": "大埔鄉"
+  },
+  {
+    "StationName": "善化",
+    "StationId": "C0O900",
+    "County": "臺南市",
+    "Town": "善化區"
+  },
+  {
+    "StationName": "曾文",
+    "StationId": "C2O810",
+    "County": "臺南市",
+    "Town": "楠西區"
+  },
+  {
+    "StationName": "上德文",
+    "StationId": "C1R120",
+    "County": "屏東縣",
+    "Town": "三地門鄉"
+  },
+  {
+    "StationName": "尖山",
+    "StationId": "C1V390",
+    "County": "高雄市",
+    "Town": "燕巢區"
+  },
+  {
+    "StationName": "里港",
+    "StationId": "C0R590",
+    "County": "屏東縣",
+    "Town": "里港鄉"
+  },
+  {
+    "StationName": "大津",
+    "StationId": "C1V340",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "口社",
+    "StationId": "C1R110",
+    "County": "屏東縣",
+    "Town": "三地門鄉"
+  },
+  {
+    "StationName": "沙崙",
+    "StationId": "C1N001",
+    "County": "臺南市",
+    "Town": "歸仁區"
+  },
+  {
+    "StationName": "高中",
+    "StationId": "C1V231",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "小關山",
+    "StationId": "C1V220",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "梅山",
+    "StationId": "C1V200",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "南天池",
+    "StationId": "C1V190",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "排雲",
+    "StationId": "C1V170",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "新高口",
+    "StationId": "C1I440",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "達卡努瓦",
+    "StationId": "C1V160",
+    "County": "高雄市",
+    "Town": "那瑪夏區"
+  },
+  {
+    "StationName": "古亭坑",
+    "StationId": "C0V370",
+    "County": "高雄市",
+    "Town": "田寮區"
+  },
+  {
+    "StationName": "美濃",
+    "StationId": "C0V310",
+    "County": "高雄市",
+    "Town": "美濃區"
+  },
+  {
+    "StationName": "尾寮山",
+    "StationId": "C0R100",
+    "County": "屏東縣",
+    "Town": "三地門鄉"
+  },
+  {
+    "StationName": "三地門",
+    "StationId": "C0R150",
+    "County": "屏東縣",
+    "Town": "內埔鄉"
+  },
+  {
+    "StationName": "甲仙",
+    "StationId": "C2V250",
+    "County": "高雄市",
+    "Town": "甲仙區"
+  },
+  {
+    "StationName": "潮州",
+    "StationId": "C0R220",
+    "County": "屏東縣",
+    "Town": "潮州鎮"
+  },
+  {
+    "StationName": "清流",
+    "StationId": "C1H900",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "長豐",
+    "StationId": "C1H920",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "雙冬",
+    "StationId": "C1H941",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "中寮",
+    "StationId": "C2H950",
+    "County": "南投縣",
+    "Town": "中寮鄉"
+  },
+  {
+    "StationName": "瑞岩",
+    "StationId": "C1H860",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "大坑",
+    "StationId": "C0F970",
+    "County": "臺中市",
+    "Town": "北屯區"
+  },
+  {
+    "StationName": "芬園",
+    "StationId": "C0G620",
+    "County": "彰化縣",
+    "Town": "芬園鄉"
+  },
+  {
+    "StationName": "六分寮",
+    "StationId": "C1H971",
+    "County": "南投縣",
+    "Town": "南投市"
+  },
+  {
+    "StationName": "草屯",
+    "StationId": "C0H960",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "神木村",
+    "StationId": "C0H9A0",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "大鞍",
+    "StationId": "C1I121",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "桶頭",
+    "StationId": "C1I131",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "溪頭",
+    "StationId": "C1I101",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "下水埔",
+    "StationId": "C1G691",
+    "County": "彰化縣",
+    "Town": "溪州鄉"
+  },
+  {
+    "StationName": "大雅",
+    "StationId": "C0F9X0",
+    "County": "臺中市",
+    "Town": "大雅區"
+  },
+  {
+    "StationName": "溪湖",
+    "StationId": "C0G660",
+    "County": "彰化縣",
+    "Town": "溪湖鎮"
+  },
+  {
+    "StationName": "竹山",
+    "StationId": "C0I110",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "草嶺",
+    "StationId": "C2K240",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "鳳凰",
+    "StationId": "C2I090",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "鹿港",
+    "StationId": "C2G640",
+    "County": "彰化縣",
+    "Town": "鹿港鎮"
+  },
+  {
+    "StationName": "員林",
+    "StationId": "C0G650",
+    "County": "彰化縣",
+    "Town": "員林市"
+  },
+  {
+    "StationName": "武界",
+    "StationId": "C1I030",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "翠峰",
+    "StationId": "C1H000",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "萬大",
+    "StationId": "C1I020",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "和社",
+    "StationId": "C1I070",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "丹大",
+    "StationId": "C1I050",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "昆陽",
+    "StationId": "C0H990",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "廬山",
+    "StationId": "C0I010",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "東原",
+    "StationId": "C1X040",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "北門",
+    "StationId": "C0X290",
+    "County": "臺南市",
+    "Town": "北門區"
+  },
+  {
+    "StationName": "下營",
+    "StationId": "C0X060",
+    "County": "臺南市",
+    "Town": "下營區"
+  },
+  {
+    "StationName": "東後寮",
+    "StationId": "C0M520",
+    "County": "嘉義縣",
+    "Town": "義竹鄉"
+  },
+  {
+    "StationName": "東河",
+    "StationId": "C0X050",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "獨立山",
+    "StationId": "C1M480",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "青雲",
+    "StationId": "C1I150",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "卡奈托灣",
+    "StationId": "C1I140",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "奮起湖",
+    "StationId": "C0M530",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "虎尾",
+    "StationId": "C0K330",
+    "County": "雲林縣",
+    "Town": "虎尾鎮"
+  },
+  {
+    "StationName": "四湖",
+    "StationId": "C0K280",
+    "County": "雲林縣",
+    "Town": "四湖鄉"
+  },
+  {
+    "StationName": "宜梧",
+    "StationId": "C0K291",
+    "County": "雲林縣",
+    "Town": "口湖鄉"
+  },
+  {
+    "StationName": "佳里",
+    "StationId": "C0X080",
+    "County": "臺南市",
+    "Town": "佳里區"
+  },
+  {
+    "StationName": "鼻頭角",
+    "StationId": "C0A950",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "大坪",
+    "StationId": "C0A860",
+    "County": "新北市",
+    "Town": "萬里區"
+  },
+  {
+    "StationName": "五指山",
+    "StationId": "C0A870",
+    "County": "新北市",
+    "Town": "汐止區"
+  },
+  {
+    "StationName": "雙溪",
+    "StationId": "C0A890",
+    "County": "新北市",
+    "Town": "雙溪區"
+  },
+  {
+    "StationName": "三和",
+    "StationId": "C0A931",
+    "County": "新北市",
+    "Town": "金山區"
+  },
+  {
+    "StationName": "金山",
+    "StationId": "C0A940",
+    "County": "新北市",
+    "Town": "金山區"
+  },
+  {
+    "StationName": "寒溪",
+    "StationId": "C1U670",
+    "County": "宜蘭縣",
+    "Town": "冬山鄉"
+  },
+  {
+    "StationName": "雙連埤",
+    "StationId": "C0U520",
+    "County": "宜蘭縣",
+    "Town": "員山鄉"
+  },
+  {
+    "StationName": "三貂角",
+    "StationId": "C0A970",
+    "County": "新北市",
+    "Town": "貢寮區"
+  },
+  {
+    "StationName": "礁溪",
+    "StationId": "C0U600",
+    "County": "宜蘭縣",
+    "Town": "礁溪鄉"
+  },
+  {
+    "StationName": "玉蘭",
+    "StationId": "C0U650",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "太平山",
+    "StationId": "C0U710",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "慈恩",
+    "StationId": "C1T810",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "洛韶",
+    "StationId": "C1T800",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "龍澗",
+    "StationId": "C1T980",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "中興",
+    "StationId": "C1T920",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "西林",
+    "StationId": "C0T900",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "大觀",
+    "StationId": "C1T940",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "太安",
+    "StationId": "C1T950",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "大農",
+    "StationId": "C1T970",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "布洛灣",
+    "StationId": "C1T830",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "天祥",
+    "StationId": "C0T820",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "鯉魚潭",
+    "StationId": "C0T870",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "光復",
+    "StationId": "C0T960",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "東河",
+    "StationId": "C0S810",
+    "County": "臺東縣",
+    "Town": "東河鄉"
+  },
+  {
+    "StationName": "長濱",
+    "StationId": "C0S830",
+    "County": "臺東縣",
+    "Town": "長濱鄉"
+  },
+  {
+    "StationName": "高寮",
+    "StationId": "C1T990",
+    "County": "花蓮縣",
+    "Town": "玉里鎮"
+  },
+  {
+    "StationName": "明里",
+    "StationId": "C0Z020",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "紅葉",
+    "StationId": "C1Z030",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "立山",
+    "StationId": "C1Z040",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "摩天",
+    "StationId": "C1S670",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "太麻里",
+    "StationId": "C0S690",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "知本",
+    "StationId": "C0S700",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "鹿野",
+    "StationId": "C0S710",
+    "County": "臺東縣",
+    "Town": "鹿野鄉"
+  },
+  {
+    "StationName": "靜浦",
+    "StationId": "C0T9M0",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "綠島",
+    "StationId": "C0S730",
+    "County": "臺東縣",
+    "Town": "綠島鄉"
+  },
+  {
+    "StationName": "池上",
+    "StationId": "C0S740",
+    "County": "臺東縣",
+    "Town": "池上鄉"
+  },
+  {
+    "StationName": "向陽",
+    "StationId": "C0S750",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "佳心",
+    "StationId": "C0Z050",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "玉里",
+    "StationId": "C0Z061",
+    "County": "花蓮縣",
+    "Town": "玉里鎮"
+  },
+  {
+    "StationName": "大溪山",
+    "StationId": "C0S770",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "舞鶴",
+    "StationId": "C0Z070",
+    "County": "花蓮縣",
+    "Town": "瑞穗鄉"
+  },
+  {
+    "StationName": "力里",
+    "StationId": "C1R250",
+    "County": "屏東縣",
+    "Town": "春日鄉"
+  },
+  {
+    "StationName": "檳榔",
+    "StationId": "C0R280",
+    "County": "屏東縣",
+    "Town": "滿州鄉"
+  },
+  {
+    "StationName": "壽卡",
+    "StationId": "C1S880",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "車城",
+    "StationId": "C0R320",
+    "County": "屏東縣",
+    "Town": "車城鄉"
+  },
+  {
+    "StationName": "貓鼻頭",
+    "StationId": "C0R350",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "琉球嶼",
+    "StationId": "C0R270",
+    "County": "屏東縣",
+    "Town": "琉球鄉"
+  },
+  {
+    "StationName": "社子",
+    "StationId": "C0A980",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "天母",
+    "StationId": "C0A9C0",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "內湖",
+    "StationId": "C0A9F0",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "信義",
+    "StationId": "C0AC70",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "石門山",
+    "StationId": "C1R290",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "坪林",
+    "StationId": "C0A530",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "泰平",
+    "StationId": "C0A550",
+    "County": "新北市",
+    "Town": "雙溪區"
+  },
+  {
+    "StationName": "汐止",
+    "StationId": "C0AH00",
+    "County": "新北市",
+    "Town": "汐止區"
+  },
+  {
+    "StationName": "三峽",
+    "StationId": "C0AC60",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "四十份",
+    "StationId": "C1A9N0",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "大禹嶺",
+    "StationId": "C0T790",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "月眉山",
+    "StationId": "C0T9A0",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "水源",
+    "StationId": "C0T9B0",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "南礦",
+    "StationId": "C1E670",
+    "County": "苗栗縣",
+    "Town": "南庄鄉"
+  },
+  {
+    "StationName": "中竹林",
+    "StationId": "C2F9A0",
+    "County": "臺中市",
+    "Town": "太平區"
+  },
+  {
+    "StationName": "清水林",
+    "StationId": "C1F9J1",
+    "County": "臺中市",
+    "Town": "太平區"
+  },
+  {
+    "StationName": "桐林",
+    "StationId": "C1F9B1",
+    "County": "臺中市",
+    "Town": "霧峰區"
+  },
+  {
+    "StationName": "白冷",
+    "StationId": "C1F9C1",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "白毛台",
+    "StationId": "C1F9D1",
+    "County": "臺中市",
+    "Town": "新社區"
+  },
+  {
+    "StationName": "龍安",
+    "StationId": "C1F9E1",
+    "County": "臺中市",
+    "Town": "新社區"
+  },
+  {
+    "StationName": "伯公龍",
+    "StationId": "C1F9F1",
+    "County": "臺中市",
+    "Town": "東勢區"
+  },
+  {
+    "StationName": "南勢山",
+    "StationId": "C1E681",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "南湖",
+    "StationId": "C1E691",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "八卦",
+    "StationId": "C1E701",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "馬拉邦山",
+    "StationId": "C1E711",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "泰安",
+    "StationId": "C1E721",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "烏石坑",
+    "StationId": "C2FA00",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "中心崙",
+    "StationId": "C1I201",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "蘆竹湳",
+    "StationId": "C1I211",
+    "County": "南投縣",
+    "Town": "中寮鄉"
+  },
+  {
+    "StationName": "樟湖",
+    "StationId": "C1I220",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "外大坪",
+    "StationId": "C1I240",
+    "County": "南投縣",
+    "Town": "埔里鎮"
+  },
+  {
+    "StationName": "鯉潭",
+    "StationId": "C1I250",
+    "County": "南投縣",
+    "Town": "埔里鎮"
+  },
+  {
+    "StationName": "北坑",
+    "StationId": "C1I260",
+    "County": "南投縣",
+    "Town": "埔里鎮"
+  },
+  {
+    "StationName": "埔中",
+    "StationId": "C1I280",
+    "County": "南投縣",
+    "Town": "名間鄉"
+  },
+  {
+    "StationName": "豐丘",
+    "StationId": "C1I290",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "西巒",
+    "StationId": "C1I310",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "奧萬大",
+    "StationId": "C1I320",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "楓樹林",
+    "StationId": "C1I330",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "新興橋",
+    "StationId": "C1I340",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "頭凍",
+    "StationId": "C1M600",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "石磐龍",
+    "StationId": "C1M610",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "龜山島",
+    "StationId": "C0U750",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "華源",
+    "StationId": "C1S800",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "南田",
+    "StationId": "C0S840",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "金崙",
+    "StationId": "C0S790",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "金峰",
+    "StationId": "C1S820",
+    "County": "臺東縣",
+    "Town": "金峰鄉"
+  },
+  {
+    "StationName": "鳳林山",
+    "StationId": "C0T9G0",
+    "County": "花蓮縣",
+    "Town": "鳳林鎮"
+  },
+  {
+    "StationName": "大坑",
+    "StationId": "C0T9E0",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "加路蘭山",
+    "StationId": "C0T9H0",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "豐濱",
+    "StationId": "C0T9I0",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "水璉",
+    "StationId": "C0T9F0",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "和中",
+    "StationId": "C0T9D0",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "東澳",
+    "StationId": "C0U760",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "南澳",
+    "StationId": "C0U770",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "大屯山",
+    "StationId": "C0AC40",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "湖田國小",
+    "StationId": "A1A9S0",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "大屯國小",
+    "StationId": "A1A9T0",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "桃源國中",
+    "StationId": "A1A9U0",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "北投國小",
+    "StationId": "A1A9V0",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "陽明高中",
+    "StationId": "A1A9W0",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "太平國小",
+    "StationId": "A1A9X0",
+    "County": "臺北市",
+    "Town": "大同區"
+  },
+  {
+    "StationName": "民生國中",
+    "StationId": "A1A9Y0",
+    "County": "臺北市",
+    "Town": "松山區"
+  },
+  {
+    "StationName": "中正國中",
+    "StationId": "A1A9Z0",
+    "County": "臺北市",
+    "Town": "中正區"
+  },
+  {
+    "StationName": "三興國小",
+    "StationId": "A1AA00",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "格致國中",
+    "StationId": "A1AA10",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "平等國小",
+    "StationId": "A1AA20",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "至善國中",
+    "StationId": "A1AA30",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "碧湖國小",
+    "StationId": "A1AA40",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "東湖國小",
+    "StationId": "A1AA50",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "留公國中",
+    "StationId": "A1AA60",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "舊莊國小",
+    "StationId": "A1AA70",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "市政中心",
+    "StationId": "A1AA80",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "北政國中",
+    "StationId": "A1AB00",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "埤腹",
+    "StationId": "A1AB10",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "雙園",
+    "StationId": "A1AB20",
+    "County": "臺北市",
+    "Town": "萬華區"
+  },
+  {
+    "StationName": "中洲",
+    "StationId": "A1AB30",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "玉成",
+    "StationId": "A1AB40",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "建國",
+    "StationId": "A1AB50",
+    "County": "臺北市",
+    "Town": "中山區"
+  },
+  {
+    "StationName": "福德",
+    "StationId": "A1AB60",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "奇岩",
+    "StationId": "A1AB70",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "雙溪",
+    "StationId": "A1AB80",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "石門後池",
+    "StationId": "01C400",
+    "County": "桃園市",
+    "Town": "龍潭區"
+  },
+  {
+    "StationName": "大豹",
+    "StationId": "01A210",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "福山(3)",
+    "StationId": "01A430",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "大桶山",
+    "StationId": "01A440",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "坪林(4)",
+    "StationId": "01A450",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "中正橋",
+    "StationId": "01A410",
+    "County": "臺北市",
+    "Town": "中正區"
+  },
+  {
+    "StationName": "五堵",
+    "StationId": "01B030",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "竹子湖",
+    "StationId": "01A420",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "碧湖",
+    "StationId": "01A190",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "石碇(2)",
+    "StationId": "01A130",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "三峽",
+    "StationId": "01A220",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "瑞芳(2)",
+    "StationId": "01A380",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "火燒寮",
+    "StationId": "01A200",
+    "County": "新北市",
+    "Town": "平溪區"
+  },
+  {
+    "StationName": "熊空山",
+    "StationId": "01AG10",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "社后橋",
+    "StationId": "01AG00",
+    "County": "新北市",
+    "Town": "汐止區"
+  },
+  {
+    "StationName": "三貂嶺",
+    "StationId": "01AF90",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "富貴角",
+    "StationId": "01A350",
+    "County": "新北市",
+    "Town": "石門區"
+  },
+  {
+    "StationName": "霞雲",
+    "StationId": "21C140",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "高義",
+    "StationId": "21C080",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "巴陵",
+    "StationId": "21C070",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "嘎拉賀",
+    "StationId": "21C090",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "白石",
+    "StationId": "21D160",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "鎮西堡",
+    "StationId": "21D170",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "西丘斯山",
+    "StationId": "21D350",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "太平",
+    "StationId": "L1A840",
+    "County": "新北市",
+    "Town": "雙溪區"
+  },
+  {
+    "StationName": "碧湖",
+    "StationId": "L1A800",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "坪林",
+    "StationId": "L1A830",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "九芎根",
+    "StationId": "L1A810",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "十三股",
+    "StationId": "L1A820",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "翡翠",
+    "StationId": "L1A790",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "牛鬥",
+    "StationId": "C1U501",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "新豐",
+    "StationId": "C0D590",
+    "County": "新竹縣",
+    "Town": "新豐鄉"
+  },
+  {
+    "StationName": "觀音",
+    "StationId": "C0C590",
+    "County": "桃園市",
+    "Town": "觀音區"
+  },
+  {
+    "StationName": "復興",
+    "StationId": "C0C460",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "橫山",
+    "StationId": "C0D540",
+    "County": "新竹縣",
+    "Town": "橫山鄉"
+  },
+  {
+    "StationName": "龍潭",
+    "StationId": "C0C670",
+    "County": "桃園市",
+    "Town": "龍潭區"
+  },
+  {
+    "StationName": "雪霸",
+    "StationId": "C0D550",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "竹東",
+    "StationId": "C0D560",
+    "County": "新竹縣",
+    "Town": "竹東鎮"
+  },
+  {
+    "StationName": "蘆竹",
+    "StationId": "C0C620",
+    "County": "桃園市",
+    "Town": "蘆竹區"
+  },
+  {
+    "StationName": "舊莊里",
+    "StationId": "A1AC50",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "茶製場",
+    "StationId": "A1AD70",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "九如里",
+    "StationId": "A1AC60",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "安泰里",
+    "StationId": "A1AD30",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "溪山里",
+    "StationId": "A1AC90",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "明德樂園",
+    "StationId": "A1AC80",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "菁山里",
+    "StationId": "A1AD00",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "貴子坑",
+    "StationId": "A1AD80",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "竹子湖",
+    "StationId": "A1AD20",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "小油坑",
+    "StationId": "A1AD40",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "挹翠山莊",
+    "StationId": "A1AC70",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "指南里",
+    "StationId": "A1AC40",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "貓空",
+    "StationId": "A1AD60",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "平鎮",
+    "StationId": "C0C650",
+    "County": "桃園市",
+    "Town": "平鎮區"
+  },
+  {
+    "StationName": "大溪",
+    "StationId": "C0C630",
+    "County": "桃園市",
+    "Town": "大溪區"
+  },
+  {
+    "StationName": "龜山",
+    "StationId": "C0C680",
+    "County": "桃園市",
+    "Town": "龜山區"
+  },
+  {
+    "StationName": "寶山",
+    "StationId": "C0D580",
+    "County": "新竹縣",
+    "Town": "寶山鄉"
+  },
+  {
+    "StationName": "頭份",
+    "StationId": "C0E730",
+    "County": "苗栗縣",
+    "Town": "頭份市"
+  },
+  {
+    "StationName": "蘇樂",
+    "StationId": "88C690",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "八里",
+    "StationId": "C0AD10",
+    "County": "新北市",
+    "Town": "八里區"
+  },
+  {
+    "StationName": "蘆洲",
+    "StationId": "C0AD30",
+    "County": "新北市",
+    "Town": "蘆洲區"
+  },
+  {
+    "StationName": "土城",
+    "StationId": "C0AD40",
+    "County": "新北市",
+    "Town": "土城區"
+  },
+  {
+    "StationName": "鶯歌",
+    "StationId": "C0AD50",
+    "County": "新北市",
+    "Town": "鶯歌區"
+  },
+  {
+    "StationName": "新興",
+    "StationId": "C0V490",
+    "County": "高雄市",
+    "Town": "新興區"
+  },
+  {
+    "StationName": "五結",
+    "StationId": "C0U780",
+    "County": "宜蘭縣",
+    "Town": "五結鄉"
+  },
+  {
+    "StationName": "東澳嶺",
+    "StationId": "C1U840",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "四獸山",
+    "StationId": "A1AG40",
+    "County": "臺北市",
+    "Town": "信義區"
+  },
+  {
+    "StationName": "福州山",
+    "StationId": "A1AG60",
+    "County": "臺北市",
+    "Town": "大安區"
+  },
+  {
+    "StationName": "金面山",
+    "StationId": "A1AG80",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "大湖里",
+    "StationId": "A1AG20",
+    "County": "臺北市",
+    "Town": "內湖區"
+  },
+  {
+    "StationName": "稻香里",
+    "StationId": "A1AG30",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "劍潭山",
+    "StationId": "A1AG50",
+    "County": "臺北市",
+    "Town": "中山區"
+  },
+  {
+    "StationName": "獅潭",
+    "StationId": "C0E820",
+    "County": "苗栗縣",
+    "Town": "獅潭鄉"
+  },
+  {
+    "StationName": "飛鳳山",
+    "StationId": "C1D630",
+    "County": "新竹縣",
+    "Town": "芎林鄉"
+  },
+  {
+    "StationName": "外坪五指",
+    "StationId": "C1D640",
+    "County": "新竹縣",
+    "Town": "北埔鄉"
+  },
+  {
+    "StationName": "卓蘭",
+    "StationId": "C0E791",
+    "County": "苗栗縣",
+    "Town": "卓蘭鎮"
+  },
+  {
+    "StationName": "公館",
+    "StationId": "C1E770",
+    "County": "苗栗縣",
+    "Town": "公館鄉"
+  },
+  {
+    "StationName": "苑裡",
+    "StationId": "C0E830",
+    "County": "苗栗縣",
+    "Town": "苑裡鎮"
+  },
+  {
+    "StationName": "造橋",
+    "StationId": "C0E740",
+    "County": "苗栗縣",
+    "Town": "造橋鄉"
+  },
+  {
+    "StationName": "苗栗",
+    "StationId": "C0E750",
+    "County": "苗栗縣",
+    "Town": "苗栗市"
+  },
+  {
+    "StationName": "銅鑼",
+    "StationId": "C0E780",
+    "County": "苗栗縣",
+    "Town": "銅鑼鄉"
+  },
+  {
+    "StationName": "西湖",
+    "StationId": "C0E810",
+    "County": "苗栗縣",
+    "Town": "西湖鄉"
+  },
+  {
+    "StationName": "福興",
+    "StationId": "C0G770",
+    "County": "彰化縣",
+    "Town": "福興鄉"
+  },
+  {
+    "StationName": "秀水",
+    "StationId": "C0G780",
+    "County": "彰化縣",
+    "Town": "秀水鄉"
+  },
+  {
+    "StationName": "埔鹽",
+    "StationId": "C0G800",
+    "County": "彰化縣",
+    "Town": "埔鹽鄉"
+  },
+  {
+    "StationName": "埔心",
+    "StationId": "C0G810",
+    "County": "彰化縣",
+    "Town": "埔心鄉"
+  },
+  {
+    "StationName": "田尾",
+    "StationId": "C0G820",
+    "County": "彰化縣",
+    "Town": "田尾鄉"
+  },
+  {
+    "StationName": "埤頭",
+    "StationId": "C0G830",
+    "County": "彰化縣",
+    "Town": "埤頭鄉"
+  },
+  {
+    "StationName": "北斗",
+    "StationId": "C2G840",
+    "County": "彰化縣",
+    "Town": "北斗鎮"
+  },
+  {
+    "StationName": "社頭",
+    "StationId": "C0G860",
+    "County": "彰化縣",
+    "Town": "社頭鄉"
+  },
+  {
+    "StationName": "二水",
+    "StationId": "C0G880",
+    "County": "彰化縣",
+    "Town": "二水鄉"
+  },
+  {
+    "StationName": "芳苑",
+    "StationId": "C2G870",
+    "County": "彰化縣",
+    "Town": "芳苑鄉"
+  },
+  {
+    "StationName": "伸港",
+    "StationId": "C0G890",
+    "County": "彰化縣",
+    "Town": "伸港鄉"
+  },
+  {
+    "StationName": "德基",
+    "StationId": "C1F9W0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "大里",
+    "StationId": "C0F9N0",
+    "County": "臺中市",
+    "Town": "大里區"
+  },
+  {
+    "StationName": "烏日",
+    "StationId": "C0F9S0",
+    "County": "臺中市",
+    "Town": "烏日區"
+  },
+  {
+    "StationName": "西屯",
+    "StationId": "C0F9T0",
+    "County": "臺中市",
+    "Town": "西屯區"
+  },
+  {
+    "StationName": "南屯",
+    "StationId": "C0F9U0",
+    "County": "臺中市",
+    "Town": "南屯區"
+  },
+  {
+    "StationName": "大安",
+    "StationId": "C0F9K0",
+    "County": "臺中市",
+    "Town": "大安區"
+  },
+  {
+    "StationName": "后里",
+    "StationId": "C0F9L0",
+    "County": "臺中市",
+    "Town": "后里區"
+  },
+  {
+    "StationName": "豐原",
+    "StationId": "C0F9M0",
+    "County": "臺中市",
+    "Town": "豐原區"
+  },
+  {
+    "StationName": "潭子",
+    "StationId": "C0F9O0",
+    "County": "臺中市",
+    "Town": "潭子區"
+  },
+  {
+    "StationName": "清水",
+    "StationId": "C0F9P0",
+    "County": "臺中市",
+    "Town": "清水區"
+  },
+  {
+    "StationName": "龍井",
+    "StationId": "C0F9R0",
+    "County": "臺中市",
+    "Town": "龍井區"
+  },
+  {
+    "StationName": "新社",
+    "StationId": "C0F9V0",
+    "County": "臺中市",
+    "Town": "新社區"
+  },
+  {
+    "StationName": "利嘉",
+    "StationId": "C1S860",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "南美山",
+    "StationId": "C1S870",
+    "County": "臺東縣",
+    "Town": "成功鎮"
+  },
+  {
+    "StationName": "富源",
+    "StationId": "C0Z080",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "豐南",
+    "StationId": "C1S850",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "大漢山",
+    "StationId": "C0R440",
+    "County": "屏東縣",
+    "Town": "春日鄉"
+  },
+  {
+    "StationName": "羌黃坑",
+    "StationId": "88O950",
+    "County": "臺南市",
+    "Town": "南化區"
+  },
+  {
+    "StationName": "集來",
+    "StationId": "88V560",
+    "County": "高雄市",
+    "Town": "杉林區"
+  },
+  {
+    "StationName": "來義",
+    "StationId": "88R460",
+    "County": "屏東縣",
+    "Town": "來義鄉"
+  },
+  {
+    "StationName": "南豐",
+    "StationId": "88H890",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "新發",
+    "StationId": "C1V590",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "藤枝",
+    "StationId": "C1V600",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "溪南(特)",
+    "StationId": "C1V580",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "吉東",
+    "StationId": "C1V570",
+    "County": "高雄市",
+    "Town": "美濃區"
+  },
+  {
+    "StationName": "左鎮",
+    "StationId": "C0X200",
+    "County": "臺南市",
+    "Town": "左鎮區"
+  },
+  {
+    "StationName": "旗山",
+    "StationId": "C0V740",
+    "County": "高雄市",
+    "Town": "旗山區"
+  },
+  {
+    "StationName": "路竹",
+    "StationId": "C0V750",
+    "County": "高雄市",
+    "Town": "路竹區"
+  },
+  {
+    "StationName": "橋頭",
+    "StationId": "C0V760",
+    "County": "高雄市",
+    "Town": "橋頭區"
+  },
+  {
+    "StationName": "大社",
+    "StationId": "C0V770",
+    "County": "高雄市",
+    "Town": "大社區"
+  },
+  {
+    "StationName": "大寮",
+    "StationId": "C0V730",
+    "County": "高雄市",
+    "Town": "大寮區"
+  },
+  {
+    "StationName": "麟洛",
+    "StationId": "C0R570",
+    "County": "屏東縣",
+    "Town": "麟洛鄉"
+  },
+  {
+    "StationName": "南州",
+    "StationId": "C0R580",
+    "County": "屏東縣",
+    "Town": "南州鄉"
+  },
+  {
+    "StationName": "麻豆",
+    "StationId": "C0X120",
+    "County": "臺南市",
+    "Town": "麻豆區"
+  },
+  {
+    "StationName": "官田",
+    "StationId": "C0X130",
+    "County": "臺南市",
+    "Town": "官田區"
+  },
+  {
+    "StationName": "西港",
+    "StationId": "C0X140",
+    "County": "臺南市",
+    "Town": "西港區"
+  },
+  {
+    "StationName": "安定",
+    "StationId": "C0X150",
+    "County": "臺南市",
+    "Town": "安定區"
+  },
+  {
+    "StationName": "山上",
+    "StationId": "C0X180",
+    "County": "臺南市",
+    "Town": "山上區"
+  },
+  {
+    "StationName": "仁德",
+    "StationId": "C0X160",
+    "County": "臺南市",
+    "Town": "仁德區"
+  },
+  {
+    "StationName": "關廟",
+    "StationId": "C0X170",
+    "County": "臺南市",
+    "Town": "關廟區"
+  },
+  {
+    "StationName": "臺南市南區",
+    "StationId": "C0X110",
+    "County": "臺南市",
+    "Town": "南區"
+  },
+  {
+    "StationName": "臺南市北區",
+    "StationId": "C0X100",
+    "County": "臺南市",
+    "Town": "北區"
+  },
+  {
+    "StationName": "安平",
+    "StationId": "C0X190",
+    "County": "臺南市",
+    "Town": "安平區"
+  },
+  {
+    "StationName": "茄萣",
+    "StationId": "C0V630",
+    "County": "高雄市",
+    "Town": "茄萣區"
+  },
+  {
+    "StationName": "湖內",
+    "StationId": "C0V640",
+    "County": "高雄市",
+    "Town": "湖內區"
+  },
+  {
+    "StationName": "永安",
+    "StationId": "C0V620",
+    "County": "高雄市",
+    "Town": "永安區"
+  },
+  {
+    "StationName": "岡山",
+    "StationId": "C0V660",
+    "County": "高雄市",
+    "Town": "岡山區"
+  },
+  {
+    "StationName": "彌陀",
+    "StationId": "C0V650",
+    "County": "高雄市",
+    "Town": "彌陀區"
+  },
+  {
+    "StationName": "梓官",
+    "StationId": "C0V610",
+    "County": "高雄市",
+    "Town": "梓官區"
+  },
+  {
+    "StationName": "仁武",
+    "StationId": "C0V680",
+    "County": "高雄市",
+    "Town": "仁武區"
+  },
+  {
+    "StationName": "鼓山",
+    "StationId": "C0V690",
+    "County": "高雄市",
+    "Town": "鼓山區"
+  },
+  {
+    "StationName": "三民",
+    "StationId": "C0V700",
+    "County": "高雄市",
+    "Town": "三民區"
+  },
+  {
+    "StationName": "苓雅",
+    "StationId": "C0V710",
+    "County": "高雄市",
+    "Town": "苓雅區"
+  },
+  {
+    "StationName": "林園",
+    "StationId": "C0V720",
+    "County": "高雄市",
+    "Town": "林園區"
+  },
+  {
+    "StationName": "九如",
+    "StationId": "C0R490",
+    "County": "屏東縣",
+    "Town": "九如鄉"
+  },
+  {
+    "StationName": "高樹",
+    "StationId": "C0R470",
+    "County": "屏東縣",
+    "Town": "高樹鄉"
+  },
+  {
+    "StationName": "長治",
+    "StationId": "C0R480",
+    "County": "屏東縣",
+    "Town": "長治鄉"
+  },
+  {
+    "StationName": "新園",
+    "StationId": "C0R560",
+    "County": "屏東縣",
+    "Town": "新園鄉"
+  },
+  {
+    "StationName": "崁頂",
+    "StationId": "C0R520",
+    "County": "屏東縣",
+    "Town": "崁頂鄉"
+  },
+  {
+    "StationName": "新埤",
+    "StationId": "C0R550",
+    "County": "屏東縣",
+    "Town": "新埤鄉"
+  },
+  {
+    "StationName": "佳冬",
+    "StationId": "C0R540",
+    "County": "屏東縣",
+    "Town": "佳冬鄉"
+  },
+  {
+    "StationName": "赤山",
+    "StationId": "C0R190",
+    "County": "屏東縣",
+    "Town": "萬巒鄉"
+  },
+  {
+    "StationName": "鳳山",
+    "StationId": "C0V440",
+    "County": "高雄市",
+    "Town": "鳳山區"
+  },
+  {
+    "StationName": "虎頭埤",
+    "StationId": "C0O970",
+    "County": "臺南市",
+    "Town": "新化區"
+  },
+  {
+    "StationName": "媽廟",
+    "StationId": "C0O990",
+    "County": "臺南市",
+    "Town": "歸仁區"
+  },
+  {
+    "StationName": "崎頂",
+    "StationId": "C0O960",
+    "County": "臺南市",
+    "Town": "龍崎區"
+  },
+  {
+    "StationName": "安南",
+    "StationId": "C2O950",
+    "County": "臺南市",
+    "Town": "安南區"
+  },
+  {
+    "StationName": "新市",
+    "StationId": "C0O980",
+    "County": "臺南市",
+    "Town": "新市區"
+  },
+  {
+    "StationName": "北寮",
+    "StationId": "C0O830",
+    "County": "臺南市",
+    "Town": "南化區"
+  },
+  {
+    "StationName": "月眉",
+    "StationId": "C2V260",
+    "County": "高雄市",
+    "Town": "杉林區"
+  },
+  {
+    "StationName": "復興",
+    "StationId": "C0V210",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "王爺宮",
+    "StationId": "C0O840",
+    "County": "臺南市",
+    "Town": "六甲區"
+  },
+  {
+    "StationName": "大內",
+    "StationId": "C0O860",
+    "County": "臺南市",
+    "Town": "大內區"
+  },
+  {
+    "StationName": "阿禮",
+    "StationId": "C0R130",
+    "County": "屏東縣",
+    "Town": "霧臺鄉"
+  },
+  {
+    "StationName": "瑪家",
+    "StationId": "C0R140",
+    "County": "屏東縣",
+    "Town": "瑪家鄉"
+  },
+  {
+    "StationName": "溪埔",
+    "StationId": "C0V350",
+    "County": "高雄市",
+    "Town": "大樹區"
+  },
+  {
+    "StationName": "阿公店",
+    "StationId": "C0V400",
+    "County": "高雄市",
+    "Town": "燕巢區"
+  },
+  {
+    "StationName": "內門",
+    "StationId": "C0V360",
+    "County": "高雄市",
+    "Town": "內門區"
+  },
+  {
+    "StationName": "春日",
+    "StationId": "C0R260",
+    "County": "屏東縣",
+    "Town": "春日鄉"
+  },
+  {
+    "StationName": "來義",
+    "StationId": "C0R240",
+    "County": "屏東縣",
+    "Town": "萬巒鄉"
+  },
+  {
+    "StationName": "屏東",
+    "StationId": "C0R170",
+    "County": "屏東縣",
+    "Town": "屏東市"
+  },
+  {
+    "StationName": "鳳森",
+    "StationId": "C0V450",
+    "County": "高雄市",
+    "Town": "小港區"
+  },
+  {
+    "StationName": "多納林道",
+    "StationId": "C1V780",
+    "County": "高雄市",
+    "Town": "茂林區"
+  },
+  {
+    "StationName": "西大武山",
+    "StationId": "C1R610",
+    "County": "屏東縣",
+    "Town": "泰武鄉"
+  },
+  {
+    "StationName": "舊泰武",
+    "StationId": "C0R600",
+    "County": "屏東縣",
+    "Town": "泰武鄉"
+  },
+  {
+    "StationName": "萬山",
+    "StationId": "C0V790",
+    "County": "高雄市",
+    "Town": "茂林區"
+  },
+  {
+    "StationName": "六龜",
+    "StationId": "C0V800",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "楊梅",
+    "StationId": "C0C660",
+    "County": "桃園市",
+    "Town": "楊梅區"
+  },
+  {
+    "StationName": "湖口",
+    "StationId": "C0D650",
+    "County": "新竹縣",
+    "Town": "湖口鄉"
+  },
+  {
+    "StationName": "永和",
+    "StationId": "C0AH10",
+    "County": "新北市",
+    "Town": "永和區"
+  },
+  {
+    "StationName": "東華",
+    "StationId": "C0Z100",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "新竹市東區",
+    "StationId": "C0D660",
+    "County": "新竹市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "平溪旅遊",
+    "StationId": "NUP460",
+    "County": "新北市",
+    "Town": "平溪區"
+  },
+  {
+    "StationName": "復興國小",
+    "StationId": "NUP490",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "龍壽社區",
+    "StationId": "01C570",
+    "County": "桃園市",
+    "Town": "龜山區"
+  },
+  {
+    "StationName": "員山子",
+    "StationId": "NUP810",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "雙崎(2)",
+    "StationId": "O1F390",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "龍神橋",
+    "StationId": "O1H540",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "集集(2)",
+    "StationId": "00H710",
+    "County": "南投縣",
+    "Town": "集集鎮"
+  },
+  {
+    "StationName": "惠蓀(2)",
+    "StationId": "00H810",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "北港(2)",
+    "StationId": "O1J810",
+    "County": "雲林縣",
+    "Town": "北港鎮"
+  },
+  {
+    "StationName": "旗山(4)",
+    "StationId": "O1P470",
+    "County": "高雄市",
+    "Town": "旗山區"
+  },
+  {
+    "StationName": "屏東(5)",
+    "StationId": "00Q070",
+    "County": "屏東縣",
+    "Town": "屏東市"
+  },
+  {
+    "StationName": "鹿鳴橋",
+    "StationId": "O1S120",
+    "County": "臺東縣",
+    "Town": "鹿野鄉"
+  },
+  {
+    "StationName": "清泉",
+    "StationId": "01D110",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "梅花",
+    "StationId": "01D180",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "關西(3)",
+    "StationId": "01D300",
+    "County": "新竹縣",
+    "Town": "關西鎮"
+  },
+  {
+    "StationName": "新埔(1)",
+    "StationId": "01D310",
+    "County": "新竹縣",
+    "Town": "新埔鎮"
+  },
+  {
+    "StationName": "橫龍山",
+    "StationId": "01E030",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "象鼻(1)",
+    "StationId": "01E060",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "松安",
+    "StationId": "01E080",
+    "County": "苗栗縣",
+    "Town": "泰安鄉"
+  },
+  {
+    "StationName": "大埔",
+    "StationId": "01E120",
+    "County": "苗栗縣",
+    "Town": "竹南鎮"
+  },
+  {
+    "StationName": "南庄(1)",
+    "StationId": "01E170",
+    "County": "苗栗縣",
+    "Town": "南庄鄉"
+  },
+  {
+    "StationName": "卓蘭(2)",
+    "StationId": "01E230",
+    "County": "臺中市",
+    "Town": "東勢區"
+  },
+  {
+    "StationName": "珊珠湖",
+    "StationId": "01E240",
+    "County": "苗栗縣",
+    "Town": "頭份市"
+  },
+  {
+    "StationName": "大湖(1)",
+    "StationId": "01E270",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "三義(2)",
+    "StationId": "01E290",
+    "County": "苗栗縣",
+    "Town": "三義鄉"
+  },
+  {
+    "StationName": "南勢山",
+    "StationId": "01E310",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "大坪頂",
+    "StationId": "01E330",
+    "County": "苗栗縣",
+    "Town": "通霄鎮"
+  },
+  {
+    "StationName": "三灣",
+    "StationId": "01E400",
+    "County": "苗栗縣",
+    "Town": "三灣鄉"
+  },
+  {
+    "StationName": "大潭",
+    "StationId": "01E390",
+    "County": "苗栗縣",
+    "Town": "造橋鄉"
+  },
+  {
+    "StationName": "雪嶺",
+    "StationId": "01F350",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "頭汴坑",
+    "StationId": "01F680",
+    "County": "臺中市",
+    "Town": "太平區"
+  },
+  {
+    "StationName": "頭汴",
+    "StationId": "01G090",
+    "County": "彰化縣",
+    "Town": "鹿港鎮"
+  },
+  {
+    "StationName": "萬興(2)",
+    "StationId": "01G240",
+    "County": "彰化縣",
+    "Town": "二林鎮"
+  },
+  {
+    "StationName": "桶頭(2)",
+    "StationId": "01H110",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "翠峰",
+    "StationId": "01H310",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "望鄉",
+    "StationId": "01H390",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "東埔",
+    "StationId": "01H400",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "六分寮",
+    "StationId": "01H590",
+    "County": "南投縣",
+    "Town": "南投市"
+  },
+  {
+    "StationName": "草屯(4)",
+    "StationId": "01H630",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "北山(2)",
+    "StationId": "01H680",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "清流(1)",
+    "StationId": "01H720",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "內茅埔(2)",
+    "StationId": "01H780",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "西螺(2)",
+    "StationId": "01J100",
+    "County": "雲林縣",
+    "Town": "西螺鎮"
+  },
+  {
+    "StationName": "林內(1)",
+    "StationId": "01J930",
+    "County": "雲林縣",
+    "Town": "林內鄉"
+  },
+  {
+    "StationName": "大埔",
+    "StationId": "01J960",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "草嶺(2)",
+    "StationId": "01J970",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "褒忠(2)",
+    "StationId": "01K060",
+    "County": "雲林縣",
+    "Town": "褒忠鄉"
+  },
+  {
+    "StationName": "小公田(2)",
+    "StationId": "01L360",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "大湖山",
+    "StationId": "01L390",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "樟腦寮(2)",
+    "StationId": "01L480",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "沙坑",
+    "StationId": "01L490",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "溪口(3)",
+    "StationId": "01M010",
+    "County": "嘉義縣",
+    "Town": "溪口鄉"
+  },
+  {
+    "StationName": "南化(2)",
+    "StationId": "01N850",
+    "County": "臺南市",
+    "Town": "南化區"
+  },
+  {
+    "StationName": "崎頂",
+    "StationId": "01N860",
+    "County": "臺南市",
+    "Town": "龍崎區"
+  },
+  {
+    "StationName": "關子嶺(2)",
+    "StationId": "01O070",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "六溪",
+    "StationId": "01O080",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "東原",
+    "StationId": "01O190",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "北寮",
+    "StationId": "01O200",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "虎頭埤",
+    "StationId": "01O710",
+    "County": "臺南市",
+    "Town": "新化區"
+  },
+  {
+    "StationName": "王爺宮",
+    "StationId": "01O750",
+    "County": "臺南市",
+    "Town": "六甲區"
+  },
+  {
+    "StationName": "關山",
+    "StationId": "01O760",
+    "County": "臺南市",
+    "Town": "南化區"
+  },
+  {
+    "StationName": "木柵",
+    "StationId": "01P190",
+    "County": "高雄市",
+    "Town": "內門區"
+  },
+  {
+    "StationName": "古亭坑",
+    "StationId": "01P280",
+    "County": "高雄市",
+    "Town": "田寮區"
+  },
+  {
+    "StationName": "金山",
+    "StationId": "01P390",
+    "County": "高雄市",
+    "Town": "燕巢區"
+  },
+  {
+    "StationName": "阿蓮(2)",
+    "StationId": "01P500",
+    "County": "高雄市",
+    "Town": "阿蓮區"
+  },
+  {
+    "StationName": "甲仙(2)",
+    "StationId": "01P660",
+    "County": "高雄市",
+    "Town": "甲仙區"
+  },
+  {
+    "StationName": "美濃(2)",
+    "StationId": "01P770",
+    "County": "高雄市",
+    "Town": "美濃區"
+  },
+  {
+    "StationName": "新來義",
+    "StationId": "01Q350",
+    "County": "屏東縣",
+    "Town": "來義鄉"
+  },
+  {
+    "StationName": "南和",
+    "StationId": "01Q360",
+    "County": "屏東縣",
+    "Town": "來義鄉"
+  },
+  {
+    "StationName": "古夏",
+    "StationId": "01Q610",
+    "County": "屏東縣",
+    "Town": "三地門鄉"
+  },
+  {
+    "StationName": "牡丹",
+    "StationId": "01Q860",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "新瑪家",
+    "StationId": "01Q920",
+    "County": "屏東縣",
+    "Town": "瑪家鄉"
+  },
+  {
+    "StationName": "三地門",
+    "StationId": "01Q930",
+    "County": "屏東縣",
+    "Town": "瑪家鄉"
+  },
+  {
+    "StationName": "壽卡",
+    "StationId": "01R000",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "大漢山",
+    "StationId": "01R030",
+    "County": "屏東縣",
+    "Town": "春日鄉"
+  },
+  {
+    "StationName": "士文",
+    "StationId": "01R040",
+    "County": "屏東縣",
+    "Town": "春日鄉"
+  },
+  {
+    "StationName": "泗林",
+    "StationId": "01R440",
+    "County": "屏東縣",
+    "Town": "潮州鎮"
+  },
+  {
+    "StationName": "武陵",
+    "StationId": "01S130",
+    "County": "臺東縣",
+    "Town": "延平鄉"
+  },
+  {
+    "StationName": "知本(5)",
+    "StationId": "01S210",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "忠勇",
+    "StationId": "01S260",
+    "County": "臺東縣",
+    "Town": "長濱鄉"
+  },
+  {
+    "StationName": "樟原(1)",
+    "StationId": "01S270",
+    "County": "臺東縣",
+    "Town": "長濱鄉"
+  },
+  {
+    "StationName": "紹家",
+    "StationId": "01S360",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "霧鹿",
+    "StationId": "01S430",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "新武(3)",
+    "StationId": "01S440",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "向陽(2)",
+    "StationId": "01S470",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "南鵝",
+    "StationId": "01S560",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "上里",
+    "StationId": "01S570",
+    "County": "臺東縣",
+    "Town": "延平鄉"
+  },
+  {
+    "StationName": "台東(7)",
+    "StationId": "01S610",
+    "County": "臺東縣",
+    "Town": "臺東市"
+  },
+  {
+    "StationName": "電光",
+    "StationId": "01S860",
+    "County": "臺東縣",
+    "Town": "關山鎮"
+  },
+  {
+    "StationName": "北源",
+    "StationId": "01S870",
+    "County": "臺東縣",
+    "Town": "東河鄉"
+  },
+  {
+    "StationName": "卓麓(4)",
+    "StationId": "01T220",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "立山",
+    "StationId": "01T230",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "北埔",
+    "StationId": "01T500",
+    "County": "花蓮縣",
+    "Town": "新城鄉"
+  },
+  {
+    "StationName": "西林",
+    "StationId": "01T560",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "馬太安",
+    "StationId": "01T660",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "新東礦",
+    "StationId": "01T670",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "明里",
+    "StationId": "01T720",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "豐濱",
+    "StationId": "01T730",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "六十石山",
+    "StationId": "01T9J0",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "東富",
+    "StationId": "01T9L0",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "土場(1)",
+    "StationId": "01U050",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "梵梵(2)",
+    "StationId": "01U060",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "留茂安",
+    "StationId": "01U070",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "南山",
+    "StationId": "01U080",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "新寮(1)",
+    "StationId": "01U120",
+    "County": "宜蘭縣",
+    "Town": "冬山鄉"
+  },
+  {
+    "StationName": "冬山",
+    "StationId": "01U130",
+    "County": "宜蘭縣",
+    "Town": "冬山鄉"
+  },
+  {
+    "StationName": "新北城",
+    "StationId": "01U190",
+    "County": "宜蘭縣",
+    "Town": "冬山鄉"
+  },
+  {
+    "StationName": "大濁水",
+    "StationId": "01U230",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "樟林",
+    "StationId": "01U450",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "五峰",
+    "StationId": "01U460",
+    "County": "宜蘭縣",
+    "Town": "礁溪鄉"
+  },
+  {
+    "StationName": "武塔",
+    "StationId": "01U470",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "太平山(1)",
+    "StationId": "01U560",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "四季",
+    "StationId": "01U780",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "清水",
+    "StationId": "01U790",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "梅山(2)",
+    "StationId": "01V060",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "天池",
+    "StationId": "01V070",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "望安",
+    "StationId": "01W010",
+    "County": "澎湖縣",
+    "Town": "望安鄉"
+  },
+  {
+    "StationName": "新城國小",
+    "StationId": "O1D570",
+    "County": "新竹縣",
+    "Town": "寶山鄉"
+  },
+  {
+    "StationName": "內湖國小",
+    "StationId": "O1D580",
+    "County": "新竹市",
+    "Town": "香山區"
+  },
+  {
+    "StationName": "成德中學",
+    "StationId": "O1D590",
+    "County": "新竹市",
+    "Town": "北區"
+  },
+  {
+    "StationName": "新庄國小",
+    "StationId": "O1R620",
+    "County": "屏東縣",
+    "Town": "萬丹鄉"
+  },
+  {
+    "StationName": "利吉國小",
+    "StationId": "O1S650",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "賓茂國小",
+    "StationId": "O1S660",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "金針山",
+    "StationId": "O1S680",
+    "County": "臺東縣",
+    "Town": "金峰鄉"
+  },
+  {
+    "StationName": "神山",
+    "StationId": "O1S690",
+    "County": "屏東縣",
+    "Town": "霧臺鄉"
+  },
+  {
+    "StationName": "奇美國小",
+    "StationId": "O1T800",
+    "County": "花蓮縣",
+    "Town": "瑞穗鄉"
+  },
+  {
+    "StationName": "卓清國小",
+    "StationId": "O1T810",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "太平國小",
+    "StationId": "O1T820",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "寶山",
+    "StationId": "O1V510",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "民權",
+    "StationId": "O1V520",
+    "County": "高雄市",
+    "Town": "那瑪夏區"
+  },
+  {
+    "StationName": "高中(2)",
+    "StationId": "O1V540",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "溝坪",
+    "StationId": "O1V810",
+    "County": "高雄市",
+    "Town": "內門區"
+  },
+  {
+    "StationName": "圓富國中",
+    "StationId": "O1V820",
+    "County": "高雄市",
+    "Town": "旗山區"
+  },
+  {
+    "StationName": "上林國小",
+    "StationId": "O1AH20",
+    "County": "新北市",
+    "Town": "雙溪區"
+  },
+  {
+    "StationName": "吉林國小",
+    "StationId": "O1AH30",
+    "County": "新北市",
+    "Town": "貢寮區"
+  },
+  {
+    "StationName": "豐山",
+    "StationId": "O1M640",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "外來吉",
+    "StationId": "O1M650",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "楠溪",
+    "StationId": "O1I360",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "崁頂",
+    "StationId": "O1R630",
+    "County": "屏東縣",
+    "Town": "崁頂鄉"
+  },
+  {
+    "StationName": "和中",
+    "StationId": "88T830",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "精忠",
+    "StationId": "81AH40",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "五峰國小",
+    "StationId": "81D600",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "金岳國小",
+    "StationId": "81U860",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "樂水分校",
+    "StationId": "81U870",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "阿里山國小",
+    "StationId": "81M660",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "新美國小",
+    "StationId": "81M670",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "崁頭山",
+    "StationId": "81O960",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "建山國小",
+    "StationId": "81V820",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "佳義國小",
+    "StationId": "81R640",
+    "County": "屏東縣",
+    "Town": "瑪家鄉"
+  },
+  {
+    "StationName": "丹路國小",
+    "StationId": "81R650",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "愛國埔分校",
+    "StationId": "81S880",
+    "County": "臺東縣",
+    "Town": "大武鄉"
+  },
+  {
+    "StationName": "初鹿國中",
+    "StationId": "81S890",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "加拿國小",
+    "StationId": "81S900",
+    "County": "臺東縣",
+    "Town": "鹿野鄉"
+  },
+  {
+    "StationName": "膽曼",
+    "StationId": "81S910",
+    "County": "臺東縣",
+    "Town": "成功鎮"
+  },
+  {
+    "StationName": "凌霄",
+    "StationId": "C1I400",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "魚池",
+    "StationId": "C0I370",
+    "County": "南投縣",
+    "Town": "魚池鄉"
+  },
+  {
+    "StationName": "國姓",
+    "StationId": "C0I420",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "翠華",
+    "StationId": "C1I430",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "仁愛",
+    "StationId": "C0I390",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "水里",
+    "StationId": "C0I360",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "集集",
+    "StationId": "C0I380",
+    "County": "南投縣",
+    "Town": "集集鎮"
+  },
+  {
+    "StationName": "名間",
+    "StationId": "C0I410",
+    "County": "南投縣",
+    "Town": "名間鄉"
+  },
+  {
+    "StationName": "二林",
+    "StationId": "C0G730",
+    "County": "彰化縣",
+    "Town": "二林鎮"
+  },
+  {
+    "StationName": "白河",
+    "StationId": "C0X210",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "番路",
+    "StationId": "C0M720",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "新營",
+    "StationId": "C0X250",
+    "County": "臺南市",
+    "Town": "新營區"
+  },
+  {
+    "StationName": "將軍",
+    "StationId": "C0X280",
+    "County": "臺南市",
+    "Town": "將軍區"
+  },
+  {
+    "StationName": "褒忠",
+    "StationId": "C0K430",
+    "County": "雲林縣",
+    "Town": "褒忠鄉"
+  },
+  {
+    "StationName": "溪口",
+    "StationId": "C0M660",
+    "County": "嘉義縣",
+    "Town": "溪口鄉"
+  },
+  {
+    "StationName": "二崙",
+    "StationId": "C0K440",
+    "County": "雲林縣",
+    "Town": "二崙鄉"
+  },
+  {
+    "StationName": "竹崎",
+    "StationId": "C0M700",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "中埔",
+    "StationId": "C0M640",
+    "County": "嘉義縣",
+    "Town": "中埔鄉"
+  },
+  {
+    "StationName": "鹽水",
+    "StationId": "C0X230",
+    "County": "臺南市",
+    "Town": "鹽水區"
+  },
+  {
+    "StationName": "學甲",
+    "StationId": "C0X220",
+    "County": "臺南市",
+    "Town": "學甲區"
+  },
+  {
+    "StationName": "後壁",
+    "StationId": "C0X260",
+    "County": "臺南市",
+    "Town": "後壁區"
+  },
+  {
+    "StationName": "西螺",
+    "StationId": "C0K420",
+    "County": "雲林縣",
+    "Town": "西螺鎮"
+  },
+  {
+    "StationName": "土庫",
+    "StationId": "C0K390",
+    "County": "雲林縣",
+    "Town": "土庫鎮"
+  },
+  {
+    "StationName": "大林",
+    "StationId": "C0M670",
+    "County": "嘉義縣",
+    "Town": "大林鎮"
+  },
+  {
+    "StationName": "東石",
+    "StationId": "C0M710",
+    "County": "嘉義縣",
+    "Town": "東石鄉"
+  },
+  {
+    "StationName": "水上",
+    "StationId": "C0M690",
+    "County": "嘉義縣",
+    "Town": "水上鄉"
+  },
+  {
+    "StationName": "嘉義市東區",
+    "StationId": "C0M730",
+    "County": "嘉義市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "關子嶺",
+    "StationId": "C0X240",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "溪州",
+    "StationId": "C0G720",
+    "County": "彰化縣",
+    "Town": "溪州鄉"
+  },
+  {
+    "StationName": "斗南",
+    "StationId": "C0K460",
+    "County": "雲林縣",
+    "Town": "斗南鎮"
+  },
+  {
+    "StationName": "斗六",
+    "StationId": "C0K400",
+    "County": "雲林縣",
+    "Town": "斗六市"
+  },
+  {
+    "StationName": "朴子",
+    "StationId": "C0M650",
+    "County": "嘉義縣",
+    "Town": "朴子市"
+  },
+  {
+    "StationName": "北港",
+    "StationId": "C0K410",
+    "County": "雲林縣",
+    "Town": "北港鎮"
+  },
+  {
+    "StationName": "太保",
+    "StationId": "C0M680",
+    "County": "嘉義縣",
+    "Town": "太保市"
+  },
+  {
+    "StationName": "林內",
+    "StationId": "C0K470",
+    "County": "雲林縣",
+    "Town": "林內鄉"
+  },
+  {
+    "StationName": "大城",
+    "StationId": "C0G740",
+    "County": "彰化縣",
+    "Town": "大城鄉"
+  },
+  {
+    "StationName": "雲林東勢",
+    "StationId": "C0K590",
+    "County": "雲林縣",
+    "Town": "東勢鄉"
+  },
+  {
+    "StationName": "民雄",
+    "StationId": "C0M760",
+    "County": "嘉義縣",
+    "Town": "民雄鄉"
+  },
+  {
+    "StationName": "大埤",
+    "StationId": "C0K450",
+    "County": "雲林縣",
+    "Town": "大埤鄉"
+  },
+  {
+    "StationName": "莿桐",
+    "StationId": "C0K480",
+    "County": "雲林縣",
+    "Town": "莿桐鄉"
+  },
+  {
+    "StationName": "竹塘",
+    "StationId": "C0G940",
+    "County": "彰化縣",
+    "Town": "竹塘鄉"
+  },
+  {
+    "StationName": "水林",
+    "StationId": "C0K510",
+    "County": "雲林縣",
+    "Town": "水林鄉"
+  },
+  {
+    "StationName": "元長",
+    "StationId": "C0K500",
+    "County": "雲林縣",
+    "Town": "元長鄉"
+  },
+  {
+    "StationName": "布袋",
+    "StationId": "C0M750",
+    "County": "嘉義縣",
+    "Town": "布袋鎮"
+  },
+  {
+    "StationName": "鹿草",
+    "StationId": "C0M780",
+    "County": "嘉義縣",
+    "Town": "鹿草鄉"
+  },
+  {
+    "StationName": "六腳",
+    "StationId": "C0M740",
+    "County": "嘉義縣",
+    "Town": "六腳鄉"
+  },
+  {
+    "StationName": "新港",
+    "StationId": "C0M790",
+    "County": "嘉義縣",
+    "Town": "新港鄉"
+  },
+  {
+    "StationName": "梅山",
+    "StationId": "C0M770",
+    "County": "嘉義縣",
+    "Town": "梅山鄉"
+  },
+  {
+    "StationName": "崙背",
+    "StationId": "C0K250",
+    "County": "雲林縣",
+    "Town": "崙背鄉"
+  },
+  {
+    "StationName": "埔里",
+    "StationId": "C0H890",
+    "County": "南投縣",
+    "Town": "埔里鎮"
+  },
+  {
+    "StationName": "信義",
+    "StationId": "C0I080",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "左營",
+    "StationId": "C0V810",
+    "County": "高雄市",
+    "Town": "左營區"
+  },
+  {
+    "StationName": "南投",
+    "StationId": "C0I460",
+    "County": "南投縣",
+    "Town": "南投市"
+  },
+  {
+    "StationName": "望鄉山",
+    "StationId": "C1I450",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "線浸林道",
+    "StationId": "C1I510",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "大尖山",
+    "StationId": "C1I500",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "口湖",
+    "StationId": "C1K540",
+    "County": "雲林縣",
+    "Town": "口湖鄉"
+  },
+  {
+    "StationName": "蔦松",
+    "StationId": "C0K550",
+    "County": "雲林縣",
+    "Town": "水林鄉"
+  },
+  {
+    "StationName": "茶山",
+    "StationId": "C0M800",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "里佳",
+    "StationId": "C0M810",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "達邦",
+    "StationId": "C0M820",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "鹿寮",
+    "StationId": "C0X300",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "棋山",
+    "StationId": "C0K560",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "杉林溪",
+    "StationId": "C1I470",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "梅峰",
+    "StationId": "C0I480",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "萬大林道",
+    "StationId": "C0I490",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "關山",
+    "StationId": "C0S890",
+    "County": "臺東縣",
+    "Town": "關山鎮"
+  },
+  {
+    "StationName": "五分山",
+    "StationId": "C0AH30",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "太閣南",
+    "StationId": "01D100",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "鳥嘴山",
+    "StationId": "01D190",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "苗圃",
+    "StationId": "01T240",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "花蓮",
+    "StationId": "O1T840",
+    "County": "花蓮縣",
+    "Town": "花蓮市"
+  },
+  {
+    "StationName": "墾雷",
+    "StationId": "C0R620",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "桃山",
+    "StationId": "C0F9Y0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "雪山東峰",
+    "StationId": "C0F9Z0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "新美",
+    "StationId": "C0M860",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "東莒",
+    "StationId": "C0W110",
+    "County": "連江縣",
+    "Town": "莒光鄉"
+  },
+  {
+    "StationName": "西嶼",
+    "StationId": "C0W120",
+    "County": "澎湖縣",
+    "Town": "西嶼鄉"
+  },
+  {
+    "StationName": "花嶼",
+    "StationId": "C0W130",
+    "County": "澎湖縣",
+    "Town": "望安鄉"
+  },
+  {
+    "StationName": "平等",
+    "StationId": "C0AH40",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "白布帆",
+    "StationId": "81E870",
+    "County": "苗栗縣",
+    "Town": "卓蘭鎮"
+  },
+  {
+    "StationName": "九份二山",
+    "StationId": "81I520",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "神木",
+    "StationId": "81I530",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "上安",
+    "StationId": "81I540",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "郡坑",
+    "StationId": "81I550",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "豐丘",
+    "StationId": "81I560",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "大粗坑",
+    "StationId": "81AI30",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "鳳義坑",
+    "StationId": "81T9J0",
+    "County": "花蓮縣",
+    "Town": "鳳林鎮"
+  },
+  {
+    "StationName": "射馬干",
+    "StationId": "81S930",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "豐山",
+    "StationId": "81M020",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "坪頂",
+    "StationId": "81K580",
+    "County": "雲林縣",
+    "Town": "林內鄉"
+  },
+  {
+    "StationName": "火炎山",
+    "StationId": "81E880",
+    "County": "苗栗縣",
+    "Town": "三義鄉"
+  },
+  {
+    "StationName": "萬里國小",
+    "StationId": "81AH50",
+    "County": "新北市",
+    "Town": "萬里區"
+  },
+  {
+    "StationName": "長坑國小",
+    "StationId": "81AH60",
+    "County": "新北市",
+    "Town": "八里區"
+  },
+  {
+    "StationName": "柑林國小",
+    "StationId": "81AH70",
+    "County": "新北市",
+    "Town": "雙溪區"
+  },
+  {
+    "StationName": "五城加油站",
+    "StationId": "81AH80",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "信賢派出所",
+    "StationId": "81AH90",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "五寮國小",
+    "StationId": "81AI00",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "建安國小",
+    "StationId": "81AI10",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "有木國小",
+    "StationId": "81AI20",
+    "County": "新北市",
+    "Town": "三峽區"
+  },
+  {
+    "StationName": "大艽芎古道",
+    "StationId": "81C700",
+    "County": "桃園市",
+    "Town": "大溪區"
+  },
+  {
+    "StationName": "高坡國小",
+    "StationId": "81C710",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "尖石國小",
+    "StationId": "81D630",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "錦屏國小",
+    "StationId": "81D640",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "內灣國小",
+    "StationId": "81D650",
+    "County": "新竹縣",
+    "Town": "橫山鄉"
+  },
+  {
+    "StationName": "花園派出所",
+    "StationId": "81D660",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "開礦國小",
+    "StationId": "81E710",
+    "County": "苗栗縣",
+    "Town": "公館鄉"
+  },
+  {
+    "StationName": "慈惠堂",
+    "StationId": "81E720",
+    "County": "苗栗縣",
+    "Town": "銅鑼鄉"
+  },
+  {
+    "StationName": "中坑國小",
+    "StationId": "81F880",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "坪廓分校",
+    "StationId": "81F890",
+    "County": "臺中市",
+    "Town": "太平區"
+  },
+  {
+    "StationName": "峰谷國小",
+    "StationId": "81F900",
+    "County": "臺中市",
+    "Town": "霧峰區"
+  },
+  {
+    "StationName": "大觀發電廠",
+    "StationId": "81H900",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "平林國小",
+    "StationId": "81H910",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "玉峰國小",
+    "StationId": "81H930",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "人和國小",
+    "StationId": "81H940",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "福龜國小",
+    "StationId": "81H950",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "北港國小",
+    "StationId": "81H960",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "永興國小",
+    "StationId": "81H970",
+    "County": "南投縣",
+    "Town": "水里鄉"
+  },
+  {
+    "StationName": "車籠埔",
+    "StationId": "81H980",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "羅娜國小",
+    "StationId": "81H990",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "太和村",
+    "StationId": "81M680",
+    "County": "嘉義縣",
+    "Town": "梅山鄉"
+  },
+  {
+    "StationName": "沄水國小",
+    "StationId": "81M690",
+    "County": "嘉義縣",
+    "Town": "中埔鄉"
+  },
+  {
+    "StationName": "那瑪夏國中",
+    "StationId": "81V830",
+    "County": "高雄市",
+    "Town": "那瑪夏區"
+  },
+  {
+    "StationName": "內獅國小",
+    "StationId": "81R660",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "大里國小",
+    "StationId": "81U890",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "大溪國小",
+    "StationId": "81U900",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "永樂國小",
+    "StationId": "81U910",
+    "County": "宜蘭縣",
+    "Town": "蘇澳鎮"
+  },
+  {
+    "StationName": "溪口國小",
+    "StationId": "81T850",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "山興分校",
+    "StationId": "81T860",
+    "County": "花蓮縣",
+    "Town": "鳳林鎮"
+  },
+  {
+    "StationName": "東興部落",
+    "StationId": "81T870",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "石梯坪",
+    "StationId": "81T880",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "瑞北國小",
+    "StationId": "81T890",
+    "County": "花蓮縣",
+    "Town": "瑞穗鄉"
+  },
+  {
+    "StationName": "卓溪國小",
+    "StationId": "81T900",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "東里國中",
+    "StationId": "81T910",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "金峰鄉公所",
+    "StationId": "81S920",
+    "County": "臺東縣",
+    "Town": "金峰鄉"
+  },
+  {
+    "StationName": "奎輝國小",
+    "StationId": "81C780",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "金寧",
+    "StationId": "C0W150",
+    "County": "金門縣",
+    "Town": "金寧鄉"
+  },
+  {
+    "StationName": "松山",
+    "StationId": "C0AH70",
+    "County": "臺北市",
+    "Town": "松山區"
+  },
+  {
+    "StationName": "南山",
+    "StationId": "C0U720",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "大礁溪",
+    "StationId": "C0U870",
+    "County": "宜蘭縣",
+    "Town": "礁溪鄉"
+  },
+  {
+    "StationName": "三棧",
+    "StationId": "C1Z110",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "壽豐",
+    "StationId": "C1Z120",
+    "County": "花蓮縣",
+    "Town": "壽豐鄉"
+  },
+  {
+    "StationName": "銅門",
+    "StationId": "C1Z130",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "荖溪",
+    "StationId": "C1Z140",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "三星",
+    "StationId": "C0U890",
+    "County": "宜蘭縣",
+    "Town": "三星鄉"
+  },
+  {
+    "StationName": "內城",
+    "StationId": "C0U900",
+    "County": "宜蘭縣",
+    "Town": "員山鄉"
+  },
+  {
+    "StationName": "頭城",
+    "StationId": "C0U860",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "吉安光華",
+    "StationId": "C0Z150",
+    "County": "花蓮縣",
+    "Town": "吉安鄉"
+  },
+  {
+    "StationName": "鳳林",
+    "StationId": "C0Z160",
+    "County": "花蓮縣",
+    "Town": "鳳林鎮"
+  },
+  {
+    "StationName": "卓溪",
+    "StationId": "C0Z170",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "冬山",
+    "StationId": "C0U910",
+    "County": "宜蘭縣",
+    "Town": "冬山鄉"
+  },
+  {
+    "StationName": "思源",
+    "StationId": "C1U920",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "新城",
+    "StationId": "C0Z180",
+    "County": "花蓮縣",
+    "Town": "新城鄉"
+  },
+  {
+    "StationName": "富世",
+    "StationId": "C0Z190",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "覽勝橋",
+    "StationId": "01AD90",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "萬榮",
+    "StationId": "C0Z200",
+    "County": "花蓮縣",
+    "Town": "鳳林鎮"
+  },
+  {
+    "StationName": "中坑",
+    "StationId": "C0F0C0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "文化大學",
+    "StationId": "A0A460",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "深坑",
+    "StationId": "C0AH80",
+    "County": "新北市",
+    "Town": "深坑區"
+  },
+  {
+    "StationName": "高鐵苗栗",
+    "StationId": "C0E870",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "高鐵雲林",
+    "StationId": "C0K580",
+    "County": "雲林縣",
+    "Town": "虎尾鎮"
+  },
+  {
+    "StationName": "寒溪",
+    "StationId": "88U940",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "華山",
+    "StationId": "88K590",
+    "County": "雲林縣",
+    "Town": "古坑鄉"
+  },
+  {
+    "StationName": "大安森林",
+    "StationId": "CAAH60",
+    "County": "臺北市",
+    "Town": "大安區"
+  },
+  {
+    "StationName": "大興",
+    "StationId": "88T920",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "羅東",
+    "StationId": "C0U940",
+    "County": "宜蘭縣",
+    "Town": "羅東鎮"
+  },
+  {
+    "StationName": "鶯子嶺",
+    "StationId": "C0U950",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "大福",
+    "StationId": "C0U970",
+    "County": "宜蘭縣",
+    "Town": "壯圍鄉"
+  },
+  {
+    "StationName": "坪林石牌",
+    "StationId": "C0U980",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "員山",
+    "StationId": "C0U990",
+    "County": "宜蘭縣",
+    "Town": "員山鄉"
+  },
+  {
+    "StationName": "土場",
+    "StationId": "C0UA00",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "多加屯",
+    "StationId": "C0UA20",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "瑞穗",
+    "StationId": "C0Z210",
+    "County": "花蓮縣",
+    "Town": "瑞穗鄉"
+  },
+  {
+    "StationName": "和平林道",
+    "StationId": "C0Z220",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "和平",
+    "StationId": "C0Z230",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "中平林道",
+    "StationId": "C1Z240",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "瑞穗林道",
+    "StationId": "C0Z250",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "德武",
+    "StationId": "C0Z280",
+    "County": "花蓮縣",
+    "Town": "玉里鎮"
+  },
+  {
+    "StationName": "赤柯山",
+    "StationId": "C0Z290",
+    "County": "花蓮縣",
+    "Town": "玉里鎮"
+  },
+  {
+    "StationName": "東里",
+    "StationId": "C0Z300",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "審馬陣",
+    "StationId": "C0F0D0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "南湖圈谷",
+    "StationId": "C0F0E0",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "小奇萊",
+    "StationId": "C0I530",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "中壢",
+    "StationId": "C0C700",
+    "County": "桃園市",
+    "Town": "中壢區"
+  },
+  {
+    "StationName": "臺灣大學",
+    "StationId": "A0A010",
+    "County": "臺北市",
+    "Town": "大安區"
+  },
+  {
+    "StationName": "東改班鳩分場",
+    "StationId": "72S200",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "東改賓朗果園",
+    "StationId": "72S590",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "茶改東部分場",
+    "StationId": "82S580",
+    "County": "臺東縣",
+    "Town": "鹿野鄉"
+  },
+  {
+    "StationName": "臺大溪頭",
+    "StationId": "U2H480",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "臺中農改",
+    "StationId": "72G600",
+    "County": "彰化縣",
+    "Town": "大村鄉"
+  },
+  {
+    "StationName": "南改斗南分場",
+    "StationId": "72K220",
+    "County": "雲林縣",
+    "Town": "斗南鎮"
+  },
+  {
+    "StationName": "高改旗南分場",
+    "StationId": "72V140",
+    "County": "高雄市",
+    "Town": "旗山區"
+  },
+  {
+    "StationName": "高雄農改",
+    "StationId": "72Q010",
+    "County": "屏東縣",
+    "Town": "長治鄉"
+  },
+  {
+    "StationName": "畜試北區分所",
+    "StationId": "B2E890",
+    "County": "苗栗縣",
+    "Town": "西湖鄉"
+  },
+  {
+    "StationName": "桃園農改",
+    "StationId": "72C440",
+    "County": "桃園市",
+    "Town": "新屋區"
+  },
+  {
+    "StationName": "桃改五峰分場",
+    "StationId": "72D080",
+    "County": "新竹縣",
+    "Town": "五峰鄉"
+  },
+  {
+    "StationName": "茶改場",
+    "StationId": "82C160",
+    "County": "桃園市",
+    "Town": "楊梅區"
+  },
+  {
+    "StationName": "農工中心",
+    "StationId": "A2C560",
+    "County": "桃園市",
+    "Town": "中壢區"
+  },
+  {
+    "StationName": "茶改北部分場",
+    "StationId": "82A750",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "花改蘭陽分場",
+    "StationId": "72U480",
+    "County": "宜蘭縣",
+    "Town": "三星鄉"
+  },
+  {
+    "StationName": "苗栗農改",
+    "StationId": "K2E360",
+    "County": "苗栗縣",
+    "Town": "公館鄉"
+  },
+  {
+    "StationName": "苗改生物防治",
+    "StationId": "K2E710",
+    "County": "苗栗縣",
+    "Town": "大湖鄉"
+  },
+  {
+    "StationName": "種苗繁殖",
+    "StationId": "K2F750",
+    "County": "臺中市",
+    "Town": "新社區"
+  },
+  {
+    "StationName": "茶改南部分場",
+    "StationId": "82H840",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "茶改中部分場",
+    "StationId": "82H320",
+    "County": "南投縣",
+    "Town": "魚池鄉"
+  },
+  {
+    "StationName": "臺大竹山",
+    "StationId": "U2HA50",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "農試嘉義分所",
+    "StationId": "G2L020",
+    "County": "嘉義市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "南改義竹分場",
+    "StationId": "72M360",
+    "County": "嘉義縣",
+    "Town": "義竹鄉"
+  },
+  {
+    "StationName": "畜試所",
+    "StationId": "B2N890",
+    "County": "臺南市",
+    "Town": "新化區"
+  },
+  {
+    "StationName": "農試鳳山分所",
+    "StationId": "G2P820",
+    "County": "高雄市",
+    "Town": "鳳山區"
+  },
+  {
+    "StationName": "畜試南區分所",
+    "StationId": "B2Q810",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "花蓮農改",
+    "StationId": "72T250",
+    "County": "花蓮縣",
+    "Town": "吉安鄉"
+  },
+  {
+    "StationName": "福山植物園",
+    "StationId": "C0AH90",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "清水斷崖",
+    "StationId": "C0Z310",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "桃源谷",
+    "StationId": "C0UA70",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "白嶺",
+    "StationId": "C0UA30",
+    "County": "宜蘭縣",
+    "Town": "大同鄉"
+  },
+  {
+    "StationName": "西德山",
+    "StationId": "C0UA40",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "西帽山",
+    "StationId": "C0UA50",
+    "County": "宜蘭縣",
+    "Town": "南澳鄉"
+  },
+  {
+    "StationName": "清水林道",
+    "StationId": "C0Z320",
+    "County": "花蓮縣",
+    "Town": "卓溪鄉"
+  },
+  {
+    "StationName": "安通山",
+    "StationId": "C0Z330",
+    "County": "花蓮縣",
+    "Town": "玉里鎮"
+  },
+  {
+    "StationName": "七堵",
+    "StationId": "C0B010",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "五股",
+    "StationId": "C0AI00",
+    "County": "新北市",
+    "Town": "五股區"
+  },
+  {
+    "StationName": "國一五楊N44K",
+    "StationId": "C0C690",
+    "County": "桃園市",
+    "Town": "龜山區"
+  },
+  {
+    "StationName": "大鳥",
+    "StationId": "88S950",
+    "County": "臺東縣",
+    "Town": "大武鄉"
+  },
+  {
+    "StationName": "太魯閣",
+    "StationId": "C1TA00",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "龍泉",
+    "StationId": "C1R630",
+    "County": "屏東縣",
+    "Town": "內埔鄉"
+  },
+  {
+    "StationName": "東港",
+    "StationId": "C0R640",
+    "County": "屏東縣",
+    "Town": "東港鎮"
+  },
+  {
+    "StationName": "竹田",
+    "StationId": "C0R650",
+    "County": "屏東縣",
+    "Town": "竹田鄉"
+  },
+  {
+    "StationName": "消防署訓",
+    "StationId": "CAHA00",
+    "County": "南投縣",
+    "Town": "竹山鎮"
+  },
+  {
+    "StationName": "屈尺",
+    "StationId": "C0AI10",
+    "County": "新北市",
+    "Town": "新店區"
+  },
+  {
+    "StationName": "蘭嶼高中",
+    "StationId": "C0S900",
+    "County": "臺東縣",
+    "Town": "蘭嶼鄉"
+  },
+  {
+    "StationName": "蘭嶼燈塔",
+    "StationId": "C0S910",
+    "County": "臺東縣",
+    "Town": "蘭嶼鄉"
+  },
+  {
+    "StationName": "松鶴",
+    "StationId": "88F920",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "田埔分校",
+    "StationId": "81D670",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "白沙灣",
+    "StationId": "C0AI20",
+    "County": "新北市",
+    "Town": "石門區"
+  },
+  {
+    "StationName": "小林",
+    "StationId": "C0V820",
+    "County": "高雄市",
+    "Town": "甲仙區"
+  },
+  {
+    "StationName": "新發國小",
+    "StationId": "81V840",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "大溪永福",
+    "StationId": "C0C710",
+    "County": "桃園市",
+    "Town": "大溪區"
+  },
+  {
+    "StationName": "十字",
+    "StationId": "C1M640",
+    "County": "嘉義縣",
+    "Town": "阿里山鄉"
+  },
+  {
+    "StationName": "蓮華池",
+    "StationId": "E2H360",
+    "County": "南投縣",
+    "Town": "魚池鄉"
+  },
+  {
+    "StationName": "中改埔里分場",
+    "StationId": "72HA00",
+    "County": "南投縣",
+    "Town": "魚池鄉"
+  },
+  {
+    "StationName": "臺大和社",
+    "StationId": "U2HA30",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "臺大內茅埔",
+    "StationId": "U2HA40",
+    "County": "南投縣",
+    "Town": "信義鄉"
+  },
+  {
+    "StationName": "四湖植物園",
+    "StationId": "E2K600",
+    "County": "雲林縣",
+    "Town": "四湖鄉"
+  },
+  {
+    "StationName": "農業試驗所",
+    "StationId": "G2F820",
+    "County": "臺中市",
+    "Town": "霧峰區"
+  },
+  {
+    "StationName": "南改鹿草分場",
+    "StationId": "72M700",
+    "County": "嘉義縣",
+    "Town": "鹿草鄉"
+  },
+  {
+    "StationName": "七股研究中心",
+    "StationId": "72N240",
+    "County": "臺南市",
+    "Town": "七股區"
+  },
+  {
+    "StationName": "萬大發電廠",
+    "StationId": "42HA10",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "東港工作站",
+    "StationId": "12Q970",
+    "County": "屏東縣",
+    "Town": "東港鎮"
+  },
+  {
+    "StationName": "口湖工作站",
+    "StationId": "12J990",
+    "County": "雲林縣",
+    "Town": "口湖鄉"
+  },
+  {
+    "StationName": "恆春工作站",
+    "StationId": "12Q980",
+    "County": "屏東縣",
+    "Town": "車城鄉"
+  },
+  {
+    "StationName": "水試所成功",
+    "StationId": "CM0140",
+    "County": "臺東縣",
+    "Town": "成功鎮"
+  },
+  {
+    "StationName": "知本水試所",
+    "StationId": "C0SA60",
+    "County": "臺東縣",
+    "Town": "臺東市"
+  },
+  {
+    "StationName": "都蘭",
+    "StationId": "C1SA70",
+    "County": "臺東縣",
+    "Town": "東河鄉"
+  },
+  {
+    "StationName": "土阪",
+    "StationId": "C0SA80",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "下馬",
+    "StationId": "C0S660",
+    "County": "臺東縣",
+    "Town": "海端鄉"
+  },
+  {
+    "StationName": "泰武(2)",
+    "StationId": "01Q960",
+    "County": "屏東縣",
+    "Town": "泰武鄉"
+  },
+  {
+    "StationName": "石寧山",
+    "StationId": "C0S940",
+    "County": "臺東縣",
+    "Town": "長濱鄉"
+  },
+  {
+    "StationName": "七塊厝",
+    "StationId": "C0S950",
+    "County": "臺東縣",
+    "Town": "東河鄉"
+  },
+  {
+    "StationName": "富里",
+    "StationId": "C0T9N0",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "檳榔四格山",
+    "StationId": "C0SA10",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "延平",
+    "StationId": "C0S930",
+    "County": "臺東縣",
+    "Town": "延平鄉"
+  },
+  {
+    "StationName": "都歷",
+    "StationId": "C0SA30",
+    "County": "臺東縣",
+    "Town": "成功鎮"
+  },
+  {
+    "StationName": "金峰嘉蘭",
+    "StationId": "C0S920",
+    "County": "臺東縣",
+    "Town": "金峰鄉"
+  },
+  {
+    "StationName": "金崙山",
+    "StationId": "C0SA20",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "加津林",
+    "StationId": "C0S970",
+    "County": "臺東縣",
+    "Town": "大武鄉"
+  },
+  {
+    "StationName": "山豬窟",
+    "StationId": "C0S990",
+    "County": "臺東縣",
+    "Town": "大武鄉"
+  },
+  {
+    "StationName": "瑞和",
+    "StationId": "C0SA40",
+    "County": "臺東縣",
+    "Town": "鹿野鄉"
+  },
+  {
+    "StationName": "歷坵",
+    "StationId": "C0SA00",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "勝林山",
+    "StationId": "C0S980",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "三重",
+    "StationId": "C0AI30",
+    "County": "新北市",
+    "Town": "三重區"
+  },
+  {
+    "StationName": "香蘭",
+    "StationId": "C0S960",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "利嘉林道",
+    "StationId": "C1SA50",
+    "County": "臺東縣",
+    "Town": "卑南鄉"
+  },
+  {
+    "StationName": "佳樂水",
+    "StationId": "C0R680",
+    "County": "屏東縣",
+    "Town": "滿州鄉"
+  },
+  {
+    "StationName": "枋寮",
+    "StationId": "C0R660",
+    "County": "屏東縣",
+    "Town": "枋寮鄉"
+  },
+  {
+    "StationName": "楓港",
+    "StationId": "C0R670",
+    "County": "屏東縣",
+    "Town": "枋山鄉"
+  },
+  {
+    "StationName": "枋山",
+    "StationId": "C0R700",
+    "County": "屏東縣",
+    "Town": "枋山鄉"
+  },
+  {
+    "StationName": "墾丁",
+    "StationId": "C0R690",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "石牌",
+    "StationId": "C0AI40",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "牡丹",
+    "StationId": "C0R341",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "旭海",
+    "StationId": "C0R720",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "線西",
+    "StationId": "C0G900",
+    "County": "彰化縣",
+    "Town": "線西鄉"
+  },
+  {
+    "StationName": "花壇",
+    "StationId": "C0G910",
+    "County": "彰化縣",
+    "Town": "花壇鄉"
+  },
+  {
+    "StationName": "三義",
+    "StationId": "C2E880",
+    "County": "苗栗縣",
+    "Town": "三義鄉"
+  },
+  {
+    "StationName": "大庄合作社",
+    "StationId": "V2K610",
+    "County": "雲林縣",
+    "Town": "二崙鄉"
+  },
+  {
+    "StationName": "麥寮合作社",
+    "StationId": "V2K620",
+    "County": "雲林縣",
+    "Town": "麥寮鄉"
+  },
+  {
+    "StationName": "太麻里1",
+    "StationId": "E2S980",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "太麻里2",
+    "StationId": "E2S960",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "桃改樹林分場",
+    "StationId": "72AI40",
+    "County": "新北市",
+    "Town": "樹林區"
+  },
+  {
+    "StationName": "林試畢祿溪站",
+    "StationId": "E2HA20",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "臺南蘭花園區",
+    "StationId": "A2N290",
+    "County": "臺南市",
+    "Town": "後壁區"
+  },
+  {
+    "StationName": "畜試東區分所",
+    "StationId": "B2U990",
+    "County": "宜蘭縣",
+    "Town": "五結鄉"
+  },
+  {
+    "StationName": "臺大雲林校區",
+    "StationId": "A2K630",
+    "County": "雲林縣",
+    "Town": "虎尾鎮"
+  },
+  {
+    "StationName": "林試六龜中心",
+    "StationId": "E2P980",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "林試扇平站",
+    "StationId": "E2P990",
+    "County": "高雄市",
+    "Town": "茂林區"
+  },
+  {
+    "StationName": "水試臺西試驗",
+    "StationId": "A2K360",
+    "County": "雲林縣",
+    "Town": "臺西鄉"
+  },
+  {
+    "StationName": "八德合作社",
+    "StationId": "V2C250",
+    "County": "桃園市",
+    "Town": "八德區"
+  },
+  {
+    "StationName": "八德蔬果",
+    "StationId": "V2C260",
+    "County": "桃園市",
+    "Town": "八德區"
+  },
+  {
+    "StationName": "牡丹池山",
+    "StationId": "C0R840",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "柳營",
+    "StationId": "C0X320",
+    "County": "臺南市",
+    "Town": "柳營區"
+  },
+  {
+    "StationName": "大坪頂",
+    "StationId": "C0R730",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "龍磐",
+    "StationId": "C0R710",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "獅子",
+    "StationId": "C0R740",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "四林格山",
+    "StationId": "C0R750",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "南仁湖",
+    "StationId": "C0R760",
+    "County": "屏東縣",
+    "Town": "滿州鄉"
+  },
+  {
+    "StationName": "保力",
+    "StationId": "C0R770",
+    "County": "屏東縣",
+    "Town": "車城鄉"
+  },
+  {
+    "StationName": "滿州",
+    "StationId": "C0R780",
+    "County": "屏東縣",
+    "Town": "滿州鄉"
+  },
+  {
+    "StationName": "九棚",
+    "StationId": "C0R790",
+    "County": "屏東縣",
+    "Town": "滿州鄉"
+  },
+  {
+    "StationName": "丹路",
+    "StationId": "C0R800",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "內獅",
+    "StationId": "C0R810",
+    "County": "屏東縣",
+    "Town": "獅子鄉"
+  },
+  {
+    "StationName": "白鷺",
+    "StationId": "C0R820",
+    "County": "屏東縣",
+    "Town": "來義鄉"
+  },
+  {
+    "StationName": "高士",
+    "StationId": "C0R830",
+    "County": "屏東縣",
+    "Town": "牡丹鄉"
+  },
+  {
+    "StationName": "達仁林場",
+    "StationId": "C0SA90",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "國一N174K",
+    "StationId": "CAF010",
+    "County": "臺中市",
+    "Town": "西屯區"
+  },
+  {
+    "StationName": "國一N198K",
+    "StationId": "CAG010",
+    "County": "彰化縣",
+    "Town": "彰化市"
+  },
+  {
+    "StationName": "國一N234K",
+    "StationId": "CAJ020",
+    "County": "雲林縣",
+    "Town": "西螺鎮"
+  },
+  {
+    "StationName": "國一N250K",
+    "StationId": "CAL010",
+    "County": "嘉義縣",
+    "Town": "大林鎮"
+  },
+  {
+    "StationName": "國一S105K",
+    "StationId": "CAD010",
+    "County": "新竹縣",
+    "Town": "寶山鄉"
+  },
+  {
+    "StationName": "國一S123K",
+    "StationId": "CAE030",
+    "County": "苗栗縣",
+    "Town": "頭屋鄉"
+  },
+  {
+    "StationName": "國一S132K",
+    "StationId": "CAE040",
+    "County": "苗栗縣",
+    "Town": "公館鄉"
+  },
+  {
+    "StationName": "國一S152K",
+    "StationId": "CAE050",
+    "County": "苗栗縣",
+    "Town": "三義鄉"
+  },
+  {
+    "StationName": "國一S162K",
+    "StationId": "CAF020",
+    "County": "臺中市",
+    "Town": "后里區"
+  },
+  {
+    "StationName": "國一S169K",
+    "StationId": "CAF030",
+    "County": "臺中市",
+    "Town": "神岡區"
+  },
+  {
+    "StationName": "國一S188K",
+    "StationId": "CAF040",
+    "County": "臺中市",
+    "Town": "大肚區"
+  },
+  {
+    "StationName": "國一S207K",
+    "StationId": "CAG030",
+    "County": "彰化縣",
+    "Town": "大村鄉"
+  },
+  {
+    "StationName": "國三N119K",
+    "StationId": "CAE060",
+    "County": "苗栗縣",
+    "Town": "竹南鎮"
+  },
+  {
+    "StationName": "國三N151K",
+    "StationId": "CAE070",
+    "County": "苗栗縣",
+    "Town": "苑裡鎮"
+  },
+  {
+    "StationName": "國三N191K",
+    "StationId": "CAG040",
+    "County": "彰化縣",
+    "Town": "和美鎮"
+  },
+  {
+    "StationName": "國三N196K",
+    "StationId": "CAG050",
+    "County": "彰化縣",
+    "Town": "彰化市"
+  },
+  {
+    "StationName": "國三N208K",
+    "StationId": "CAF050",
+    "County": "臺中市",
+    "Town": "霧峰區"
+  },
+  {
+    "StationName": "國三N223K",
+    "StationId": "CAH010",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "國三S140K",
+    "StationId": "CAE080",
+    "County": "苗栗縣",
+    "Town": "通霄鎮"
+  },
+  {
+    "StationName": "國三S156K",
+    "StationId": "CAE090",
+    "County": "苗栗縣",
+    "Town": "苑裡鎮"
+  },
+  {
+    "StationName": "國三S168K",
+    "StationId": "CAF060",
+    "County": "臺中市",
+    "Town": "清水區"
+  },
+  {
+    "StationName": "國三S202K",
+    "StationId": "CAG060",
+    "County": "彰化縣",
+    "Town": "彰化市"
+  },
+  {
+    "StationName": "國三S217K",
+    "StationId": "CAH020",
+    "County": "南投縣",
+    "Town": "草屯鎮"
+  },
+  {
+    "StationName": "國四E5K",
+    "StationId": "CAF090",
+    "County": "臺中市",
+    "Town": "神岡區"
+  },
+  {
+    "StationName": "中興新村",
+    "StationId": "81HA60",
+    "County": "南投縣",
+    "Town": "南投市"
+  },
+  {
+    "StationName": "硬漢嶺",
+    "StationId": "CAAH70",
+    "County": "新北市",
+    "Town": "八里區"
+  },
+  {
+    "StationName": "桃改新埔分場",
+    "StationId": "72D680",
+    "County": "新竹縣",
+    "Town": "新埔鎮"
+  },
+  {
+    "StationName": "台農院關渡站",
+    "StationId": "G2AI50",
+    "County": "臺北市",
+    "Town": "北投區"
+  },
+  {
+    "StationName": "國三N016K",
+    "StationId": "C1AI50",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "國一N039K",
+    "StationId": "C1AI60",
+    "County": "新北市",
+    "Town": "泰山區"
+  },
+  {
+    "StationName": "國三N149K",
+    "StationId": "C1E890",
+    "County": "苗栗縣",
+    "Town": "通霄鎮"
+  },
+  {
+    "StationName": "國六W023K",
+    "StationId": "C1I550",
+    "County": "南投縣",
+    "Town": "國姓鄉"
+  },
+  {
+    "StationName": "國三N285K",
+    "StationId": "C1M870",
+    "County": "嘉義縣",
+    "Town": "民雄鄉"
+  },
+  {
+    "StationName": "國三S383K",
+    "StationId": "C1V830",
+    "County": "高雄市",
+    "Town": "燕巢區"
+  },
+  {
+    "StationName": "國三甲005K",
+    "StationId": "CAA090",
+    "County": "臺北市",
+    "Town": "文山區"
+  },
+  {
+    "StationName": "國二E009K",
+    "StationId": "CAC020",
+    "County": "桃園市",
+    "Town": "桃園區"
+  },
+  {
+    "StationName": "國三N002K",
+    "StationId": "CAB050",
+    "County": "基隆市",
+    "Town": "中山區"
+  },
+  {
+    "StationName": "國三S004K",
+    "StationId": "CAB030",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "國三S007K",
+    "StationId": "CAB040",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "國三S010K",
+    "StationId": "CAA030",
+    "County": "新北市",
+    "Town": "汐止區"
+  },
+  {
+    "StationName": "國三S016K",
+    "StationId": "CAA040",
+    "County": "臺北市",
+    "Town": "南港區"
+  },
+  {
+    "StationName": "國三S037K",
+    "StationId": "CAA050",
+    "County": "新北市",
+    "Town": "土城區"
+  },
+  {
+    "StationName": "國三S042K",
+    "StationId": "CAA060",
+    "County": "新北市",
+    "Town": "土城區"
+  },
+  {
+    "StationName": "國三N046K",
+    "StationId": "CAA070",
+    "County": "新北市",
+    "Town": "樹林區"
+  },
+  {
+    "StationName": "國三S054K",
+    "StationId": "CAA080",
+    "County": "新北市",
+    "Town": "鶯歌區"
+  },
+  {
+    "StationName": "國三N063K",
+    "StationId": "CAC030",
+    "County": "桃園市",
+    "Town": "大溪區"
+  },
+  {
+    "StationName": "國三N085K",
+    "StationId": "CAD080",
+    "County": "新竹縣",
+    "Town": "關西鎮"
+  },
+  {
+    "StationName": "國三S103K",
+    "StationId": "CAD090",
+    "County": "新竹市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "國一S001K",
+    "StationId": "CAB010",
+    "County": "基隆市",
+    "Town": "安樂區"
+  },
+  {
+    "StationName": "國一S006K",
+    "StationId": "CAB020",
+    "County": "基隆市",
+    "Town": "七堵區"
+  },
+  {
+    "StationName": "國一N013K",
+    "StationId": "CAA010",
+    "County": "新北市",
+    "Town": "汐止區"
+  },
+  {
+    "StationName": "國一S026K",
+    "StationId": "CAA020",
+    "County": "新北市",
+    "Town": "三重區"
+  },
+  {
+    "StationName": "國一S072K",
+    "StationId": "CAC010",
+    "County": "桃園市",
+    "Town": "楊梅區"
+  },
+  {
+    "StationName": "國一N077K",
+    "StationId": "CAD020",
+    "County": "新竹縣",
+    "Town": "湖口鄉"
+  },
+  {
+    "StationName": "國一S082K",
+    "StationId": "CAD030",
+    "County": "新竹縣",
+    "Town": "湖口鄉"
+  },
+  {
+    "StationName": "國一S088K",
+    "StationId": "CAD040",
+    "County": "新竹縣",
+    "Town": "竹北市"
+  },
+  {
+    "StationName": "國一N094K",
+    "StationId": "CAD050",
+    "County": "新竹市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "國一S098K",
+    "StationId": "CAD060",
+    "County": "新竹縣",
+    "Town": "寶山鄉"
+  },
+  {
+    "StationName": "六龜",
+    "StationId": "F1V850",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "甲仙",
+    "StationId": "F1V860",
+    "County": "高雄市",
+    "Town": "甲仙區"
+  },
+  {
+    "StationName": "國一S262K",
+    "StationId": "CAL020",
+    "County": "嘉義縣",
+    "Town": "民雄鄉"
+  },
+  {
+    "StationName": "國一N268K",
+    "StationId": "CAL030",
+    "County": "嘉義縣",
+    "Town": "水上鄉"
+  },
+  {
+    "StationName": "國一N273K",
+    "StationId": "CAL040",
+    "County": "嘉義縣",
+    "Town": "水上鄉"
+  },
+  {
+    "StationName": "國一N288K",
+    "StationId": "CAN010",
+    "County": "臺南市",
+    "Town": "新營區"
+  },
+  {
+    "StationName": "國一S306K",
+    "StationId": "CAN020",
+    "County": "臺南市",
+    "Town": "麻豆區"
+  },
+  {
+    "StationName": "國一N323K",
+    "StationId": "CAN040",
+    "County": "臺南市",
+    "Town": "永康區"
+  },
+  {
+    "StationName": "國一S342K",
+    "StationId": "CAP010",
+    "County": "高雄市",
+    "Town": "路竹區"
+  },
+  {
+    "StationName": "國一S346K",
+    "StationId": "CAP020",
+    "County": "高雄市",
+    "Town": "岡山區"
+  },
+  {
+    "StationName": "國一N351K",
+    "StationId": "CAP030",
+    "County": "高雄市",
+    "Town": "橋頭區"
+  },
+  {
+    "StationName": "國一N361K",
+    "StationId": "CAP040",
+    "County": "高雄市",
+    "Town": "仁武區"
+  },
+  {
+    "StationName": "國三N279K",
+    "StationId": "CAL050",
+    "County": "嘉義縣",
+    "Town": "大林鎮"
+  },
+  {
+    "StationName": "國三N295K",
+    "StationId": "CAL070",
+    "County": "嘉義市",
+    "Town": "東區"
+  },
+  {
+    "StationName": "國三N303K",
+    "StationId": "CAL080",
+    "County": "嘉義縣",
+    "Town": "中埔鄉"
+  },
+  {
+    "StationName": "國三S311K",
+    "StationId": "CAN060",
+    "County": "臺南市",
+    "Town": "白河區"
+  },
+  {
+    "StationName": "國三S329K",
+    "StationId": "CAN070",
+    "County": "臺南市",
+    "Town": "官田區"
+  },
+  {
+    "StationName": "國三N336K",
+    "StationId": "CAN080",
+    "County": "臺南市",
+    "Town": "官田區"
+  },
+  {
+    "StationName": "國三S342K",
+    "StationId": "CAN090",
+    "County": "臺南市",
+    "Town": "善化區"
+  },
+  {
+    "StationName": "國三S366K",
+    "StationId": "CAN100",
+    "County": "臺南市",
+    "Town": "關廟區"
+  },
+  {
+    "StationName": "國三S385K",
+    "StationId": "CAP060",
+    "County": "高雄市",
+    "Town": "大樹區"
+  },
+  {
+    "StationName": "國三S415K",
+    "StationId": "CAQ020",
+    "County": "屏東縣",
+    "Town": "竹田鄉"
+  },
+  {
+    "StationName": "國三N425K",
+    "StationId": "CAQ010",
+    "County": "屏東縣",
+    "Town": "南州鄉"
+  },
+  {
+    "StationName": "茶改場竹圍站",
+    "StationId": "CAH030",
+    "County": "南投縣",
+    "Town": "名間鄉"
+  },
+  {
+    "StationName": "石碇服務區",
+    "StationId": "C1A750",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "坪林交控",
+    "StationId": "C1A760",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "國一N128K",
+    "StationId": "C1E900",
+    "County": "苗栗縣",
+    "Town": "頭屋鄉"
+  },
+  {
+    "StationName": "國一S218K",
+    "StationId": "C1G9D0",
+    "County": "彰化縣",
+    "Town": "埤頭鄉"
+  },
+  {
+    "StationName": "國三N238K",
+    "StationId": "C1H840",
+    "County": "南投縣",
+    "Town": "名間鄉"
+  },
+  {
+    "StationName": "東山服務區",
+    "StationId": "C1O940",
+    "County": "臺南市",
+    "Town": "東山區"
+  },
+  {
+    "StationName": "西濱S023K",
+    "StationId": "CAC050",
+    "County": "桃園市",
+    "Town": "蘆竹區"
+  },
+  {
+    "StationName": "西濱S032K",
+    "StationId": "CAC060",
+    "County": "桃園市",
+    "Town": "大園區"
+  },
+  {
+    "StationName": "西濱N066K",
+    "StationId": "CAD100",
+    "County": "新竹縣",
+    "Town": "新豐鄉"
+  },
+  {
+    "StationName": "西濱S082K",
+    "StationId": "CAD110",
+    "County": "新竹市",
+    "Town": "香山區"
+  },
+  {
+    "StationName": "西濱N107K",
+    "StationId": "CAE100",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "西濱S129K",
+    "StationId": "CAE110",
+    "County": "苗栗縣",
+    "Town": "苑裡鎮"
+  },
+  {
+    "StationName": "西濱N151K",
+    "StationId": "CAF100",
+    "County": "臺中市",
+    "Town": "清水區"
+  },
+  {
+    "StationName": "西濱S173K",
+    "StationId": "CAG070",
+    "County": "彰化縣",
+    "Town": "鹿港鎮"
+  },
+  {
+    "StationName": "西濱S189K",
+    "StationId": "CAG080",
+    "County": "彰化縣",
+    "Town": "芳苑鄉"
+  },
+  {
+    "StationName": "西濱N210K",
+    "StationId": "CAG090",
+    "County": "彰化縣",
+    "Town": "大城鄉"
+  },
+  {
+    "StationName": "西濱N222K",
+    "StationId": "CAJ030",
+    "County": "雲林縣",
+    "Town": "麥寮鄉"
+  },
+  {
+    "StationName": "西濱S241K",
+    "StationId": "CAJ040",
+    "County": "雲林縣",
+    "Town": "口湖鄉"
+  },
+  {
+    "StationName": "西濱S257K",
+    "StationId": "CAL090",
+    "County": "嘉義縣",
+    "Town": "東石鄉"
+  },
+  {
+    "StationName": "西濱S267K",
+    "StationId": "CAL100",
+    "County": "嘉義縣",
+    "Town": "東石鄉"
+  },
+  {
+    "StationName": "西濱S280K",
+    "StationId": "CAN110",
+    "County": "臺南市",
+    "Town": "北門區"
+  },
+  {
+    "StationName": "西濱N304K",
+    "StationId": "CAN120",
+    "County": "臺南市",
+    "Town": "七股區"
+  },
+  {
+    "StationName": "科教館",
+    "StationId": "C0A770",
+    "County": "臺北市",
+    "Town": "士林區"
+  },
+  {
+    "StationName": "永靖",
+    "StationId": "C0G920",
+    "County": "彰化縣",
+    "Town": "永靖鄉"
+  },
+  {
+    "StationName": "淡大蘭陽校園",
+    "StationId": "C0UB00",
+    "County": "宜蘭縣",
+    "Town": "礁溪鄉"
+  },
+  {
+    "StationName": "東引",
+    "StationId": "CAW010",
+    "County": "連江縣",
+    "Town": "東引鄉"
+  },
+  {
+    "StationName": "大溪漁港",
+    "StationId": "C0UA80",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "石城",
+    "StationId": "C0UA90",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "澳底",
+    "StationId": "C0AJ90",
+    "County": "新北市",
+    "Town": "貢寮區"
+  },
+  {
+    "StationName": "大武崙",
+    "StationId": "C0B040",
+    "County": "基隆市",
+    "Town": "安樂區"
+  },
+  {
+    "StationName": "野柳",
+    "StationId": "C0AJ20",
+    "County": "新北市",
+    "Town": "萬里區"
+  },
+  {
+    "StationName": "淡水觀海",
+    "StationId": "C0AJ30",
+    "County": "新北市",
+    "Town": "淡水區"
+  },
+  {
+    "StationName": "竹圍",
+    "StationId": "C0C720",
+    "County": "桃園市",
+    "Town": "大園區"
+  },
+  {
+    "StationName": "中大臨海站",
+    "StationId": "C0C730",
+    "County": "桃園市",
+    "Town": "新屋區"
+  },
+  {
+    "StationName": "石門",
+    "StationId": "C0AJ40",
+    "County": "新北市",
+    "Town": "石門區"
+  },
+  {
+    "StationName": "觀音工業區",
+    "StationId": "C0C740",
+    "County": "桃園市",
+    "Town": "觀音區"
+  },
+  {
+    "StationName": "海天一線",
+    "StationId": "C0D670",
+    "County": "新竹市",
+    "Town": "北區"
+  },
+  {
+    "StationName": "香山濕地",
+    "StationId": "C0D680",
+    "County": "新竹市",
+    "Town": "香山區"
+  },
+  {
+    "StationName": "水湳洞",
+    "StationId": "C0AJ50",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "八斗子",
+    "StationId": "C0B050",
+    "County": "基隆市",
+    "Town": "中正區"
+  },
+  {
+    "StationName": "外湖",
+    "StationId": "C0D690",
+    "County": "新竹縣",
+    "Town": "新豐鄉"
+  },
+  {
+    "StationName": "海埔",
+    "StationId": "C0E910",
+    "County": "苗栗縣",
+    "Town": "後龍鎮"
+  },
+  {
+    "StationName": "通霄漁港",
+    "StationId": "C0E920",
+    "County": "苗栗縣",
+    "Town": "通宵鎮"
+  },
+  {
+    "StationName": "松柏",
+    "StationId": "C0FA10",
+    "County": "臺中市",
+    "Town": "大甲區"
+  },
+  {
+    "StationName": "溫寮",
+    "StationId": "C0FA20",
+    "County": "臺中市",
+    "Town": "大安區"
+  },
+  {
+    "StationName": "龍鳳",
+    "StationId": "C0E930",
+    "County": "苗栗縣",
+    "Town": "竹南鎮"
+  },
+  {
+    "StationName": "粉鳥林",
+    "StationId": "C1U930",
+    "County": "宜蘭縣",
+    "Town": "蘇澳鎮"
+  },
+  {
+    "StationName": "錦山國小",
+    "StationId": "81D760",
+    "County": "新竹縣",
+    "Town": "關西鎮"
+  },
+  {
+    "StationName": "高雄燈塔",
+    "StationId": "CAP070",
+    "County": "高雄市",
+    "Town": "旗津區"
+  },
+  {
+    "StationName": "梧棲",
+    "StationId": "C0FA30",
+    "County": "臺中市",
+    "Town": "梧棲區"
+  },
+  {
+    "StationName": "鼻頭",
+    "StationId": "C0R860",
+    "County": "屏東縣",
+    "Town": "滿洲鄉"
+  },
+  {
+    "StationName": "興海",
+    "StationId": "C0R870",
+    "County": "屏東縣",
+    "Town": "滿洲鄉"
+  },
+  {
+    "StationName": "後壁湖",
+    "StationId": "C0R880",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "山海",
+    "StationId": "C0R890",
+    "County": "屏東縣",
+    "Town": "恆春鎮"
+  },
+  {
+    "StationName": "竹坑",
+    "StationId": "C0R900",
+    "County": "屏東縣",
+    "Town": "車城鄉"
+  },
+  {
+    "StationName": "加祿堂",
+    "StationId": "C0R940",
+    "County": "屏東縣",
+    "Town": "枋山鄉"
+  },
+  {
+    "StationName": "鯤鯓國小",
+    "StationId": "C0N010",
+    "County": "臺南市",
+    "Town": "將軍區"
+  },
+  {
+    "StationName": "下寮",
+    "StationId": "C0R910",
+    "County": "屏東縣",
+    "Town": "枋寮鄉"
+  },
+  {
+    "StationName": "塭仔",
+    "StationId": "C0R920",
+    "County": "屏東縣",
+    "Town": "佳冬鄉"
+  },
+  {
+    "StationName": "汕尾",
+    "StationId": "C0V900",
+    "County": "高雄市",
+    "Town": "林園區"
+  },
+  {
+    "StationName": "鳳鼻頭",
+    "StationId": "C0V840",
+    "County": "高雄市",
+    "Town": "小港區"
+  },
+  {
+    "StationName": "蚵仔寮",
+    "StationId": "C0V850",
+    "County": "高雄市",
+    "Town": "梓官區"
+  },
+  {
+    "StationName": "南寮",
+    "StationId": "C0V860",
+    "County": "高雄市",
+    "Town": "彌陀區"
+  },
+  {
+    "StationName": "文安",
+    "StationId": "C0V870",
+    "County": "高雄市",
+    "Town": "彌陀區"
+  },
+  {
+    "StationName": "興達",
+    "StationId": "C0V880",
+    "County": "高雄市",
+    "Town": "茄萣區"
+  },
+  {
+    "StationName": "城西",
+    "StationId": "C0N020",
+    "County": "臺南市",
+    "Town": "安南區"
+  },
+  {
+    "StationName": "四草",
+    "StationId": "C0N030",
+    "County": "臺南市",
+    "Town": "安南區"
+  },
+  {
+    "StationName": "蘆竹溝",
+    "StationId": "C0N040",
+    "County": "臺南市",
+    "Town": "北門區"
+  },
+  {
+    "StationName": "蚵寮",
+    "StationId": "C0N050",
+    "County": "臺南市",
+    "Town": "北門區"
+  },
+  {
+    "StationName": "前鎮",
+    "StationId": "C0V890",
+    "County": "高雄市",
+    "Town": "前鎮區"
+  },
+  {
+    "StationName": "林邊",
+    "StationId": "C0R850",
+    "County": "屏東縣",
+    "Town": "林邊鄉"
+  },
+  {
+    "StationName": "六塊厝",
+    "StationId": "C0AJ60",
+    "County": "新北市",
+    "Town": "淡水區"
+  },
+  {
+    "StationName": "田寮",
+    "StationId": "C0AJ70",
+    "County": "新北市",
+    "Town": "三芝區"
+  },
+  {
+    "StationName": "新興坑尾",
+    "StationId": "C0C750",
+    "County": "桃園市",
+    "Town": "觀音區"
+  },
+  {
+    "StationName": "壯圍",
+    "StationId": "C0UB20",
+    "County": "宜蘭縣",
+    "Town": "壯圍鄉"
+  },
+  {
+    "StationName": "北關",
+    "StationId": "C0U880",
+    "County": "宜蘭縣",
+    "Town": "頭城鎮"
+  },
+  {
+    "StationName": "防潮門",
+    "StationId": "C0G950",
+    "County": "彰化縣",
+    "Town": "伸港鄉"
+  },
+  {
+    "StationName": "臺中電廠",
+    "StationId": "C0FA40",
+    "County": "臺中市",
+    "Town": "龍井區"
+  },
+  {
+    "StationName": "福寶",
+    "StationId": "C0G960",
+    "County": "彰化縣",
+    "Town": "福興鄉"
+  },
+  {
+    "StationName": "三豐",
+    "StationId": "C0G970",
+    "County": "彰化縣",
+    "Town": "大城鄉"
+  },
+  {
+    "StationName": "箔子寮",
+    "StationId": "C0K600",
+    "County": "雲林縣",
+    "Town": "口湖鄉"
+  },
+  {
+    "StationName": "好美里",
+    "StationId": "C0M880",
+    "County": "嘉義縣",
+    "Town": "布袋鎮"
+  },
+  {
+    "StationName": "板橋",
+    "StationId": "C0AJ80",
+    "County": "新北市",
+    "Town": "板橋區"
+  },
+  {
+    "StationName": "暖暖",
+    "StationId": "C0B060",
+    "County": "基隆市",
+    "Town": "暖暖區"
+  },
+  {
+    "StationName": "霧峰",
+    "StationId": "C0FA50",
+    "County": "臺中市",
+    "Town": "霧峰區"
+  },
+  {
+    "StationName": "萬丹",
+    "StationId": "C0R930",
+    "County": "屏東縣",
+    "Town": "萬丹鄉"
+  },
+  {
+    "StationName": "蘇澳",
+    "StationId": "C0UB10",
+    "County": "宜蘭縣",
+    "Town": "蘇澳鎮"
+  },
+  {
+    "StationName": "關西",
+    "StationId": "C0D700",
+    "County": "新竹縣",
+    "Town": "關西鎮"
+  },
+  {
+    "StationName": "華梵大學",
+    "StationId": "81AJ30",
+    "County": "新北市",
+    "Town": "石碇區"
+  },
+  {
+    "StationName": "高山部落",
+    "StationId": "81T990",
+    "County": "花蓮縣",
+    "Town": "豐濱鄉"
+  },
+  {
+    "StationName": "大豐",
+    "StationId": "81T770",
+    "County": "花蓮縣",
+    "Town": "光復鄉"
+  },
+  {
+    "StationName": "富南部落",
+    "StationId": "81T760",
+    "County": "花蓮縣",
+    "Town": "富里鄉"
+  },
+  {
+    "StationName": "畜試所澎湖",
+    "StationId": "C2W230",
+    "County": "澎湖縣",
+    "Town": "西嶼鄉"
+  },
+  {
+    "StationName": "七美",
+    "StationId": "C0W180",
+    "County": "澎湖縣",
+    "Town": "七美鄉"
+  },
+  {
+    "StationName": "望安",
+    "StationId": "C0W190",
+    "County": "澎湖縣",
+    "Town": "望安鄉"
+  },
+  {
+    "StationName": "湖西",
+    "StationId": "C0W200",
+    "County": "澎湖縣",
+    "Town": "湖西鄉"
+  },
+  {
+    "StationName": "北竿",
+    "StationId": "C0W220",
+    "County": "連江縣",
+    "Town": "北竿鄉"
+  },
+  {
+    "StationName": "華陵",
+    "StationId": "81C790",
+    "County": "桃園市",
+    "Town": "復興區"
+  },
+  {
+    "StationName": "秀巒國小",
+    "StationId": "81D770",
+    "County": "新竹縣",
+    "Town": "尖石鄉"
+  },
+  {
+    "StationName": "梨山部落",
+    "StationId": "81F960",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "松茂部落",
+    "StationId": "81F970",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "廬山國小",
+    "StationId": "81HB20",
+    "County": "南投縣",
+    "Town": "仁愛鄉"
+  },
+  {
+    "StationName": "和雅茶園",
+    "StationId": "81HB30",
+    "County": "南投縣",
+    "Town": "鹿谷鄉"
+  },
+  {
+    "StationName": "文峰遊客中心",
+    "StationId": "81M780",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "拉里吧",
+    "StationId": "81S540",
+    "County": "臺東縣",
+    "Town": "達仁鄉"
+  },
+  {
+    "StationName": "新庄",
+    "StationId": "81V920",
+    "County": "高雄市",
+    "Town": "杉林區"
+  },
+  {
+    "StationName": "竹林",
+    "StationId": "81V930",
+    "County": "高雄市",
+    "Town": "六龜區"
+  },
+  {
+    "StationName": "麻竹湖步道",
+    "StationId": "81M790",
+    "County": "嘉義縣",
+    "Town": "番路鄉"
+  },
+  {
+    "StationName": "三和國小",
+    "StationId": "81S560",
+    "County": "臺東縣",
+    "Town": "太麻里鄉"
+  },
+  {
+    "StationName": "寶山部落",
+    "StationId": "81V940",
+    "County": "高雄市",
+    "Town": "桃源區"
+  },
+  {
+    "StationName": "西拉雅風管處",
+    "StationId": "C2N160",
+    "County": "臺南市",
+    "Town": "官田區"
+  },
+  {
+    "StationName": "國一S144K",
+    "StationId": "CAE560",
+    "County": "苗栗縣",
+    "Town": "銅鑼鄉"
+  },
+  {
+    "StationName": "國一N158K",
+    "StationId": "CAF950",
+    "County": "臺中市",
+    "Town": "后里區"
+  },
+  {
+    "StationName": "國三S175K",
+    "StationId": "CAF960",
+    "County": "臺中市",
+    "Town": "沙鹿區"
+  },
+  {
+    "StationName": "國三N183K",
+    "StationId": "CAF980",
+    "County": "臺中市",
+    "Town": "龍井區"
+  },
+  {
+    "StationName": "國一N039K",
+    "StationId": "CAA990",
+    "County": "新北市",
+    "Town": "泰山區"
+  },
+  {
+    "StationName": "國一高架N063",
+    "StationId": "CAC760",
+    "County": "桃園市",
+    "Town": "平鎮區"
+  },
+  {
+    "StationName": "國三N077K",
+    "StationId": "CAD710",
+    "County": "新竹縣",
+    "Town": "關西鎮"
+  },
+  {
+    "StationName": "國三S290K",
+    "StationId": "CAM900",
+    "County": "嘉義縣",
+    "Town": "竹崎鄉"
+  },
+  {
+    "StationName": "國一S336K",
+    "StationId": "CAV270",
+    "County": "高雄市",
+    "Town": "路竹區"
+  },
+  {
+    "StationName": "國一N315K",
+    "StationId": "CAN150",
+    "County": "臺南市",
+    "Town": "新市區"
+  },
+  {
+    "StationName": "國三S378K",
+    "StationId": "CAV280",
+    "County": "高雄市",
+    "Town": "田寮區"
+  },
+  {
+    "StationName": "後龍",
+    "StationId": "467280",
+    "County": "苗栗縣",
+    "Town": "造橋鄉"
+  },
+  {
+    "StationName": "崇德國小",
+    "StationId": "81T1A0",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "和仁車站",
+    "StationId": "81T1B0",
+    "County": "花蓮縣",
+    "Town": "秀林鄉"
+  },
+  {
+    "StationName": "明利國小",
+    "StationId": "81T1C0",
+    "County": "花蓮縣",
+    "Town": "萬榮鄉"
+  },
+  {
+    "StationName": "梨山",
+    "StationId": "C2F860",
+    "County": "臺中市",
+    "Town": "和平區"
+  },
+  {
+    "StationName": "富貴角",
+    "StationId": "C2A560",
+    "County": "新北市",
+    "Town": "石門區"
+  },
+  {
+    "StationName": "福隆",
+    "StationId": "C2A540",
+    "County": "新北市",
+    "Town": "貢寮區"
+  },
+  {
+    "StationName": "四堵",
+    "StationId": "C2A920",
+    "County": "新北市",
+    "Town": "坪林區"
+  },
+  {
+    "StationName": "福山",
+    "StationId": "C2A660",
+    "County": "新北市",
+    "Town": "烏來區"
+  },
+  {
+    "StationName": "瑞里",
+    "StationId": "C2A880",
+    "County": "嘉義縣",
+    "Town": "梅山鄉"
+  },
+  {
+    "StationName": "瑞芳",
+    "StationId": "C2A650",
+    "County": "新北市",
+    "Town": "瑞芳區"
+  },
+  {
+    "StationName": "火燒寮",
+    "StationId": "C2M620",
+    "County": "新北市",
+    "Town": "平溪區"
+  }
+]

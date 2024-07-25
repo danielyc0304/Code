@@ -1,0 +1,2 @@
+Line Bot 官方文檔：https://github.com/line/line-bot-sdk-python/blob/master/linebot/v3/messaging/docs/MessagingApi.md
+中央氣象署API資料中英文對照：https://opendata.cwa.gov.tw/opendatadoc/Observation/O-A0001-001.pdf

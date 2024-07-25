@@ -1,0 +1,42 @@
+{
+  "cwaopendata": {
+    "@xmlns": "urn:cwa:gov:tw:cwacommon:0.1",
+    "identifier": "5dd71219-8e14-4e21-8037-83226e75b341",
+    "sender": "weather@cwa.gov.tw",
+    "sent": "2024-07-16T06:18:12+08:00",
+    "status": "Actual",
+    "msgType": "Issue",
+    "scope": "Public",
+    "dataid": "F-C0032-016",
+    "source": "Weather Forecast Center",
+    "dataset": {
+      "datasetInfo": {
+        "datasetDescription": "WeatherAssistant",
+        "datasetLanguage": "zh-TW",
+        "issueTime": "2024-07-16T06:16:40+08:00"
+      },
+      "location": {
+        "locationName": "台南市",
+        "stationId": "46741",
+        "geocode": "67"
+      },
+      "parameterSet": {
+        "parameterSetName": "天氣小幫手描述",
+        "parameter": [
+          {
+            "parameterValue": "【中午酷熱紫外線強，午後雷雨】"
+          },
+          {
+            "parameterValue": "昨(15日)臺南市區晨間低溫29度，白天多雲，中午高溫35.9度，大內區測得37.8度，為本市之最高，整體為酷熱的一天。午後對流發展，有短暫大雷陣雨發生。"
+          },
+          {
+            "parameterValue": "今(16日)臺南地區清晨至上午間有零星短暫陣雨，低溫約25~28度，白天晴時多雲，紫外線強，中午高溫約33~37度，內陸近山區會再更高，天氣炎熱，白天外出要做好防曬及多補充水分。午後有局部短暫雷陣雨，山區有局部大雨的機率，外出建議攜帶雨具以備不時之需。"
+          },
+          {
+            "parameterValue": "環境部預測空氣品質為普通(黃色)等級。"
+          }
+        ]
+      }
+    }
+  }
+}

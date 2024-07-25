@@ -1,0 +1,25 @@
+{
+  "destination": "Ua72862f7c59c586be6a291969d905df5",
+  "events": [
+    {
+      "type": "message",
+      "message": {
+        "type": "location",
+        "id": "517347824623682125",
+        "latitude": 24.139657,
+        "longitude": 120.677123,
+        "title": "台中市政府交通局",
+        "address": "台中市西區民權路101號"
+      },
+      "webhookEventId": "01J2ZK3STT18AAW8AB44P52VG6",
+      "deliveryContext": { "isRedelivery": "False" },
+      "timestamp": 1721194637136,
+      "source": {
+        "type": "user",
+        "userId": "Ue7657226bf06442d1d96437227bb1638"
+      },
+      "replyToken": "f7799e285c7744aab7d886fe6de766ba",
+      "mode": "active"
+    }
+  ]
+}

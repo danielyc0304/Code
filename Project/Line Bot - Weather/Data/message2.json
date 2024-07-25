@@ -1,0 +1,24 @@
+{
+  "destination": "Ua72862f7c59c586be6a291969d905df5",
+  "events": [
+    {
+      "type": "message",
+      "message": {
+        "type": "location",
+        "id": "517213577150201928",
+        "latitude": 22.997542049662265,
+        "longitude": 120.18852157518462,
+        "address": "700台灣台南市中西區民生路二段397號"
+      },
+      "webhookEventId": "01J2X6SVVKYGDN7RXC0YDBYAK1",
+      "deliveryContext": { "isRedelivery": "False" },
+      "timestamp": 1721114619559,
+      "source": {
+        "type": "user",
+        "userId": "Ue7657226bf06442d1d96437227bb1638"
+      },
+      "replyToken": "3bcf1d4357754a389153aa838a339a3f",
+      "mode": "active"
+    }
+  ]
+}
