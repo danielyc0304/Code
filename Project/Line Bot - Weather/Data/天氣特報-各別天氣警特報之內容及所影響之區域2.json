@@ -1,0 +1,267 @@
+{
+  "success": "true",
+  "result": {
+    "resource_id": "W-C0033-002",
+    "fields": [
+      {
+        "id": "datasetDescription",
+        "type": "String"
+      },
+      {
+        "id": "datasetLanguage",
+        "type": "String"
+      },
+      {
+        "id": "issueTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "startTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "endTime",
+        "type": "Timestamp"
+      },
+      {
+        "id": "update",
+        "type": "Timestamp"
+      },
+      {
+        "id": "contentLanguage",
+        "type": "String"
+      },
+      {
+        "id": "contentText",
+        "type": "String"
+      },
+      {
+        "id": "language",
+        "type": "String"
+      },
+      {
+        "id": "phenomena",
+        "type": "String"
+      },
+      {
+        "id": "significance",
+        "type": "String"
+      },
+      {
+        "id": "locationName",
+        "type": "String"
+      }
+    ]
+  },
+  "records": {
+    "record": [
+      {
+        "datasetInfo": {
+          "datasetDescription": "解除颱風警報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-26 08:30:00",
+            "endTime": "2024-07-26 16:30:00"
+          },
+          "issueTime": "2024-07-26 08:30:00",
+          "update": "2024-07-26 09:53:55"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                [颱風動態]\n根據最新氣象資料顯示，第3號颱風過去3小時強度持續減弱，暴風圈亦較縮小，目前中心在馬祖西方陸地，向西北轉北北西移動，對馬祖、金門、臺灣北部海面及臺灣海峽北部的威脅已解除。\n\n[注意事項]\n＊今(26)日臺灣附近各海面風浪仍大並有長浪發生，尤其東北部、西半部沿海及澎湖、金門、馬祖仍有4至6米浪高，請特別注意。＊陸上強風特報：今(26)日颱風或其外圍環流影響，離島風力明顯偏強，澎湖、金門、馬祖有10至13級強陣風，基隆北海岸、苗栗至臺南沿海空曠地區及蘭嶼、綠島有9至10級強陣風，其他沿海空曠地區亦有8至9級強陣風，請特別注意。＊23日0時至26日8時出現較大雨量如下：高雄市多納林道1838.5毫米，屏東縣尾寮山1584毫米，嘉義縣奮起湖1528.5毫米，宜蘭縣太平山1264毫米，臺南市關山1245毫米，雲林縣草嶺1210毫米，南投縣杉林溪1029毫米，嘉義市國三(N295K)794.5毫米，臺東縣達仁林場774毫米，臺中市稍來762.5毫米，新竹縣西丘斯山671毫米，彰化縣竹塘593毫米，花蓮縣布洛灣564毫米，新北市福山植物園545.5毫米，桃園市巴陵485毫米，苗栗縣卓蘭412.5毫米，澎湖縣東吉島390.5毫米，臺北市茶製場366.5毫米；出現較大陣風區域如下：花蓮、彭佳嶼14級，蘭嶼、蘇澳、東吉島13級，基隆12級，宜蘭、馬祖11級，新屋、臺南、恆春、澎湖10級。＊本警報單之颱風平均半徑約為150公里，詳細特性請參考本署颱風輔助說明(https://www.cwa.gov.tw/Data/typhoon/TY_PDF.pdf)。＊此為第3號颱風警報最後一次報告。\n\n                "
+          }
+        }
+      },
+      {
+        "datasetInfo": {
+          "datasetDescription": "豪雨特報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-26 07:46:00",
+            "endTime": "2024-07-26 23:00:00"
+          },
+          "issueTime": "2024-07-26 07:45:00",
+          "update": "2024-07-26 09:53:55"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                颱風外圍環流及西南風影響，易有短延時強降雨，今（２６）日臺中市、南投縣山區及嘉義縣、臺南市、高雄市、屏東縣、澎湖縣有局部大雨或豪雨，苗栗至雲林、嘉義市、東南部地區、馬祖、金門及東部山區有局部大雨發生的機率，請注意雷擊及強陣風，連日降雨請注意坍方、落石、土石流及山洪暴發，沿海低窪地區請慎防淹水，民眾應避免進入山區及河川活動。\n                "
+          }
+        },
+        "hazardConditions": {
+          "hazards": {
+            "hazard": [
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "豪雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "臺中市山區"
+                      },
+                      {
+                        "locationName": "南投縣山區"
+                      },
+                      {
+                        "locationName": "嘉義縣"
+                      },
+                      {
+                        "locationName": "臺南市"
+                      },
+                      {
+                        "locationName": "高雄市"
+                      },
+                      {
+                        "locationName": "屏東縣"
+                      },
+                      {
+                        "locationName": "恆春半島"
+                      },
+                      {
+                        "locationName": "澎湖縣"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "大雨",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "苗栗縣"
+                      },
+                      {
+                        "locationName": "臺中市"
+                      },
+                      {
+                        "locationName": "彰化縣"
+                      },
+                      {
+                        "locationName": "南投縣"
+                      },
+                      {
+                        "locationName": "雲林縣"
+                      },
+                      {
+                        "locationName": "嘉義市"
+                      },
+                      {
+                        "locationName": "花蓮縣山區"
+                      },
+                      {
+                        "locationName": "臺東縣"
+                      },
+                      {
+                        "locationName": "蘭嶼綠島"
+                      },
+                      {
+                        "locationName": "金門縣"
+                      },
+                      {
+                        "locationName": "連江縣"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "datasetInfo": {
+          "datasetDescription": "陸上強風特報",
+          "datasetLanguage": "zh-TW",
+          "validTime": {
+            "startTime": "2024-07-26 09:50:00",
+            "endTime": "2024-07-27 11:00:00"
+          },
+          "issueTime": "2024-07-26 09:50:00",
+          "update": "2024-07-26 09:53:55"
+        },
+        "contents": {
+          "content": {
+            "contentLanguage": "zh-TW",
+            "contentText": "\n                陸上強風特報：今（２６）日颱風外圍環流影響，離島風力明顯偏強，澎湖、金門、馬祖有１０至１１級強陣風，基隆北海岸、東半部(含蘭嶼、綠島)及新竹至高雄沿海空曠地區有９至１０級強陣風，其他沿海空曠地區亦有較強陣風，鄰近海域並有較大風浪，請特別注意。\n                "
+          }
+        },
+        "hazardConditions": {
+          "hazards": {
+            "hazard": [
+              {
+                "info": {
+                  "language": "zh-TW",
+                  "phenomena": "陸上強風",
+                  "significance": "特報",
+                  "affectedAreas": {
+                    "location": [
+                      {
+                        "locationName": "基隆北海岸"
+                      },
+                      {
+                        "locationName": "新竹市"
+                      },
+                      {
+                        "locationName": "新竹縣"
+                      },
+                      {
+                        "locationName": "苗栗縣"
+                      },
+                      {
+                        "locationName": "臺中市"
+                      },
+                      {
+                        "locationName": "彰化縣"
+                      },
+                      {
+                        "locationName": "雲林縣"
+                      },
+                      {
+                        "locationName": "嘉義縣"
+                      },
+                      {
+                        "locationName": "臺南市"
+                      },
+                      {
+                        "locationName": "高雄市"
+                      },
+                      {
+                        "locationName": "宜蘭縣"
+                      },
+                      {
+                        "locationName": "花蓮縣"
+                      },
+                      {
+                        "locationName": "臺東縣"
+                      },
+                      {
+                        "locationName": "蘭嶼綠島"
+                      },
+                      {
+                        "locationName": "澎湖縣"
+                      },
+                      {
+                        "locationName": "金門縣"
+                      },
+                      {
+                        "locationName": "連江縣"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

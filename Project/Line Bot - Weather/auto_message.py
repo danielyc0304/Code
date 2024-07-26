@@ -34,10 +34,7 @@ def main(request):
     data = requests.get(weather_news_url).json()["records"]["record"]
 
     for news in data:
-        if (
-            "雨"
-            in news["hazardConditions"]["hazards"]["hazard"][0]["info"]["phenomena"]
-        ):
+        if "雨" in news["datasetInfo"]["datasetDescription"]:
             rain_data = rain_ref.get().to_dict()
             if (
                 rain_data is None
@@ -63,10 +60,7 @@ def main(request):
 
                 rain_ref.set({"issue_time": news["datasetInfo"]["issueTime"]})
 
-        elif (
-            "颱風"
-            in news["hazardConditions"]["hazards"]["hazard"][0]["info"]["phenomena"]
-        ):
+        elif "颱風" in news["datasetInfo"]["datasetDescription"]:
             typhoon_data = typhoon_ref.get().to_dict()
             if (
                 typhoon_data is None
@@ -92,10 +86,7 @@ def main(request):
 
                 typhoon_ref.set({"issue_time": news["datasetInfo"]["issueTime"]})
 
-        elif (
-            "風"
-            in news["hazardConditions"]["hazards"]["hazard"][0]["info"]["phenomena"]
-        ):
+        elif "風" in news["datasetInfo"]["datasetDescription"]:
             wind_data = wind_ref.get().to_dict()
             if (
                 wind_data is None
