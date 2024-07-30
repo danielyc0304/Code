@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-lyc",
+  "version": "0.1.0",
+  "description": "A custom template for create-react-app with Prettier, Tailwind CSS and TypeScript",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "cra-template",
+    "prettier",
+    "tailwindcss",
+    "typescript"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "YouCheng Lin",
+    "email": "danielyc.mail0304@gmail.com"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyc20050304/cra-template-lyc.git"
+  }
+}
