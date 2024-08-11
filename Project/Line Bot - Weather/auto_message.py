@@ -23,6 +23,8 @@ wind_ref = db.collection("line-bot-weather").document("wind")
 ## Line Bot API ##
 channel_access_token = "Vs4TxhGvoovBwRk6IOWB8sWS3sCiGlg2t36+d11xb8ZY2P0dzGQh/rFuGyWmyV9EEenVM9RzrjdPx8E5FRCVxL1z0USJHyYpdCx9RzZcLt1LwX9yvwfwwhKrLoE4Bwyb7MwY1AzCjXcdBvFhWCvv6wdB04t89/1O/w1cDnyilFU="
 
+my_user_id = "Ue7657226bf06442d1d96437227bb1638"
+
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {channel_access_token}",
@@ -41,6 +43,7 @@ def main(request):
                 or rain_data["issue_time"] != news["datasetInfo"]["issueTime"]  # type: ignore
             ):
                 body = {
+                    "to": my_user_id,
                     "messages": [
                         {
                             "type": "text",
@@ -50,10 +53,15 @@ def main(request):
 
 {news['contents']['content']['contentText'].strip()}""",
                         }
-                    ]
+                    ],
                 }
+                # requests.post(
+                #     "https://api.line.me/v2/bot/message/broadcast",
+                #     headers=headers,
+                #     data=json.dumps(body),
+                # )
                 requests.post(
-                    "https://api.line.me/v2/bot/message/broadcast",
+                    "https://api.line.me/v2/bot/message/push",
                     headers=headers,
                     data=json.dumps(body),
                 )
@@ -67,6 +75,7 @@ def main(request):
                 or typhoon_data["issue_time"] != news["datasetInfo"]["issueTime"]  # type: ignore
             ):
                 body = {
+                    "to": my_user_id,
                     "messages": [
                         {
                             "type": "text",
@@ -76,10 +85,15 @@ def main(request):
 
 {news['contents']['content']['contentText'].strip()}""",
                         }
-                    ]
+                    ],
                 }
+                # requests.post(
+                #     "https://api.line.me/v2/bot/message/broadcast",
+                #     headers=headers,
+                #     data=json.dumps(body),
+                # )
                 requests.post(
-                    "https://api.line.me/v2/bot/message/broadcast",
+                    "https://api.line.me/v2/bot/message/push",
                     headers=headers,
                     data=json.dumps(body),
                 )
@@ -93,6 +107,7 @@ def main(request):
                 or wind_data["issue_time"] != news["datasetInfo"]["issueTime"]  # type: ignore
             ):
                 body = {
+                    "to": my_user_id,
                     "messages": [
                         {
                             "type": "text",
@@ -102,10 +117,15 @@ def main(request):
 
 {news['contents']['content']['contentText'].strip()}""",
                         }
-                    ]
+                    ],
                 }
+                # requests.post(
+                #     "https://api.line.me/v2/bot/message/broadcast",
+                #     headers=headers,
+                #     data=json.dumps(body),
+                # )
                 requests.post(
-                    "https://api.line.me/v2/bot/message/broadcast",
+                    "https://api.line.me/v2/bot/message/push",
                     headers=headers,
                     data=json.dumps(body),
                 )
