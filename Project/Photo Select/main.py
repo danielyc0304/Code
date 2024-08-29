@@ -1,4 +1,4 @@
-import os
+import os, sys
 from shutil import rmtree, copyfile
 
 ROOT = "/Users/daniel/Desktop/Photo"
@@ -55,37 +55,47 @@ with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as f
         else:
             photos.append(f"DSC{'0' * (5 - len(include.strip()))}{include.strip()}.JPG")
     for photo in photos:
-        while os.path.exists(photo) is False:
-            location += 1
+        try:
+            while os.path.exists(photo) is False:
+                location += 1
 
-            # 換日
-            date += location // len(locations)
-            location %= len(locations)
+                # 換日
+                date += location // len(locations)
+                location %= len(locations)
 
-            # 換月
-            month += date // len(dates)
-            date %= len(dates)
+                # 換月
+                month += date // len(dates)
+                date %= len(dates)
 
-            # 如果換月了
-            if date == 0:
-                dates = sorted(
-                    [
-                        path
-                        for path in os.listdir(f"{ROOT}/{months[month]}")
-                        if os.path.isdir(f"{ROOT}/{months[month]}/{path}")
-                    ]
-                )  # 獲取新的日期
+                # 如果換月了
+                if date == 0:
+                    dates = sorted(
+                        [
+                            path
+                            for path in os.listdir(f"{ROOT}/{months[month]}")
+                            if os.path.isdir(f"{ROOT}/{months[month]}/{path}")
+                        ]
+                    )  # 獲取新的日期
 
-            # 如果換日了（如果換月即會換日）
-            if location == 0:
-                locations = sorted(
-                    [
-                        path
-                        for path in os.listdir(f"{ROOT}/{months[month]}/{dates[date]}")
-                        if os.path.isdir(f"{ROOT}/{months[month]}/{dates[date]}/{path}")
-                    ]
-                )  # 獲取新的地點
+                # 如果換日了（如果換月即會換日）
+                if location == 0:
+                    locations = sorted(
+                        [
+                            path
+                            for path in os.listdir(
+                                f"{ROOT}/{months[month]}/{dates[date]}"
+                            )
+                            if os.path.isdir(
+                                f"{ROOT}/{months[month]}/{dates[date]}/{path}"
+                            )
+                        ]
+                    )  # 獲取新的地點
 
-            os.chdir(f"{ROOT}/{months[month]}/{dates[date]}/{locations[location]}")
+                os.chdir(f"{ROOT}/{months[month]}/{dates[date]}/{locations[location]}")
 
-        copyfile(photo, f"{ROOT}/{new_file}/{photo}")
+            copyfile(photo, f"{ROOT}/{new_file}/{photo}")
+            print(f"Copy {photo}")
+
+        except IndexError:
+            print(f"Can't find {photo}")
+            sys.exit(1)
