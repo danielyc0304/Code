@@ -2,7 +2,11 @@ import Image from "next/image";
 
 import ReservationSidebar from "@/app/components/properties/ReservationSidebar";
 
-const PropertyDetailPage = () => {
+import apiService from "@/app/services/apiService";
+
+const PropertyDetailPage = async ({ params }: { params: { id: string } }) => {
+  const property = await apiService.get(`/api/properties/${params.id}`);
+
   return (
     <main className="mx-auto max-w-[1500px] px-6 pb-6">
       <div className="relative mb-4 h-[64vh] w-full overflow-hidden rounded-xl">
@@ -16,39 +20,37 @@ const PropertyDetailPage = () => {
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-5">
         <div className="col-span-3 py-6 pr-6">
-          <h1 className="mb-4 text-4xl">Protpery name</h1>
+          <h1 className="mb-4 text-4xl">{property.title}</h1>
 
           <span className="mb-6 block text-lg text-gray-600">
-            4 guests - 2 bedrooms - 1 bathroom
+            {property.guests} guests - {property.bedrooms} bedrooms -{" "}
+            {property.bathrooms} bathroom
           </span>
 
           <hr />
 
           <div className="flex items-center space-x-4 py-6">
-            <Image
-              src="/profile_pic_1.jpg"
-              width={50}
-              height={50}
-              className="rounded-full"
-              alt="The user name"
-            />
+            {property.landlord.avatar_url && (
+              <Image
+                src={property.landlord.avatar_url}
+                width={50}
+                height={50}
+                className="rounded-full"
+                alt="The user name"
+              />
+            )}
 
             <p>
-              <strong>John Doe</strong> is your host
+              <strong>{property.landlord.name}</strong> is your host
             </p>
           </div>
 
           <hr />
 
-          <p className="mt-6 text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-            delectus quis non nobis, quia corporis dolore ea quidem culpa
-            tempora sit odit, eum magni eveniet unde veritatis cumque debitis.
-            Iste.
-          </p>
+          <p className="mt-6 text-lg">{property.description}</p>
         </div>
 
-        <ReservationSidebar />
+        <ReservationSidebar property={property} />
       </div>
     </main>
   );
