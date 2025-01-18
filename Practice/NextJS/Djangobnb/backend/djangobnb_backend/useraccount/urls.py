@@ -3,9 +3,13 @@ from dj_rest_auth.views import LoginView, LogoutView
 
 from django.urls import path
 
+from . import api
+
 
 urlpatterns = [
     path("login/", LoginView.as_view(), name="rest_login"),
     path("logout/", LogoutView.as_view(), name="rest_logout"),
+    path("myreservations/", api.reservations_list, name="api_reservations_list"),
     path("register/", RegisterView.as_view(), name="rest_register"),
+    path("<uuid:pk>/", api.landlord_detail, name="api_landlrod_detail"),
 ]
