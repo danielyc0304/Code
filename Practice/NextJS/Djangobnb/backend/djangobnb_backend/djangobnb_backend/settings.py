@@ -24,6 +24,8 @@ SITE_ID = 1
 
 WEBSITE_URL = "http://localhost:8000"
 
+CHANNEL_LAYERS = {"default": {"BACKEND": "channels.layers.InMemoryChannelLayer"}}
+
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
@@ -57,6 +59,7 @@ REST_AUTH = {"USE_JWT": True, "JWT_AUTH_HTTPONLY": False}
 # Application definition
 
 INSTALLED_APPS = [
+    "daphne",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -71,6 +74,7 @@ INSTALLED_APPS = [
     "dj_rest_auth",
     "dj_rest_auth.registration",
     "corsheaders",
+    "chat",
     "property",
     "useraccount",
 ]
@@ -105,6 +109,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "djangobnb_backend.wsgi.application"
+ASGI_APPLICATION = "djangobnb_backend.asgi.application"
 
 
 # Database
