@@ -31,16 +31,54 @@ def properties_list(request):
     except Exception as e:
         user = None
 
-    landlord_id = request.GET.get("landlord_id", "")
+    checkin_date = request.GET.get("checkin", "")
+    checkout_date = request.GET.get("checkout", "")
     properties = Property.objects.all()
+    landlord_id = request.GET.get("landlord_id", "")
     is_favorites = request.GET.get("is_favorites", "")
+    guests = request.GET.get("numGuests", "")
+    bedrooms = request.GET.get("numBedrooms", "")
+    bathrooms = request.GET.get("numBathrooms", "")
+    country = request.GET.get("country", "")
+    category = request.GET.get("category", "")
     favorites = []
+
+    print("country", country)
+
+    if checkin_date and checkout_date:
+        exact_matches = Reservation.objects.filter(
+            start_date=checkin_date
+        ) | Reservation.objects.filter(end_date=checkout_date)
+        overlap_matches = Reservation.objects.filter(
+            start_date__lte=checkout_date, end_date__gte=checkin_date
+        )
+        all_matches = []
+
+        for reservation in exact_matches | overlap_matches:
+            all_matches.append(reservation.property_id)
+
+        properties = properties.exclude(id__in=all_matches)
 
     if landlord_id:
         properties = properties.filter(landlord_id=landlord_id)
 
     if is_favorites:
         properties = properties.filter(favorited__in=[user])
+
+    if guests:
+        properties = properties.filter(guests__gte=guests)
+
+    if bedrooms:
+        properties = properties.filter(bedrooms__gte=bedrooms)
+
+    if bathrooms:
+        properties = properties.filter(bathrooms__gte=bathrooms)
+
+    if country:
+        properties = properties.filter(country=country)
+
+    if category and category != "undefined":
+        properties = properties.filter(category=category)
 
     if user:
         for property in properties:
