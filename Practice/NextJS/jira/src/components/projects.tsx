@@ -14,7 +14,6 @@ export const Projects = () => {
   const { open } = useCreateProjectModal();
   const workspaceId = useWorkspaceId();
   const { data } = useGetProjects({ workspaceId });
-  const projectId = null;
   const pathname = usePathname();
 
   return (
@@ -29,7 +28,7 @@ export const Projects = () => {
       </div>
 
       {data?.documents.map((project) => {
-        const href = `/workspaces/${workspaceId}/projects/${projectId}`;
+        const href = `/workspaces/${workspaceId}/projects/${project.$id}`;
         const isActive = pathname === href;
 
         return (
