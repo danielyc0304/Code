@@ -8,6 +8,7 @@ import { DottedSeparator } from "@/components/dotted-separator";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { columns } from "./columns";
+import { DataCalendar } from "./data-calendar";
 import { DataFilters } from "./data-filters";
 import { DataKanban } from "./data-kanban";
 import { DataTable } from "./data-table";
@@ -93,8 +94,8 @@ export const TaskViewSwitcher = () => {
               />
             </TabsContent>
 
-            <TabsContent value="calendar" className="mt-0">
-              {JSON.stringify(tasks)}
+            <TabsContent value="calendar" className="mt-0 h-full pb-4">
+              <DataCalendar data={tasks?.documents ?? []} />
             </TabsContent>
           </>
         )}
