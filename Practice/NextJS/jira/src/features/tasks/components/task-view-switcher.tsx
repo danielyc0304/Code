@@ -20,7 +20,13 @@ import { useCreateTaskModal } from "../hooks/use-create-task-modal";
 import { useTaskFilters } from "../hooks/use-task-filters";
 import { TaskStatus } from "../types";
 
-export const TaskViewSwitcher = () => {
+interface TaskViewSwitcherProps {
+  hideProjectFilter?: boolean;
+}
+
+export const TaskViewSwitcher = ({
+  hideProjectFilter,
+}: TaskViewSwitcherProps) => {
   const [view, setView] = useQueryState("task-view", { defaultValue: "table" });
 
   const workspaceId = useWorkspaceId();
@@ -73,7 +79,7 @@ export const TaskViewSwitcher = () => {
 
         <DottedSeparator className="my-4" />
 
-        <DataFilters />
+        <DataFilters hideProjectFilter={hideProjectFilter} />
 
         <DottedSeparator className="my-4" />
 
