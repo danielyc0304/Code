@@ -13,6 +13,7 @@ import { DataFilters } from "./data-filters";
 import { DataKanban } from "./data-kanban";
 import { DataTable } from "./data-table";
 
+import { useProjectId } from "@/features/projects/hooks/use-project-id";
 import { useWorkspaceId } from "@/features/workspaces/hooks/use-workspace-id";
 import { useBulkUpdateTasks } from "../api/use-bulk-update-tasks";
 import { useGetTasks } from "../api/use-get-tasks";
@@ -30,12 +31,13 @@ export const TaskViewSwitcher = ({
   const [view, setView] = useQueryState("task-view", { defaultValue: "table" });
 
   const workspaceId = useWorkspaceId();
+  const paramProjectId = useProjectId();
 
   const { mutate: bulkUpdate } = useBulkUpdateTasks();
   const [{ status, assigneeId, projectId, dueDate }] = useTaskFilters();
   const { data: tasks, isLoading: isLoadingTasks } = useGetTasks({
     workspaceId,
-    projectId,
+    projectId: paramProjectId || projectId,
     assigneeId,
     status,
     dueDate,

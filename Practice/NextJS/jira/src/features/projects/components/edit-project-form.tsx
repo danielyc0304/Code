@@ -39,7 +39,8 @@ export const EditProjectForm = ({
   initialValues,
 }: EditProjectFormProps) => {
   const { mutate, isPending } = useUpdateProject();
-  const { mutate: deleteProject } = useDeleteProject();
+  const { mutate: deleteProject, isPending: isDeletingProject } =
+    useDeleteProject();
   const router = useRouter();
   const inputRef = useRef<HTMLInputElement>(null);
 
@@ -261,7 +262,7 @@ export const EditProjectForm = ({
               size="sm"
               variant="destructive"
               type="button"
-              disabled={isPending}
+              disabled={isPending || isDeletingProject}
               onClick={handleDelete}
             >
               Delete Project
