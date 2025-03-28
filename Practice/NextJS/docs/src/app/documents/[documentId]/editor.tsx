@@ -1,6 +1,8 @@
 "use client";
 
+import { Color } from "@tiptap/extension-color";
 import FontFamily from "@tiptap/extension-font-family";
+import Highlight from "@tiptap/extension-highlight";
 import Image from "@tiptap/extension-image";
 import Table from "@tiptap/extension-table";
 import TableCell from "@tiptap/extension-table-cell";
@@ -53,6 +55,8 @@ export const Editor = () => {
     },
     extensions: [
       StarterKit,
+      Color,
+      Highlight.configure({ multicolor: true }),
       FontFamily,
       TextStyle,
       Underline,
