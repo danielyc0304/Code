@@ -1,3 +1,4 @@
+import { useMutation, useStorage } from "@liveblocks/react";
 import { useRef, useState } from "react";
 import { FaCaretDown } from "react-icons/fa";
 
@@ -45,8 +46,14 @@ export const Ruler = () => {
   const [isDraggingLeft, setIsDraggingLeft] = useState(false);
   const [isDraggingRight, setIsDraggingRight] = useState(false);
   const rulerRef = useRef<HTMLDivElement>(null);
-  const [rightMargin, setRightMargin] = useState(56);
-  const [leftMargin, setLeftMargin] = useState(56);
+  const rightMargin = useStorage((root) => root.rightMargin) ?? 56;
+  const setLeftMargin = useMutation(({ storage }, position: number) => {
+    storage.set("leftMargin", position);
+  }, []);
+  const leftMargin = useStorage((root) => root.leftMargin) ?? 56;
+  const setRightMargin = useMutation(({ storage }, position: number) => {
+    storage.set("rightMargin", position);
+  }, []);
 
   const handleMouseMove = (e: React.MouseEvent) => {
     const PAGE_WIDTH = 816;

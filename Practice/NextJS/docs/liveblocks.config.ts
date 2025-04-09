@@ -4,7 +4,7 @@ declare global {
   interface Liveblocks {
     Presence: {};
 
-    Storage: {};
+    Storage: { leftMargin: number; rightMargin: number };
 
     UserMeta: {
       id: string;
