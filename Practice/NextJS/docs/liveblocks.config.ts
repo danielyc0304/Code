@@ -8,7 +8,7 @@ declare global {
 
     UserMeta: {
       id: string;
-      info: { name: string; avatar: string };
+      info: { name: string; avatar: string; color: string };
     };
 
     RoomEvent: {};
