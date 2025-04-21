@@ -23,8 +23,8 @@ mst <- ss_treat / (k - 1)
 mse <- ss_error / (n - k)
 
 f_statistic <- mst / mse
-p_value <- 2 * pf(q = f_statistic, df1 = k - 1, df2 = n - k, lower.tail = FALSE)
-p_value # [1] 0.03248869
+p_value <- pf(q = f_statistic, df1 = k - 1, df2 = n - k, lower.tail = FALSE)
+p_value # [1] 0.01624435
 
 # summary(aov(x ~ factor(technique), data = data))
 
@@ -36,7 +36,7 @@ data <- data.frame(
 )
 
 n <- nrow(data)
-num_treat <- length(unique(data$method))
+k <- length(unique(data$method))
 
 method_a <- data[data$method == "A", "x"]
 method_b <- data[data$method == "B", "x"]
@@ -53,12 +53,10 @@ ss_error <- ss(method_a) + ss(method_b) + ss(method_c)
 mst <- ss_treat / (k - 1)
 mse <- ss_error / (n - k)
 
-critical_value1 <- qf(p = 1 - 0.05, df1 = k - 1, df2 = n - k, lower.tail = FALSE)
-critical_value2 <- qf(p = 0.05, df1 = k - 1, df2 = n - k, lower.tail = FALSE)
+critical_value <- qf(p = 0.05, df1 = k - 1, df2 = n - k, lower.tail = FALSE)
 f_statistic <- mst / mse
 
-critical_value1 # [1] 0.05162358
-critical_value2 # [1] 4.45897
+critical_value # [1] 4.45897
 f_statistic # [1] 5.14876
 
 # summary(aov(x ~ factor(method), data = data))
@@ -212,12 +210,10 @@ ss_error <- ss_total - ss_treat - ss_block
 mst <- ss_treat / (k - 1)
 mse <- ss_error / df_error
 
-critical_value1 <- qf(p = 1 - 0.05, df1 = k - 1, df2 = df_error, lower.tail = FALSE)
-critical_value2 <- qf(p = 0.05, df1 = k - 1, df2 = df_error, lower.tail = FALSE)
+critical_value <- qf(p = 0.05, df1 = k - 1, df2 = df_error, lower.tail = FALSE)
 f_statistic <- mst / mse
 
-critical_value1 # [1] 0.0517343
-critical_value2 # [1] 5.143253
+critical_value # [1] 5.143253
 f_statistic # [1] 258.2366
 
 # summary(aov(x ~ factor(digitalis) + factor(dog), data = data))
@@ -229,12 +225,10 @@ PostHocTest(aov(x ~ factor(digitalis) + factor(dog), data = data), method = "hsd
 # (d)
 msb <- ss_block / (b - 1)
 
-critical_value1 <- qf(p = 1 - 0.05, df1 = b - 1, df2 = df_error, lower.tail = FALSE)
-critical_value2 <- qf(p = 0.05, df1 = b - 1, df2 = df_error, lower.tail = FALSE)
+critical_value <- qf(p = 0.05, df1 = b - 1, df2 = df_error, lower.tail = FALSE)
 f_statistic <- msb / mse
 
-critical_value1 # [1] 0.1118488
-critical_value2 # [1] 4.757063
+critical_value # [1] 4.757063
 f_statistic # [1] 56.95542
 
 # summary(aov(x ~ factor(digitalis) + factor(dog), data = data))
@@ -300,12 +294,10 @@ ss_error <- ss_total - ss_treat - ss_block
 mst <- ss_treat / (k - 1)
 mse <- ss_error / ((k - 1) * (b - 1))
 
-critical_value1 <- qf(p = 1 - 0.05, df1 = k - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
-critical_value2 <- qf(p = 0.05, df1 = k - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
+critical_value <- qf(p = 0.05, df1 = k - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
 f_statistic <- mst / mse
 
-critical_value1 # [1] 0.1691552
-critical_value2 # [1] 3.259167
+critical_value # [1] 3.259167
 f_statistic # [1] 30.88336
 
 # summary(aov(x ~ factor(company) + factor(city), data = data))
@@ -313,12 +305,10 @@ f_statistic # [1] 30.88336
 # (c)
 msb <- ss_block / (b - 1)
 
-critical_value1 <- qf(p = 1 - 0.05, df1 = b - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
-critical_value2 <- qf(p = 0.05, df1 = b - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
+critical_value <- qf(p = 0.05, df1 = b - 1, df2 = (k - 1) * (b - 1), lower.tail = FALSE)
 f_statistic <- msb / mse
 
-critical_value1 # [1] 0.1143558
-critical_value2 # [1] 3.490295
+critical_value # [1] 3.490295
 f_statistic # [1] 3.490728
 
 summary(aov(x ~ factor(company) + factor(city), data = data))
@@ -338,6 +328,9 @@ n <- nrow(data)
 
 sxy <- sum(data$x * data$y) - sum(data$x) * sum(data$y) / n
 sxx <- sum(data$x^2) - sum(data$x)^2 / n
+
+sxy
+sxx
 
 b <- sxy / sxx
 a <- mean(data$y) - b * mean(data$x)
