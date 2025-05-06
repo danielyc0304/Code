@@ -1,0 +1,3 @@
+PreOrder traversal:5,2,0,1,4,3,8,9,10,11
+InOrder traversal:0,1,2,3,4,5,8,9,10,11
+PostOrder traversal:1,0,3,4,2,11,10,9,8,5
