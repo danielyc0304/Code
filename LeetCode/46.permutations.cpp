@@ -12,6 +12,7 @@ using namespace std;
 class Solution {
   private:
     void backtrack(vector<int>& nums, int start, vector<vector<int>>& result) {
+        // 只有最後一個可以跟自己換，提早一次結束
         if (start == nums.size() - 1) {
             result.push_back(nums);
 

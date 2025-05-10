@@ -14,8 +14,8 @@ class Solution {
     bool isCommonPrefix(const vector<string>& strs, int len) {
         string prefix = strs[0].substr(0, len);
 
-        for (int i = 1; i < strs.size(); ++i) {
-            if (strs[i].find(prefix) != 0) {
+        for (const string& str : strs) {
+            if (str.find(prefix) != 0) {
                 return false;
             }
         }
@@ -27,8 +27,8 @@ class Solution {
     string longestCommonPrefix(vector<string>& strs) {
         int minLen = INT_MAX;
 
-        for (int i = 0; i < strs.size(); ++i) {
-            minLen = min(minLen, (int)strs[i].length());
+        for (const string& str : strs) {
+            minLen = min(minLen, (int)str.length());
         }
 
         int left = 0, right = minLen;
@@ -37,14 +37,14 @@ class Solution {
         while (left <= right) {
             int middle = (left + right) / 2;
 
-            if (isCommonPrefix(strs, middle)) {
+            if (isCommonPrefix(strs, middle) == true) {
                 left = middle + 1;
             } else {
                 right = middle - 1;
             }
         }
 
-        return strs[0].substr(0, (left + right) / 2);
+        return strs[0].substr(0, right);
     }
 };
 // @lc code=end
