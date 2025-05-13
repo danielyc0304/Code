@@ -1,0 +1,3 @@
+./Sample_Files/Sample_Input1.txt ./Sample_Files/Sample_Output1.txt
+./Sample_Files/Sample_Input2.txt ./Sample_Files/Sample_Output2.txt
+./Sample_Files/Hidden_Input.txt ./Sample_Files/Hidden_Output.txt

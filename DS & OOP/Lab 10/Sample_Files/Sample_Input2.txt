@@ -1,0 +1,15 @@
+load 0 1000 -1000 999 -999 1 -1
+build_bottomup
+sort
+
+load 0 1000 -1000 999 -999 1 -1
+build_topdown
+sort
+
+load -10 -20 -5 -15 -25 -1 -3
+build_bottomup
+sort
+
+load -10 -20 -5 -15 -25 -1 -3
+build_topdown
+sort

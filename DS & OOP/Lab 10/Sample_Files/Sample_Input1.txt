@@ -1,0 +1,15 @@
+load 3 -5 7 1 0 -4 8
+build_bottomup
+sort
+
+load 3 -5 7 1 0 -4 8
+build_topdown
+sort
+
+load 5 9 5 3 8 5 1 0
+build_bottomup
+sort
+
+load 5 9 5 3 8 5 1 0
+build_topdown
+sort
