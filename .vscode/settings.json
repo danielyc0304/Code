@@ -1,14 +1,14 @@
 {
   "cmake.ignoreCMakeListsMissing": true,
   "files.associations": {
-    "*.sqlbook": "sql",
-    "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
     "*.cpp": "cpp",
     "*.css": "css",
     "*.html": "html",
     "*.js": "javascript",
     "*.json": "json",
+    "*.sqlbook": "sql",
+    "*.ndjson": "jsonl",
     "__bit_reference": "cpp",
     "__config": "cpp",
     "__hash_table": "cpp",
@@ -61,6 +61,7 @@
     "variant": "cpp",
     "vector": "cpp",
     "algorithm": "cpp",
-    "list": "cpp"
+    "list": "cpp",
+    "unordered_set": "cpp"
   }
 }
