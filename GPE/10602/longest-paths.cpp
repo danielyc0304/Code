@@ -35,17 +35,17 @@ int main() {
             }
         }
 
-        int farthest = -1, farthestNode = s;
+        int maxDist = -1, farNode = s;
         for (int j = 1; j <= n; ++j) {
-            if (dist[j] > farthest ||
-                (dist[j] == farthest && j < farthestNode)) {
-                farthest = dist[j];
-                farthestNode = j;
+            if (dist[j] > maxDist ||
+                (dist[j] == maxDist && j < farNode)) {
+                maxDist = dist[j];
+                farNode = j;
             }
         }
 
         cout << "Case " << i << ": The longest path from " << s
-             << " has length " << farthest << ", finishing at " << farthestNode
+             << " has length " << maxDist << ", finishing at " << farNode
              << "." << endl;
 
         cout << endl;
