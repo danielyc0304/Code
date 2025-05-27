@@ -108,7 +108,7 @@ x_bar <- mean(data)
 s <- sd(data)
 n <- length(data)
 
-z_value <- abs(qnorm(p = 0.05 / 2))
+z_value <- qnorm(p = 0.05 / 2, lower.tail = FALSE)
 
 x_bar - z_value * s / sqrt(n) # [1] 233.9812
 x_bar + z_value * s / sqrt(n) # [1] 259.9388
