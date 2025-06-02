@@ -21,6 +21,19 @@
       "externalConsole": true,
       "MIMode": "lldb",
       "preLaunchTask": "C/C++: clang++ 建置使用中檔案"
+    },
+    {
+      "name": "C/C++: clang 建置及偵錯使用中的檔案",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "lldb",
+      "preLaunchTask": "C/C++: clang 建置使用中檔案"
     }
   ]
 }
