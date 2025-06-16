@@ -1,9 +1,10 @@
-import os, sys
-from shutil import rmtree, copyfile
+import os
+import sys
+from shutil import copyfile, rmtree
 
-ROOT = "/Users/daniel/Desktop/Photo"
+ROOT = "/Volumes/Transcend/Photo"
 
-with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as file:
+with open("/Users/daniel/Desktop/Code/Project/Photo/photo.txt", "r") as file:
     os.chdir(ROOT)
 
     # 讀取新資料夾名稱
@@ -15,29 +16,40 @@ with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as f
     # 讀取開始日期
     start_date = file.readline().strip().replace("/", ":")
 
-    months = sorted([path for path in os.listdir() if os.path.isdir(f"{ROOT}/{path}")])
-    month = months.index(start_date[:7])
+    years = sorted([path for path in os.listdir() if "年" in path])
+    year = years.index(f"{start_date[:4]}年")
+
+    months = sorted(
+        [path for path in os.listdir(f"{ROOT}/{years[year]}") if "月" in path]
+    )
+    month = months.index(f"{start_date[5:7]}月")
 
     dates = sorted(
         [
             path
-            for path in os.listdir(f"{ROOT}/{months[month]}")
-            if os.path.isdir(f"{ROOT}/{months[month]}/{path}")
+            for path in os.listdir(f"{ROOT}/{years[year]}/{months[month]}")
+            if "日" in path
         ]
     )
-    date = dates.index(start_date)
+    date = dates.index(f"{start_date[8:10]}日")
 
     locations = sorted(
         [
             path
-            for path in os.listdir(f"{ROOT}/{months[month]}/{dates[date]}")
-            if os.path.isdir(f"{ROOT}/{months[month]}/{dates[date]}/{path}")
+            for path in os.listdir(
+                f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}"
+            )
+            if os.path.isdir(
+                f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}/{path}"
+            )
         ],
         key=lambda x: int(x.split(" ")[0][:-1]),
     )
     location = 0
 
-    os.chdir(f"{ROOT}/{months[month]}/{dates[date]}/{locations[location]}")
+    os.chdir(
+        f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}/{locations[location]}"
+    )
 
     # 讀取目標照片
     photos = []
@@ -67,13 +79,28 @@ with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as f
                 month += date // len(dates)
                 date %= len(dates)
 
-                # 如果換月了
+                year += month // len(months)
+                month %= len(months)
+
+                # 如果換年了
+                if month == 0:
+                    months = sorted(
+                        [
+                            path
+                            for path in os.listdir(f"{ROOT}/{years[year]}")
+                            if "月" in path
+                        ]
+                    )
+
+                # 如果換月了（如果換年即會換月）
                 if date == 0:
                     dates = sorted(
                         [
                             path
-                            for path in os.listdir(f"{ROOT}/{months[month]}")
-                            if os.path.isdir(f"{ROOT}/{months[month]}/{path}")
+                            for path in os.listdir(
+                                f"{ROOT}/{years[year]}/{months[month]}"
+                            )
+                            if "日" in path
                         ]
                     )  # 獲取新的日期
 
@@ -83,15 +110,18 @@ with open("/Users/daniel/Desktop/Code/Project/Photo Select/photo.txt", "r") as f
                         [
                             path
                             for path in os.listdir(
-                                f"{ROOT}/{months[month]}/{dates[date]}"
+                                f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}"
                             )
                             if os.path.isdir(
-                                f"{ROOT}/{months[month]}/{dates[date]}/{path}"
+                                f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}/{path}"
                             )
-                        ]
+                        ],
+                        key=lambda x: int(x.split(" ")[0][:-1]),
                     )  # 獲取新的地點
 
-                os.chdir(f"{ROOT}/{months[month]}/{dates[date]}/{locations[location]}")
+                os.chdir(
+                    f"{ROOT}/{years[year]}/{months[month]}/{dates[date]}/{locations[location]}"
+                )
 
             copyfile(photo, f"{ROOT}/{new_file}/{photo}")
             print(f"Copy {photo}")
